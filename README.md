@@ -17,3 +17,7 @@ https://drive.google.com/file/d/0B7AscaFNl4jsNUVzRm9nLVM5cnc/view
 # Build Server
 
 https://drive.google.com/file/d/0B7AscaFNl4jsUGJ1aFpfTVJYVWs/view
+
+# Build Web Manager
+
+https://github.com/HadesD/TLBB-Web
