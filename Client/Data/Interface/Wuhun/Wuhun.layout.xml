@@ -1,0 +1,735 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="TLBB_MainFrame3" Name="Wuhun_Frame">
+        <Property Name="UnifiedPosition" Value="{{0.0,0},{0.12,0}}" />
+        <Property Name="AbsoluteSize" Value="w:520 h:402" />
+        <Event Name="Hidden" Function="Wuhun_OnHiden();" />
+        <Window Type="TLBB_DragTitle" Name="Wuhun_DragTitle">
+            <Property Name="AbsolutePosition" Value="x:108.000000 y:11.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-133.000000},{0.000000,20.000000}" />
+            <Property Name="DragTarget" Value="Wuhun_Frame" />
+            <Window Type="TLBB_SimpleText" Name="Wuhun_PageHeader">
+                <Property Name="Position" Value="x:0.0 y:0.0" />
+                <Property Name="Size" Value="w:1.0 h:1.0" />
+                <Property Name="Font" Value="YouYuan11.25" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="TLBB_ButtonHelp" Name="Wuhun_Help">
+            <Property Name="UnifiedPosition" Value="{{0.000000,88.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+            <Event Name="Clicked" Function='Helper:GotoHelper(&quot;*Wuhun&quot;);' />
+        </Window>
+        <Window Type="TLBB_ButtonClose" Name="Wuhun_Close">
+            <Property Name="UnifiedPosition" Value="{{1.000000,-19.000000},{0.000000,14.000000}" />
+            <Property Name="AbsoluteSize" Value="w:14.000000 h:14.000000" />
+            <Event Name="Clicked" Function="this:Hide();" />
+        </Window>
+        <Window Type="DefaultWindow" Name="Wuhun_Frame_Client">
+            <Property Name="AbsolutePosition" Value="x:10.000000 y:35.000000" />
+            <Property Name="UnifiedSize" Value="{{1.000000,-14.000000},{1.000000,-60.000000}" />
+			<Window Type="TLBB_StaticImageNULL" Name="Wuhun_Head" >
+				<Property Name="AbsolutePosition" Value="x:205.000000 y:1.0" />
+				<Property Name="AbsoluteSize" Value="w:299.000000 h:84.000000" />
+				<Property Name="Image" Value="set:MessageBall image:WuhunXmlBk" />
+				<Property Name="RiseOnClick" Value="False" />
+			</Window>
+		<Window Type="TLBB_FramePet" Name="Wuhun_Bk3" >
+				<Property Name="AbsolutePosition" Value="x:204.000000 y:88.000000" />
+			<Property Name="UnifiedSize" Value="{{0.000000,301.000000},{0.000000,104.000000}" />
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalStr_Text" >
+				<Property Name="AbsolutePosition" Value="x:7.000000 y:16.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,65.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(63)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalNimbus_Text" >
+				<Property Name="AbsolutePosition" Value="x:7.000000 y:32.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,65.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(61)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalPhysicalStrength_Text" >
+				<Property Name="AbsolutePosition" Value="x:7.000000 y:48.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,65.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(65)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalStability_Text" >
+				<Property Name="AbsolutePosition" Value="x:7.000000 y:64.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,65.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(67)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalFootwork_Text" >
+				<Property Name="AbsolutePosition" Value="x:7.000000 y:80.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,65.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(69)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalStr" >
+				<Property Name="AbsolutePosition" Value="x:75.000000 y:16.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalNimbus" >
+				<Property Name="AbsolutePosition" Value="x:75.000000 y:32.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalPhysicalStrength" >
+				<Property Name="AbsolutePosition" Value="x:75.000000 y:48.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalStability" >
+				<Property Name="AbsolutePosition" Value="x:75.000000 y:64.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_OriginalDexterity" >
+				<Property Name="AbsolutePosition" Value="x:75.000000 y:80.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,40.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Str_Text" >
+				<Property Name="AbsolutePosition" Value="x:135.000000 y:16.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(64)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Nimbus_Text" >
+				<Property Name="AbsolutePosition" Value="x:135.000000 y:32.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(62)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_PhysicalStrength_Text" >
+				<Property Name="AbsolutePosition" Value="x:135.000000 y:48.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(66)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Stability_Text" >
+				<Property Name="AbsolutePosition" Value="x:135.000000 y:64.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(68)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Footwork_Text" >
+				<Property Name="AbsolutePosition" Value="x:135.000000 y:80.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,110.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="#{WH_xml_XX(70)}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Str" >
+				<Property Name="AbsolutePosition" Value="x:247.000000 y:16.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,49.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Nimbus" >
+				<Property Name="AbsolutePosition" Value="x:247.000000 y:32.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,49.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_PhysicalStrength" >
+				<Property Name="AbsolutePosition" Value="x:247.000000 y:48.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,49.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Stability" >
+				<Property Name="AbsolutePosition" Value="x:247.000000 y:64.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,49.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Dexterity" >
+				<Property Name="AbsolutePosition" Value="x:247.000000 y:80.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,49.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="RightAligned" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Property Name="Text" Value="+0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+			</Window>
+		</Window>
+            <Window Type="TLBB_FramePlayerOther" Name="Wuhun_FakeObject_Frame">
+                <Property Name="Position" Value="x:0.000000 y:0.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,200.000000},{0.000000,160.000000}" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Window Type="TLBB_MeshWindow" Name="Wuhun_FakeObject">
+                    <Property Name="Position" Value="x:0.044776 y:0.061350" />
+                    <Property Name="Size" Value="w:0.915423 h:0.877301" />
+                    <Property Name="ShowControl" Value="Wuhun_Frame" />
+                    <Property Name="RiseOnClick" Value="False" />
+                </Window>
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Growth" >
+                    <Property Name="Position" Value="x:0.04 y:0.04" />
+                    <Property Name="AbsoluteSize" Value="w:180 h:15" />
+					<Property Name="HorzFormatting" Value="RightAligned" />
+					<Property Name="TextColor" Value="FFFFF263" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+				</Window>
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Growth1">
+					<Property Name="Position" Value="x:0.05 y:0.04" />
+                    <Property Name="AbsoluteSize" Value="w:180 h:15" />
+					<Property Name="HorzFormatting" Value="LeftAligned"/>
+					<Property Name="Text" Value="#{ZS_CZL}"/>
+					<Property Name="Tooltip" Value="#{WH_090729_43}"/>
+					<Property Name="TextColor" Value="FFFFF263"/>
+					<Property Name="VertFormatting" Value="VertCentred"/>
+				</Window>
+				<Window Type="TLBB_ButtonTurnLeft" Name="Wuhun_Model_TurnLeft">
+                    <Property Name="UnifiedPosition" Value="{{0.1,0.000000},{1.0,-34.0}" />
+                    <Property Name="AbsoluteSize" Value="w:25.000000 h:25.000000" />
+                    <Event Name="MouseButtonDown" Function="Wuhun_Model_TurnLeft(1);" />
+                    <Event Name="MouseButtonUp" Function="Wuhun_Model_TurnLeft(0);" />
+                    <Event Name="CaptureLost" Function="Wuhun_Model_TurnLeft(0);" />
+                </Window>
+                <Window Type="TLBB_ButtonTurnRight" Name="Wuhun_Model_TurnRight">
+                    <Property Name="UnifiedPosition" Value="{{0.79,0.000000},{1.0,-34.0}" />
+                    <Property Name="AbsoluteSize" Value="w:25.000000 h:25.000000" />
+                    <Event Name="MouseButtonDown" Function="Wuhun_Model_TurnRight(1);" />
+                    <Event Name="MouseButtonUp" Function="Wuhun_Model_TurnRight(0);" />
+                    <Event Name="CaptureLost" Function="Wuhun_Model_TurnRight(0);" />
+                </Window>
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Wuhun_Skill1">
+                <Property Name="AbsolutePosition" Value="x:205.000000 y:270.000000" />
+                <Property Name="AbsoluteSize" Value="w:52.0 h:52.0" />
+                <Property Name="DraggingEnabled" Value="False" />
+				<Property Name="UseDefaultTooltip" Value="True" />
+				<Property Name="Empty" Value="False" />
+                <Property Name="Tooltip" Value="" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Wuhun_Skill2">
+                <Property Name="AbsolutePosition" Value="x:261.000000 y:270.000000" />
+                <Property Name="AbsoluteSize" Value="w:34.0 h:34.0" />
+                <Property Name="DraggingEnabled" Value="True" />
+                <Property Name="Tooltip" Value="" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Wuhun_Skill3">
+                <Property Name="AbsolutePosition" Value="x:307.000000 y:270.000000" />
+                <Property Name="AbsoluteSize" Value="w:34.0 h:34.0" />
+                <Property Name="DraggingEnabled" Value="True" />
+                <Property Name="Tooltip" Value="" />
+            </Window>
+            <Window Type="TLBB_ActionButton" Name="Wuhun_Skill4">
+                <Property Name="AbsolutePosition" Value="x:353.000000 y:270.000000" />
+                <Property Name="AbsoluteSize" Value="w:34.0 h:34.0" />
+                <Property Name="DraggingEnabled" Value="True" />
+                <Property Name="Tooltip" Value="" />
+            </Window>
+            <Window Type="TLBB_Frame_Lace1" Name="Wuhun_Bk1">
+				<Property Name="AbsolutePosition" Value="x:204.000000 y:193.000000" />
+				<Property Name="UnifiedSize" Value="{{0.000000,301.000000},{0.000000,75.000000}" />
+				<Property Name="RiseOnClick" Value="False" />
+				<Window Type="TLBB_ActionButton" Name="Wuhun_Equip" >
+					<Property Name="AbsolutePosition" Value="x:17 y:17" />
+					<Property Name="AbsoluteSize" Value="w:40.000000 h:40.000000" />
+					<Property Name="BackImage" Value="set:CommonFrame7 image:WuhunEquip" />
+					<Property Name="DragAcceptName" Value="Z18" />
+					<Property Name="DraggingEnabled" Value="True" />
+					<Property Name="Empty" Value="True" />
+					<Property Name="Tooltip" Value="#{WH_xml_XX(95)}" />
+					<Event Name="Clicked" Function="Wuhun_Equip_Clicked( 1 );" />
+					<Event Name="MouseRClick" Function="Wuhun_Equip_Clicked( 0 );" />
+					<Window Type="TLBB_StaticImageNULL" Name="Wuhun_Equip_Mask" >
+					  <Property Name="Position" Value="x:0.000000 y:0.000000" />
+					  <Property Name="Size" Value="w:1.000000 h:1.000000" />
+					  <Property Name="Image" Value="set:Face_04 image:Remind_Bak" />
+					  <Property Name="MouseLButtonHollow" Value="true" />
+					  <Property Name="MouseMoveHollow" Value="true" />
+					  <Property Name="MouseRButtonHollow" Value="true" />
+					</Window>
+				</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_NeedLevel">
+				<Property Name="UnifiedPosition" Value="{{0.00000,75.000000},{0.00000,4.000000}" />
+				<Property Name="UnifiedSize" Value="{{0.0,160.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="Text" Value="#{WH_xml_XX(73)}" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_NeedLevel_Text">
+				<Property Name="UnifiedSize" Value="{{0.000000,33.000000},{0.000000,18.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,250.000000},{0.000000,1.000000}}"/>
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Level">
+				<Property Name="UnifiedPosition" Value="{{0.00000,75.000000},{0.00000,21.000000}" />
+				<Property Name="UnifiedSize" Value="{{0.0,160.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="#{INTERFACE_XML_228}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_Level_Text">
+				<Property Name="UnifiedSize" Value="{{0.000000,30.000000},{0.000000,18.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,250.000000},{0.000000,19.000000}}"/>
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_ExtraLevel">
+				<Property Name="UnifiedPosition" Value="{{0.00000,75.000000},{0.00000,38.000000}" />
+				<Property Name="UnifiedSize" Value="{{0.0,270.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="#{WH_xml_XX(94)}" />
+				<Property Name="Tooltip" Value="#{WH_090729_44}" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+			<Window Type="TLBB_SimpleText" Name="Wuhun_ExtraLevel_Text">
+				<Property Name="UnifiedSize" Value="{{0.000000,31.000000},{0.000000,18.000000}}"/>
+				<Property Name="UnifiedPosition" Value="{{0.000000,250.000000},{0.000000,38.000000}}"/>
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="0" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+            <Window Type="TLBB_SimpleText" Name="Wuhun_Type">
+				<Property Name="UnifiedPosition" Value="{{0.00000,75.000000},{0.00000,54.000000}" />
+				<Property Name="UnifiedSize" Value="{{0.0,160.000000},{0.000000,16.000000}" />
+				<Property Name="HorzFormatting" Value="LeftAligned" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+				<Property Name="Text" Value="pinghengxing" />
+				<Property Name="TextColor" Value="FFFFF263" />
+			</Window>
+		</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="Wuhun_Life">
+				<Property Name="UnifiedPosition" Value="{{0.525641,0.000000},{0.894725,0.000000}}"/>
+				<Property Name="UnifiedSize" Value="{{0.471795,0.000000},{0.000000,18.000000}" />
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Life_Text1">
+					<Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,16.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,8.000000},{0.000000,1.000000}}"/>
+					<Property Name="TextColor" Value="FFFFF263" />
+					<Property Name="Text" Value="#{WH_xml_XX(107)}" />
+					<Property Name="HorzFormatting" Value="LeftAligned" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+					<Property Name="RiseOnClick" Value="False" />
+				</Window>
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Life_Text2">
+					<Property Name="UnifiedSize" Value="{{0.000000,150.000000},{0.000000,18.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,102.000000},{0.000000,1.000000}}"/>
+					<Property Name="TextColor" Value="FFFFF263" />
+					<Property Name="HorzFormatting" Value="LeftAligned" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+					<Property Name="RiseOnClick" Value="False" />
+				</Window>
+			</Window>
+			<Window Type="TLBB_SimpleMulitiTextFrame" Name="Wuhun_Exp">
+				<Property Name="UnifiedPosition" Value="{{0.525641,0.000000},{0.949717,-0.900000}" />
+                <Property Name="UnifiedSize" Value="{{0.471795,0.000000},{0.000000,18.000000}" />
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Exp_Text1">
+					<Property Name="UnifiedSize" Value="{{0.000000,100.000000},{0.000000,16.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,8.000000},{0.000000,1.000000}}"/>
+					<Property Name="TextColor" Value="FFFFF263" />
+					<Property Name="Text" Value="#{XYLP_20071222_04}" />
+					<Property Name="HorzFormatting" Value="LeftAligned" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+					<Property Name="RiseOnClick" Value="False" />
+				</Window>
+				<Window Type="TLBB_SimpleText" Name="Wuhun_Exp_Text2">
+					<Property Name="UnifiedSize" Value="{{0.000000,150.000000},{0.000000,18.000000}}"/>
+					<Property Name="UnifiedPosition" Value="{{0.000000,102.000000},{0.000000,1.000000}}"/>
+					<Property Name="TextColor" Value="FFFFF263" />
+					<Property Name="Text" Value="0/0" />
+					<Property Name="HorzFormatting" Value="LeftAligned" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+					<Property Name="RiseOnClick" Value="False" />
+				</Window>
+			</Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property1">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.476609,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property2">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.529241,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property3">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.581873,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property4">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.634505,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property5">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.687137,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property6">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.739769,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property7">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.792401,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property8">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.845033,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+                <Property Name="TextColor" Value="FFFFF263" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property9">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.897665,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+            <Window Type="TLBB_SimpleTextInfo" Name="Wuhun_Property10">
+                <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.950297,0.000000}" />
+                <Property Name="UnifiedSize" Value="{{0.0,204.000000},{0.000000,18.000000}" />
+                <Property Name="TextColor" Value="FFFFF263" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="RiseOnClick" Value="False" />
+            </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property1_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.476609,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property1_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.476609,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property2_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.529241,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property2_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.529241,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property3_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.581873,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property3_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.581873,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property4_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.634505,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property4_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.634505,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property5_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.687137,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property5_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.687137,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property6_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.739769,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property6_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.739769,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property7_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.792401,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property7_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.792401,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property8_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.845033,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property8_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.845033,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property9_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.897665,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property9_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.897665,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameLeft" Name="Wuhun_Property10_Text_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.000000,0.000000},{0.950297,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.413882,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+          </Window>
+          <Window Type="TLBB_SimpleTextFrameRight" Name="Wuhun_Property10_UnVisible">
+            <Property Name="UnifiedPosition" Value="{{0.413882,0.000000},{0.950297,0.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.110825,0.000000},{0.000000,18.000000}" />
+            <Property Name="Visible" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="RiseOnClick" Value="False" />
+            <Property Name="TextColor" Value="FFFFF263" />
+          </Window>          
+        </Window>
+        <Window Type="DefaultWindow" Name="Wuhun_Checkbox_Frame">
+            <Property Name="UnifiedPosition" Value="{{0.0,8.000000},{1.000000,-25.000000}" />
+            <Property Name="UnifiedSize" Value="{{0.933333,0.000000},{0.000000,24.000000}" />
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_SelfEquip">
+                    <Property Name="AbsolutePosition" Value="x:0.0 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:42.000000 h:24.000000" />
+                    <Property Name="CheckMode" Value="1" />
+                    <Property Name="Text" Value="#{INTERFACE_XML_877}" />
+              <Event Name="Clicked" Function="Wuhun_SelfEquip_Page_Switch();" />
+            </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_SelfData">
+                    <Property Name="AbsolutePosition" Value="x:42 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:42.000000 h:24.000000" />
+                    <Property Name="CheckMode" Value="1" />
+                    <Property Name="Text" Value="#{INTERFACE_XML_882}" />
+              <Event Name="Clicked" Function="Wuhun_SelfData_Page_Switch();" />
+            </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_Blog">
+					<Property Name="AbsolutePosition" Value="x:0.0 y:0.0" />
+					<Property Name="AbsoluteSize" Value="w:0 h:0" />
+					<Property Name="Text" Value="#{INTERFACE_XML_145}" />
+                    <Property Name="CheckMode" Value="1" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_Pet">
+                    <Property Name="AbsolutePosition" Value="x:138 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:42.000000 h:24.000000" />
+                    <Property Name="CheckMode" Value="1" />
+                    <Property Name="Text" Value="#{INTERFACE_XML_854}" />
+              <Event Name="Clicked" Function="Wuhun_Pet_Page_Switch();" />
+            </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_Wuhun">
+                    <Property Name="AbsolutePosition" Value="x:85 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:57.000000 h:24.000000" />
+                    <Property Name="CheckMode" Value="1" />
+                    <Property Name="Text" Value="#{WH_xml_XX(95)}" />
+            </Window>
+           <Window Type="TLBB_ButtonPageDown" Name="Wuhun_Xiulian">
+					<Property Name="AbsolutePosition" Value="x:222.000000 y:0.000000"/>
+					<Property Name="AbsoluteSize" Value="w:60.000000 h:25.000000"/>
+					<Property Name="Text" Value="#{XL_XML_35}"/>
+                    <Property Name="CheckMode" Value="1" />
+             <Event Name="Clicked" Function="Wuhun_Xiulian_Page_Switch();" />
+           </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_Ride">
+                    <Property Name="AbsolutePosition" Value="x:180 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:42.000000 h:24.000000" />
+                    <Property Name="Text" Value="#{INTERFACE_XML_497}" />
+                    <Property Name="CheckMode" Value="1" />
+              <Event Name="Clicked" Function="Wuhun_Ride_Page_Switch();" />
+            </Window>
+            <Window Type="TLBB_ButtonPageDown" Name="Wuhun_OtherInfo">
+                    <Property Name="AbsolutePosition" Value="x:281 y:0.0" />
+                    <Property Name="AbsoluteSize" Value="w:42.000000 h:24.000000" />
+                    <Property Name="Text" Value="#{INTERFACE_XML_496}" />
+                    <Property Name="CheckMode" Value="1" />
+              <Event Name="Clicked" Function="Wuhun_OtherInfo_Page_Switch();" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
