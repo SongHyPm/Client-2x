@@ -1,5 +1,0 @@
-[System]
-navmapname=lanqiuchang.nav
-monsterfile=lanqiuchang_monster.ini
-patrolpoint=lanqiuchang_patrolpoint.ini
-eventfile=lanqiuchang_area.ini

@@ -1,5 +1,0 @@
-[System]
-navmapname=hanxieling.nav
-monsterfile=hanxieling_monster.ini
-patrolpoint=hanxieling_patrolpoint.ini
-eventfile=hanxieling_area.ini

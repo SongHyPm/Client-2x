@@ -1,5 +1,0 @@
-[System]
-navmapname=shuge.nav
-monsterfile=shuge_monster.ini
-patrolpoint=shuge_patrolpoint.ini
-eventfile=shuge_area.ini

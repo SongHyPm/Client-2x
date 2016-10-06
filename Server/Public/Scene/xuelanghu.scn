@@ -1,5 +1,0 @@
-[System]
-navmapname=xuelanghu.nav
-monsterfile=xuelanghu_monster.ini
-patrolpoint=xuelanghu_patrolpoint.ini
-eventfile=xuelanghu_area.ini

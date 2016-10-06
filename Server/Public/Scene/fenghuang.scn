@@ -1,5 +1,0 @@
-[System]
-navmapname=fenghuang.nav
-monsterfile=fenghuang_monster.ini
-patrolpoint=fenghuang_patrolpoint.ini
-eventfile=fenghuang_area.ini
