@@ -1,0 +1,1443 @@
+INT	INT	INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	INT	INT	INT	INT	INT	STRING	STRING
+ID	·ÖÀà ID£¨»¥³âÓÃ£©	PRIÓÅÏÈ¼¶	Í¼±êÎÄ¼şÃû	´¥·¢ÌØĞ§ID	´¥·¢ÌØĞ§µÄÒôĞ§ID	´¥·¢ÌØĞ§µÄ°ó¶¨µã	³ÖĞøĞÔÌØĞ§ID	³ÖĞøÌØĞ§µÄÒôĞ§ID	³ÖĞøĞÔÌØĞ§µÄ°ó¶¨µã	ËÀºóÊÇ·ñ±£Áô	ÊÇ·ñ¿ÉÒÔ±»¼¼ÄÜÇıÉ¢	ÊÇ·ñÊÇ¸ºÃæĞ§¹û	ÊÇ·ñ¿ÉÒÔ±»ÊÖ¶¯È¡Ïû	ÊÇ·ñÎªÏßĞÔÌØĞ§	ÏßĞÔÌØĞ§µÄ°ó¶¨µã	Ğ§¹ûËµÃ÷$1$
+1	1	0	Buff0_1				g01_buff2		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tê li®t: liên tøc m¤t máu
+2	2	0	Buff0_2				npc_buff_19		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Trúng ğµc: liên tøc m¤t máu
+3	3	0	Buff0_3				g01_buff32		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Nguy«n rüA:liên tøc m¤t máu
+4	4	0	Buff0_4				g01_buff106		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Thiêu ğ¯t: liên tøc m¤t máu
+5	5	0	Buff0_6				g01_buff46_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		C¡n máu: liên tøc m¤t máu
+6	6	0	Buff0_5				npc_buff_19		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ån mòn: liên tøc m¤t máu
+7	7	0	Buff0_5							0	0	1	0	1	ÉíÌåÊÜ»÷µã	Tiªt khí: liên tøc giäm khí
+8	8	0	Buff0_6							0	0	1	0	1	ÉíÌåÊÜ»÷µã	An phü: liên tøc giäm cß¶ng lñc
+9	9	0	Medicine2_5							0	0	0	1	0		H°i máu: liên tøc h°i máu
+10	10	0	Medicine2_6							0	0	0	1	0		H°i khí: liên tøc h°i khí
+11	11	0	Buff0_7		Skills\Common\rock_huge_1.wav		g01_buff12		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Vây ch£t: không th¬ di chuy¬n, không th¬ thao tác, không th¬ b¸ công kích
+12	12	0	Buff0_8							0	1	1	0	0		ThÕch hoá: không th¬ di chuy¬n, không th¬ thao tác, không th¬ b¸ công kích
+13	13	0	Buff0_9	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Phong huy®t: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+14	14	0	Buff0_10				npc_buff_02		Í·¶¥×´Ì¬µã	0	1	1	0	0		Ma tí: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+15	15	0	Buff0_11				buff_hunmi_01		Í·¶¥×´Ì¬µã	0	1	1	0	0		Hôn mê: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğßşc ğánh tïnh
+16	16	0	Buff0_12				g01_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Th¤t h°n: Không th¬ di chuy¬n ğßşc, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğßşc ğánh tïnh
+17	17	0	Buff0_13				g01_em_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Th¤t minh: Di chuy¬n tuÏ c½, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+18	18	0	Buff0_14		Skills\Common\fear_1.wav		npc_buff_07		Í·¶¥×´Ì¬µã	0	1	1	0	0		Sş hãi: Di chuy¬n tuÏ c½, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+19	19	0	Buff0_15		Skills\Sl\Sl_½ğ¸Õ·üÄ§È¦_¶¨Éí.wav		g01_buff27		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Ğ¸nh Thân: trong trÕng thái ğ¸nh thân có th¬ b¸ công kích, và không th¬ di chuy¬n
+20	20	0	Buff0_15				npc_buff_09		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Chèn ch£n: Không cách gì di chuy¬n
+21	21	0	Buff0_16				buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Tán công: không có cách gì có th¬ sØ døng b¤t kì kÛ nång nào cüa môn phái
+22	22	0	Buff0_16				g01_buff34		Í·¶¥×´Ì¬µã	0	1	1	0	0		Tñu c¥m: không có cách gì có th¬ sØ døng b¤t kì kÛ nång nào cüa môn phái
+23	23	0	Buff1_1	g01_yanggetianjun		ÉíÌåÊÜ»÷µã	g01_buff100		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Cß½ng nghÕnh: T¯c ğµ di chuy¬n ch§m
+24	24	0	Buff1_2							0	1	1	0	0		Phá trán: Giäm công kích
+25	25	0	Buff1_3							0	1	1	0	0		Phá trán: Giäm phòng ngñ
+26	26	0	Buff1_4							0	1	1	0	0		Phá trán: Giäm công kích và phòng ngñ
+27	27	0	Buff1_4							0	1	1	0	0		Phá trán: Giäm tính nång kháng v¯n có
+28	28	0	Buff1_4	g01_geanguanhuo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		Phá trán: Giäm ngoÕi thü
+29	29	0	Buff1_4							0	1	1	0	0		Phá trán: Giäm nµi thü
+30	30	0	Buff1_4							0	1	1	0	0		Phá trán: M· rµng phÕm vi sát thß½ng
+31	31	0	Buff1_4							0	1	1	0	0		Phá trán: Giäm b¾t th¶i gian duy trì phát công
+32	32	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm mÑc máu và khí
+33	33	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm thân pháp
+34	34	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm cß¶ng lñc, nµi lñc
+35	35	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm th¬ lñc, trí lñc
+36	36	0	Buff1_5							0	1	1	0	0		Hß nhßşc: M· rµng phÕm vi sát thß½ng
+37	37	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm công kích
+38	38	0	Buff1_6							0	1	1	0	0		Cß½ng ngÕnh: Giäm chính xác
+39	39	0	Buff1_7							0	0	0	1	0		Cß¶ng hoá: NgoÕi công
+40	40	0	Buff1_8							0	0	0	1	0		Cß¶ng hoá: Nµi công
+41	41	0	Buff1_9							0	0	0	1	0		Cß¶ng hoá: NgoÕi thü
+42	42	0	Buff1_10							0	0	0	1	0		Cß¶ng hoá: Nµi thü
+43	43	0	Buff1_11							0	0	0	1	0		Cß¶ng hoá: Công kích
+44	44	0	Buff1_12							0	0	0	1	0		Cß¶ng hoá: Phòng ngñ
+45	45	0	Buff1_13							0	0	0	1	0		Cß¶ng hoá: Công phòng
+46	46	0	Buff1_14							0	0	0	1	0		Cß¶ng hoá: Tính kháng
+47	47	0	Buff1_15							0	0	0	1	0		Cß¶ng hoá: Phòng ngñ bång
+48	48	0	Buff1_16							0	0	0	1	0		Cß¶ng hoá: Phòng ngñ hoä
+49	49	0	Buff2_1							0	0	0	1	0		Cß¶ng hoá: Phòng ngñ ğµc
+50	50	0	Buff2_2							0	0	0	1	0		Cß¶ng hoá: Phòng ngñ huy«n
+51	51	0	Buff2_3	cw_jieli		Í·¶¥×´Ì¬µã				0	0	0	1	0		Cß¶ng hoá: Cß¶ng lñc
+52	52	0	Buff2_4	cw_ningshen		Í·¶¥×´Ì¬µã				0	0	0	1	0		Cß¶ng hoá: Nµi lñc
+53	53	0	Buff2_5	cw_qiangshen		Í·¶¥×´Ì¬µã				0	0	0	1	0		Cß¶ng hoá: Th¬ lñc
+54	54	0	Buff2_6	cw_yihun		Í·¶¥×´Ì¬µã				0	0	0	1	0		Cß¶ng hoá: Trí lñc
+55	55	0	Buff2_7	cw_jiasu		Í·¶¥×´Ì¬µã				0	0	0	1	0		Cß¶ng hoá: Thân pháp
+56	56	0	Buff2_8							0	0	0	1	0		Cß¶ng hoá: Chính xác
+57	57	0	Buff2_9							0	0	0	1	0		Cß¶ng hoá: Né tránh
+58	58	0	Buff2_10							0	0	0	1	0		Cß¶ng hoá: hµi công
+59	59	0	Buff2_11							0	0	0	1	0		Cß¶ng hoá: máu gi¾i hÕn trên
+60	60	0	Buff2_12							0	0	0	1	0		Tång cß¶ng: NgoÕi công
+61	61	0	Buff2_13							0	0	0	1	0		Tång cß¶ng: Nµi công
+62	62	0	Buff2_14							0	0	0	1	0		Tång cß¶ng: NgoÕi thü
+63	63	0	Buff2_15							0	0	0	1	0		Tång cß¶ng: Nµi thü
+64	64	0	Buff2_16							0	0	0	1	0		Tång cß¶ng: Bång công
+65	65	0	Buff3_1							0	0	0	1	0		Tång cß¶ng: Hoä công
+66	66	0	Buff3_2							0	0	0	1	0		Tång cß¶ng: Ğµc công
+67	67	0	Buff3_3							0	0	0	1	0		Tång cß¶ng: Huy«n công
+68	68	0	Buff3_4							0	0	0	1	0		Tång cß¶ng: Kháng bång
+69	69	0	Buff3_5							0	0	0	1	0		Tång cß¶ng: Kháng hoä
+70	70	0	Buff3_6							0	0	0	1	0		Tång cß¶ng: Kháng ğµc
+71	71	0	Buff3_7							0	0	0	1	0		Tång cß¶ng: Kháng huy«n
+72	72	0	Buff3_8							0	0	0	1	0		Tång cß¶ng: Cß¶ng lñc
+73	73	0	Buff3_9							0	0	0	1	0		Tång cß¶ng: Nµi lñc
+74	74	0	Buff3_10							0	0	0	1	0		Tång cß¶ng: Th¬ lñc
+75	75	0	Buff3_11							0	0	0	1	0		Tång cß¶ng: Trí lñc
+76	76	0	Buff3_12							0	0	0	1	0		Tång cß¶ng: Thân pháp
+77	77	0	Buff3_13							0	0	0	1	0		Tång cß¶ng: Chính xác
+78	78	0	Buff3_14							0	0	0	1	0		Tång cß¶ng: Né tránh
+79	79	0	Buff3_15							0	0	0	1	0		Tång cß¶ng: hµi công
+80	80	0	Buff3_16							0	0	0	1	0		Tång cß¶ng: máu gi¾i hÕn trên
+81	81	0	Buff4_1							0	0	0	1	0		Ğ« kháng: Khai thang
+82	82	0	Buff4_2							0	0	0	1	0		Ğ« kháng: ThÕch hoá
+83	83	0	Buff4_3							0	0	0	1	0		Ğ« kháng: Ma tí
+84	84	0	Buff4_4							0	0	0	1	0		Ğ« kháng: Sş hãi
+85	85	0	Buff4_5							0	0	0	1	0		Ğ« kháng: Chèn ch£n
+86	86	0	Buff4_6							0	0	0	1	0		Ğ« kháng: C¡n máu
+87	87	0	Buff4_7							0	0	0	1	0		Ğ« kháng: Thú ğµc
+88	88	0	Buff4_8							0	0	0	1	0		Ğ« kháng: Th¤t h°n
+89	89	0	Buff4_9							0	0	0	1	0		Ğ« kháng: Tñu c¥m
+90	90	0	Buff4_10							0	0	0	1	0		Ğ« kháng: Tán công
+91	91	0	Buff4_11							0	0	0	1	0		Ğ« kháng: Vây ch£t
+92	92	0	Buff4_12							0	0	0	1	0		Ğ« kháng: Hôn mê
+93	93	0	Buff4_13							0	0	0	1	0		Ğ« kháng: Phong huy®t
+94	94	0	Buff4_14							0	0	0	1	0		Ğ« kháng: Th¤t minh
+95	95	0	Buff4_15							0	0	0	1	0		Ğ« kháng: Ğ¸nh thân
+96	96	0	Buff4_16							0	0	0	1	0		Vô ğ¸ch
+97	15	0	FightSkillMingJiao_9				buff_hunmi_01		Í·¶¥×´Ì¬µã	0	0	0	1	0		Ğ¸a ngøc hoä: Hôn mê, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğßşc ğánh thÑc
+98	98	0	FightSkillEMei1_14							0	1	1	0	0		Cß½ng ngÕnh: Th¶i gian kÛ nång làm lÕnh ğßşc kéo dài
+99	99	0	Buff5_1							0	0	0	1	0		†n thân s½ c¤p
+100	100	0	FightSkillShaoLin1_4				g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Nh¤t vi ğµ giang: Tång t¯c ğµ di chuy¬n
+101	21	0	FightSkillShaoLin1_5	g01_sl_zdo_nianhuazhi_01	Skills\Sl\Sl_Äé»¨Ö¸_É¢¹¦.wav	ÉíÌåÊÜ»÷µã	buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Niêm Hoa Chï: tän công, có th¬ di chuy¬n, nhßng không th¬ sØ døng b¤t cÑ chiêu thÑc nào
+102	102	0	FightSkillShaoLin1_6		Skills\Sl\Sl_ÂŞººÕó_Ğ§¹û.wav					0	0	0	1	0		La hán tr§n: Tång ngoÕi thü
+103	103	0	FightSkillShaoLin1_9				g01_buff5		ÉíÌåÖĞĞÄµã	0	0	0	1	0		L­ kính nhß lai: Phän ğòn sát thß½ng
+104	104	0	FightSkillShaoLin1_15							0	0	0	1	0		Bàn nhßşc chß·ng: Cß¶ng hoá ngoÕi thü
+105	105	0	FightSkillShaoLin1_12							0	0	0	1	0		Thiªt b¯ sam: Nâng cao tính kháng và khí thª mÕnh m¨
+106	106	0	FightSkillShaoLin1_13				g01_buff109		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Bách vô c¤m kÜ: mi­n d¸ch v¾i hi®u quä x¤u. Không th¬ mi­n d¸ch v¾i hi®u quä x¤u có c¤p cao h½n tâm pháp cüa mình.
+107	23	0	FightSkillShaoLin1_15				g01_buff100		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Nh¤t phách lßŞng tán: Cß½ng ngÕnh, t¯c ğµ di chuy¬n giäm
+108	105	0	FightSkillShaoLin1_16							0	0	0	1	0		Vi ğà xØ: M· rµng phÕm vi sát thß½ng
+109	109	0	FightSkillShaoLin2_1							0	0	0	1	0		Khí quan trß¶ng h°ng: Tång hµi công
+110	110	0	FightSkillShaoLin2_3	g01_sl_zdo_mingjingtai_01		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Minh kính thai: Mi­n d¸ch th¤t minh
+111	111	0	FightSkillShaoLin2_4				g01_buff7		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Kim cß½ng b¤t phôi th¬: sát thß½ng giäm
+112	100	0	FightSkillMingJiao_4				g01_buff45_01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		QuÏ hoa trøc nh§t: Tång t¯c ğµ di chuy¬n
+113	13	0	FightSkillMingJiao_5	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		QuÏ hoa ği¬m huy®t thü: Phong huy®t, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách nào ğánh tïnh
+114	114	0	FightSkillMingJiao_6							0	0	0	1	0		QuÏ hoa hß¾ng dß½ng: Tång ngoÕi công
+115	115	0	FightSkillMingJiao_7				g01_buff8		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Nµ phát trùng quan: TrÕng thái cu°ng bÕo, phòng ngñ hi sinh tång ngoÕi công
+116	116	0	FightSkillMingJiao_8	g01_mj_zdo_huiguangfanzhao		Í·¶¥×´Ì¬µã				0	0	0	1	0		Lı ğÕo ğào cß½ng: Sau khi chªt có th¬ phøc h°i ğü
+117	117	0	FightSkillMingJiao_12							0	0	0	1	0		ThuÖ th¥n hÕ phàm: TrÕng thái phòng ngñ, nâng cao khí thª sÑc mÕnh, trÕng thái này có th¬ khiªn møc tiêu r½i vào trÕng thái phá trán
+118	117	0	FightSkillMingJiao_16							0	0	0	1	0		Hoä th¥n hÕ phàm: TrÕng thái công kích, nâng cao chính xác và hµi công
+119	119	0	FightSkillMingJiao1_3				g01_buff18		ÉíÌåÊÜ»÷µã	0	0	0	1	0		ToÕ ğ¸a c¥u toàn: Mi­n d¸ch tán công
+120	120	0	FightSkillMingJiao_15							0	0	0	1	0		Nguy®t dÕ träm: NgoÕi công tång
+121	121	0	FightSkillMingJiao1_4				g01_mj_ÎŞÖĞÉú		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Vô trung sinh hæu: Công kích không quan tâm phòng ngñ cüa ğ¯i phß½ng
+122	100	0	FightSkillGaiBang1_4				g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Bát bµ cäm thi«m: Tång t¯c ğµ di chuy¬n
+123	21	0	FightSkillGaiBang1_5	g01_gb_zdo_qianlongwuyong		ÉíÌåÊÜ»÷µã	buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Tuyªt Nê H°ng Träo: tän công, có th¬ di chuy¬n, nhßng không th¬ sØ døng b¤t cÑ chiêu thÑc nào
+124	124	0	FightSkillGaiBang1_6	g01_gb_buff113_01		½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Niêm y th§p bát ği®t: Tång né tránh
+125	17	0	FightSkillGaiBang1_8				g01_gb_buff101		Í·¶¥×´Ì¬µã	0	1	1	0	0		Ti«m Long V§t Døng: trong trÕng thái th¤t binh không th¬ thñc hi®n b¤t cÑ thao tác nào, chÕy loÕn trong khu vñc nhö, có th¬ b¸ công kích.
+126	126	0	FightSkillGaiBang1_12							0	0	0	1	0		C¥m long thÑc: TrÕng thái phòng ngñ, có ğßşc sÑc mÕnh t¯c ğµ tång, trÕng thái này công kích có vài ği¬m hß nhßşc chính xác cüa møc tiêu
+127	126	0	FightSkillGaiBang1_16							0	0	0	1	0		Kh¯ng hÕc thÑc: TrÕng thái công kích, có ğßşc nång lñc 3 l¥n liên tiªp ra ğòn, KÛ nång khi xu¤t chiêu có th¬ có ğßşc 2 l¥n ğánh liên tiªp
+128	128	0	FightSkillGaiBang_1				g01_gb_zhanlongjue_2		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Lı Sß½ng Bång Chí: tång g¤p ğôi sát thß½ng gây ra
+129	129	0	FightSkillGaiBang1_9							0	0	0	1	0		Kiªn long tÕi ği«n: TrÕng thái trúng ğµc, khiªn cho muøctiêu công kích trúng ğµc
+130	130	0	FightSkillGaiBang_3							0	0	0	1	0		Th¥n long bái vî: Mi­n d¸ch hôn mê, ğ¸nh thân
+131	131	0	FightSkillGaiBang_4				g01_gb_buff114_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Long chiªn vu dã: Tång né tránh
+132	23	0	FightSkillWuDang1_4	g01_yanggetianjun		ÉíÌåÊÜ»÷µã	g01_buff116		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Tam hoàn sáo nguy®t: Cß½ng ngÕnh, giäm t¯c ğµ di chuy¬n
+133	15	0	FightSkillWuDang1_5				buff_hunmi_01		Í·¶¥×´Ì¬µã	0	1	1	0	0		Lãm tß¾c vî: Hôn mê, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğßşc ğánh tïnh
+134	134	0	FightSkillWuDang1_6							0	0	0	1	0		Thiên cß½ng b¡c ğ¦u tr§n: Tång khí
+135	135	0	FightSkillWuDang1_3				g01_wd_zhenwuqijiezhen_01		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	LßŞng nghi kiªm: liên ğä
+136	136	0	FightSkillWuDang1_8				g01_wd_zhinanzhen_01		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Nhß phong tñ bª: phong ¤n, không th¬ di chuy¬n, không có cách nào thñc hi®n ğßşc các kÛ nång môn phái
+137	137	0	FightSkillWuDang1_12							0	0	0	1	0		Thiêu liêm thÑc: TrÕng thái phòng ngñ, nâng cao sÑc mÕnh, trÕng thái này công kích có th¬ khôi phøc ğßşc khí cho bän thân
+138	138	0	FightSkillWuDang1_13				g01_buff118		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Lßu tinh cän nguy®t: TrÕng thái này có th¬ dùng giäm khí ğ¬ tiêu ği vªt thß½ng trên mình
+139	19	0	FightSkillWuDang1_15				g01_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Ng÷c næ xuyên thoa:Ğ¸nh thân, không th¬ di chuy¬n
+140	137	0	FightSkillWuDang1_16							0	0	0	1	0		Tà phi thÑc: TrÕng thái công kích, tång hµi công
+141	141	0	FightSkillWuDang2_1				g01_buff119		Í·¶¥×´Ì¬µã	0	0	0	1	0		BÕch hÕc lßşng sí: Tång sát thß½ng cüa kÛ nång
+142	142	0	FightSkillWuDang2_3				g01_buff5_01		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Vô giäi khä kích: Mi­n d¸ch phong huy®t
+143	143	0	FightSkillEMei1_4	all_em_bj00000		ÉíÌåÊÜ»÷µã	g01_em_piaoxuechuanyun_lx		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Kim ğính miên chß·ng: Khiªn cho møc tiêu liên tøc b¸ thß½ng
+144	17	0	FightSkillEMei1_5				g01_em_buff38		Í·¶¥×´Ì¬µã	0	0	0	1	0		Nguy®t lÕc tây san: Th¤t minh, không có cách nào kh¯ng chª, di chuy¬n tuÏ c½
+145	145	0	FightSkillEMei1_9				g01_em_jq_zdo_ÆĞÌá»¤Ìå		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Duyên niên ích th÷: Bäo v® c½ th¬, tránh khöi b¸ thß½ng
+146	146	0	FightSkillEMei1_11	g01_em_sf_zdo_»ØĞÄ¾÷		ÉíÌåÊÜ»÷µã				0	0	0	1	0		H°i thiên thu§t: Liên tøc h°i phøc máu
+147	147	0	FightSkillEMei1_12							0	0	0	1	0		Tuy®t Kiªm ThÑc: trÕng thái phòng ngñ, tång khä nång chuy¬n hóa nµ khí, khi · trong trÕng thái này th¶i gian thi tri¬n Xung Hß DßŞng Khí b¸ giäm 50%. 
+148	147	0	FightSkillEMei1_16							0	0	0	1	0		Di®t kiªm thÑc: TrÕng thái công kích, trÕng thái này công kích có th¬ làm giäm máu và khí cüa møc tiêu
+149	149	0	FightSkillEMei2_3							0	0	0	1	0		Hành thi t¦u nhøc: Mi­n d¸ch vây ch£t, ğ¸nh thân
+150	150	0	FightSkillEMei2_4				g01_buff118_01		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Ng¯c nhßşc mµc kê: TrÕng thái, vô ğ¸ch, nhßng không có cách nào sØ døng ğßşc KÛ nång cüa môn phái
+151	151	0	FightSkillEMei2_1							0	0	0	1	0		Träm tình quyªt: TrÕng thái, Giäm th¶i gian tø khí
+152	23	0	FightSkillXinXiu1_4	g01_xx_sf_zdo_Ğ«Î²Õë		ÉíÌåÊÜ»÷µã	g01_xx_sf_zt_Ğ«Î²Õë		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		HÕt vî châm: Cß½ng ngÕnh, t¯c ğµ di chuy¬n giäm
+153	17	0	FightSkillXinXiu1_5				buff_shiming_01		Í·¶¥×´Ì¬µã	0	1	1	0	0		Ğµc Thi«m Công: th¤t minh, không th¬ tñ ği«u khi¬n nhân v§t - chÕy loÕn
+154	154	0	FightSkillXinXiu1_6	g01_xx_buff_wugongzhen		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Ngô công tr§n: Tång nµi thü
+155	155	0	FightSkillXinXiu1_7				g01_xx_lx_shixueyixiao		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Tiªu lı tàng ğao: Hút máu
+156	116	0	FightSkillXinXiu1_9	g01_xx_hanxiaojiuquan		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Hàm tiªu cØu tuy«n: Sau khi chªt có th¬ s¯ng lÕi
+157	37	0	FightSkillXinXiu1_8				g01_buff100		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tiªu lı tàng ğao: Có thuµc tính hß nhßşc
+158	158	0	FightSkillXinXiu1_8							0	0	0	1	0		Ğàm tiªu tñ nhßşc: Dçn ğÕo không b¸ ğánh ğoÕn
+159	159	0	FightSkillXinXiu1_12							0	0	0	1	0		Mµc ğµn: TrÕng thái phòng ngñ, sÑc mÕnh tång lên, mÑc HP tång
+160	160	0	FightSkillXinXiu1_13				g01_xx_yd_huachenwuxing_01		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Chï lµc vi mã: Liên tøc hút sÑc mÕnh
+161	161	0	FightSkillXinXiu1_16							0	0	0	1	0		ThuÖ ğµn: TrÕng thái công kích, nguy«n rüa b¸ ngß¶i công kích
+162	33	0	FightSkillXinXiu2_2							0	1	1	0	0		Hoá huyªt miên chß·ng: suy yªu, m¤t máu
+163	163	0	FightSkillXinXiu2_3							0	0	0	1	0		Kim ThÕch Câu Ph¥n: mi­n d¸ch vây kh¯n, hôn mê
+164	100	0	FightSkillDaLi_4				g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Hàm mai t§t t¦u: Tång t¯c ğµ di chuy¬n
+165	136	0	FightSkillDaLi_5	g01_dl_zdo_bamenjinsuo		ÉíÌåÊÜ»÷µã	buff_dingshen		ÉíÌåÊÜ»÷µã	0	0	1	0	0		Bát môn kim toä: phong ¤n, không th¬ di chuy¬n, không th¬ thi tri¬n kÛ nång môn phái
+166	166	0	FightSkillDaLi_6				g01_dl_zdo_shaoyangjian		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Dî d§t ğãi lao: Tång ğµ chính xác
+167	167	0	FightSkillDaLi_7	g01_dl_zdo_zhidianjiangshan		Í·¶¥×´Ì¬µã	g01_buff40		Í·¶¥×´Ì¬µã	0	0	1	0	0		Chï ği¬m giang s½n: ğánh d¤u, kë b¸ ğánh d¤u s¨ tång sát thß½ng
+168	168	0	FightSkillDaLi_8							0	0	0	1	0		Thiên cang chính khí: tång t¤t cä tính kháng
+169	21	0	FightSkillDaLi_11				buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Døc c¥m c¯ tung: tän công, không th¬ thi tri¬n kÛ nång môn phái
+170	13	0	FightSkillDaLi_15				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	0	1	0	0		Tuyªt üng lam quan: ği¬m huy®t, không th¬ di chuy¬n, không cØ ğµng ğßşc
+171	171	0	FightSkillDaLi_12							0	0	0	1	0		Ti®t quy«n thÑc: trÕng thái phòng thü, tÖ l® chuy¬n hoá nµ khí tång, tång khä nång phòng thü
+172	172	0	FightSkillDaLi_16							0	0	0	1	0		Phá kiªm thÑc: TrÕng thái t¤n công, xác su¤t nh¤t ğ¸nh khiªn møc tiêu xu¤t hi®n s½ h·, th¶i gian xu¤t chiêu giäm
+173	173	0	FightSkillDaLi1_1							0	0	0	1	0		Kim ng÷c mãn ğß¶ng: Tång hµi công
+174	100	0	FightSkillTianShan_4				g01_buff10_01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		BÕch câu quá khích: Tång t¯c ğµ di chuy¬n
+175	19	0	FightSkillTianShan_5	g01_buff42_01		ÉíÌåÊÜ»÷µã				0	1	1	0	0		Thiªt toä hoành giang: ğ¸nh thân, không th¬ di chuy¬n
+176	99	0	FightSkillTianShan_6							0	0	0	1	0		Th§p di®n mai phøc: tàng hình
+177	99	0	FightSkillTianShan_7							0	0	0	1	0		Kim thi«n thoát xác: tàng hình
+178	178	0	FightSkillTianShan_8							0	0	0	1	0		Di hoa tiªp mµc: T¤n công dß¾i hình thÑc này vçn mang hi®u quä phÕm vi sát thß½ng
+179	179	0	FightSkillTianShan_11							0	0	0	1	0		Tuyªt hoa løc xu¤t: Tång hµi công
+180	99	0	FightSkillTianShan_13							0	0	0	1	0		ĞÕp Tuyªt Vô Ngân: ¦n thân
+181	23	0	FightSkillTianShan_15				g01_buff100		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Mai hoa tam lµng: Ğông cÑng, t¯c ğµ di chuy¬n giäm
+182	182	0	FightSkillTianShan1_4				g01_ts_buff_yangguansandie		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Dß½ng quan tam ği®p: Tång hµi công
+183	183	0	FightSkillTianShan_16							0	0	0	1	0		Chiªt mai thÑc: tß thª t¤n công, tång ğµ chính xác
+184	13	0	FightSkillTianShan_9	g01_ts_zdo_renwowuxiang		ÉíÌåÊÜ»÷µã	g01_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Lan Hoa Ği¬m Huy®t Thü: phong huy®t, không th¬ di chuy¬n, không th¬ thñc hi®n thao tác, không b¸ t¤n công, không th¬ ğánh tïnh lÕi
+185	185	0	FightSkillTianShan_12							0	0	0	1	0		Dung tuyªt thÑc: TrÕng thái phòng thü, tÖ l® chuy¬n hoá nµ khí tång, tång khä nång né tránh
+186	186	0	FightSkillXiaoYao_2							1	0	0	0	0		Ğ£t cÕm bçy
+187	100	0	FightSkillXiaoYao_4				g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Bång ba vi bµ: Tång t¯c ğµ di chuy¬n
+188	11	0	FightSkillXiaoYao_5		Skills\Xy\Xy_»­µØÎªÀÎ_»÷ÖĞ.wav		g01_xy_sf_zdo_»­µØÎªÀÎ		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		HoÕ Ğ¸a Vi Lao: vây kh¯n, không th¬ di chuy¬n, không th¬ thñc hi®n thao tác, r½i vào trÕng thái vô ğ¸ch, không b¸ t¤n công
+189	189	0	FightSkillXiaoYao_6	g01_xy_jq_zdo_»Æ½ğ¼×		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Vân th¬ phong thân: Tång hµi công
+190	190	0	FightSkillXiaoYao_8							0	0	0	1	0		Hoä Nhãn Kim Tinh: tång khä nång dò thám cÕm bçy
+191	191	0	FightSkillTianShan1_3							0	1	0	1	0		Dß½ng xuân bÕch tuyªt: mi­n d¸ch v¾i mù m¡t
+192	192	0	FightSkillXiaoYao_16							0	0	0	1	0		LÕc th¥n ğ°: trÕng thái t¤n công, cÕm bçy tång hi®u quä ğ¯t cháy
+193	193	0	FightSkillXiaoYao1_1				g01_xy_sf_zt_½­ĞĞ³õÑ©		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Giang hành s½ tuyªt: giäm th¶i gian tø khí cüa cÕm bçy Chu tiên tr§n
+194	194	0	FightSkillXiaoYao1_3							0	0	0	1	0		Ba lan b¤t kinh: mi­n d¸ch tän công
+195	21	0	FightSkillXiaoYao1_4	g01_xy_sf_zdo_ÅÅÉ½µ¹º£		ÉíÌåÊÜ»÷µã	buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Kinh ğào hãi lãng: Tän công, không th¬ sØ døng kÛ nång môn phái
+196	192	0	FightSkillXiaoYao_12							0	0	0	1	0		ĞÕi phong cA:TrÕng thái phòng thü, tÖ l® chuy¬n hoán nµ khí tång, có xác su¤t t¤n công khiªn møc tiêu r½i vào trÕng thái ğông cÑng, giäm t¯c ğµ di chuy¬n
+197	197	0	FightSkillDaLi1_3							0	0	0	1	0		Phi khô phi vinh: Mi­n d¸ch tän công, ği¬m huy®t
+198	198	0	FightSkillDaLi1_4				g01_buff115		Í·¶¥×´Ì¬µã	0	0	0	1	0		Bách bµ xuyên dß½ng: KÛ nång t¤t trúng
+199	199	0	FightSkillEMei1_2	g01_em_zd_jiuyingshehun		ÉíÌåÊÜ»÷µã	g01_em_buff40		Í·¶¥×´Ì¬µã	0	0	0	0	0		Chiêu quân xu¤t t¡c: D¤u hi®u, khiªn møc tiêu b¸ tång mÑc sát thß½ng b·i KÛ nång môn phái Nga My phái ğä thß½ng
+200	200	0	Buff5_2	g01_lidaitaojiang		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Tâm tâm tß½ng ¤n: Tång cß¶ng th¬ lñc
+201	201	0	Buff5_3	g01_lidaitaojiang		ÉíÌåÊÜ»÷µã				0	0	0	1	0		B¤t ly b¤t khí: Tång khä nång t¤n công
+202	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång khä nång ngoÕi thü
+203	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång khä nång ngoÕi công
+204	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång khä nång né tránh
+205	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång khä nång nµi công
+206	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång gi¾i hÕn máu
+207	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång nµi thü
+208	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång ğµ chính xác
+209	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång tính kháng
+210	202	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Sß môn quan hoài: Tång hµi công
+211	211	0	Buff5_5							0	0	0	0	0		Hoà bình: Không th¬ t¤n công tÕm th¶i mi­n d¸ch ğ¯i v¾i t¤n công
+212	212	0	OtherTools2_14				g01_buff38		Í·¶¥×´Ì¬µã	0	0	0	0	0		Nghi ho£c: Không th¬ t¤n công, không th¬ di chuy¬n, b¸ t¤n công không tïnh lÕi
+213	213	0	FightSkillDaLi_5		Character\Npc\chess_boss_1.wav		g01_buff38		Í·¶¥×´Ì¬µã	0	0	0	0	0		Phong ¤n: không th¬ cØ ğµng, có th¬ thÑc tïnh
+214	99	0	MenpaiLiveSkill2_10							0	0	0	1	0		Li­u ám hoa minh; ¦n thân, t¯c ğµ di chuy¬n giäm 20%, khi b¸ công kích ho£c sØ døng kÛ nång s¨ l§p tÑc hi®n thân.
+215	1500	0	Huodong_14							0	0	0	0	0		Tham gia sñ ki®n Th¢ng B¶m: tång 5 ği¬m t¤t cä thuµc tính v« th¬ lñc,cß¶ng lñc, nµi lñc, trí lñc, thân pháp
+216	1501	0	taiwanzhuanyong2_10							0	0	0	0	0		Thiên Long Hß¾ng Ti«n Trùng : Tång Gia Th¬ Lñc, Lñc Lßşng, Linh Khí, Ğ¸nh Lñc, Thân Pháp Các Cái 5 Ği¬m
+217	1502	0	taiwanzhuanyong2_12							0	0	0	0	0		Hành V§n Khoái HoÕt Tam: Tång Gia Th¬ Lñc, Lñc Lßşng, Linh Khí, Ğ¸nh Lñc, Thân Pháp Các Cái 5 Ği¬m
+218	1503	0	taiwanzhuanyong2_13	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂºì¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Chu Niên Khánh : ĞÕi Phúc Tång Gia Nµi Công Công Kích, NgoÕi Công Công Kích
+219	15	7600	Buff0_11				hd_Ê¯»Ò°üÊÜ»÷		Í·¶¥×´Ì¬µã	0	0	0	1	0		ThÕch Khôi Bao: hôn mê, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğánh thÑc
+220	220	1000	FightSkillXinShou_10							0	0	0	1	0		Tinh Tuy«n Phän Kích: có 50% khä nång phän h°i sát thß½ng
+222	222	0	MenpaiLiveSkill2_7							0	0	0	1	0		Tînh toÕ: Tiªp tøc h°i phøc khí huyªt
+223	223	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: Tång ngoÕi công
+224	224	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: Tång ngoÕi thü
+225	225	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: Tång nµi công
+226	226	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: Tång nµi thü
+227	227	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: Tång t¯c ğµ di chuy¬n
+228	228	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: xác su¤t 50% không g£p yêu quái
+229	228	0	Buff5_6							0	0	0	1	0		Tào v§n vi®n trş: xác su¤t 100% không g£p yêu quái
+230	230	0	Bag2_1							0	0	0	0	0		Hi®n v§t: mi­n d¸ch nhæng hi®u quä không t¯t
+231	13	0	FightSkillTianShan1_5	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ğ°ng sinh cµng tØ: ği¬m huy®t, không th¬ di chuy¬n, không th¬ cØ ğµng, có th¬ b¸ t¤n công, không cách nào thÑc tïnh
+232	232	0	FightSkillMingJiao_5	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		B±ng Ğä C¦u Thü: phong huy®t, không th¬ di chuy¬n, không thñc hi®n ğßşc thao tác, không b¸ t¤n công, không th¬ nào ğánh tïnh lÕi
+233	233	0	Banner1_8				go1_°®ÉñÖ®¼ı_buff_01		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Nø Hôn Th¥n Ái: nhân chÑng cho tình yêu chân thành, cùng ngß¶i yêu ğªn LÕc Dß½ng Khâu Bích Ğ£c ğ±i l¤y ph¥n thß·ng
+234	234	0	Buff9_16							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 15 ği¬m kháng Huy«n
+235	235	0	Buff9_16							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 25 ği¬m kháng Huy«n
+236	236	0	Buff9_14							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 15 ği¬m kháng Höa
+237	237	0	Buff9_14							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 25 ği¬m kháng Höa
+238	238	0	Buff9_15							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 15 ği¬m kháng Ğµc
+239	239	0	Buff9_15							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 25 ği¬m kháng Ğµc
+240	240	0	Buff8_16							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 15 ği¬m kháng Bång
+241	241	0	Buff8_16							1	0	0	1	0		Xuyên th¤u: bö qua møc tiêu 25 ği¬m kháng Bång
+242	242	0	Huodong_2_13				ĞÂÀ¶¹â»·		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Mua ğ° Tªt môn phái: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 15 ği¬m
+243	243	0	Ring5_11				buff_·òÆŞ½äÖ¸01		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Nhçn Kim Cß½ng Vînh H¢ng: khi ğßşc chúc phúc thì th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 10 ği¬m
+244	244	0	Buff10_1				buff_ÕäççÖ®¹â		ÉíÌåÊÜ»÷µã							Trân Lung Chi Quang: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 8 ği¬m
+245	245	0	TaskTools3_3							0	0	0	1	0		Phúc HoÕt Bäo Hµ: vô ğ¸ch, sau khi sØ døng kÛ nång thì bäo hµ biªn m¤t.
+251	99	0	RideHeader1_13		interface\sound_tiger.wav					0	0	0	1	0		Thú cßŞi: H±
+252	99	0	RideHeader1_1		interface\sound_horse.wav					0	0	0	1	0		Thú cßŞi: Hoàng Phiêu Mã
+253	99	0	RideHeader1_11		interface\35.wav					0	0	0	1	0		Thú cßŞi: LÕc Ğà
+254	99	0	RideHeader2_2		interface\32.wav					0	0	0	1	0		Thú cßŞi: HÕc
+255	99	0	RideHeader1_16		interface\33.wav					0	0	0	1	0		Thú cßŞi: Thanh Phøng
+256	99	0	RideHeader1_3		interface\34.wav					0	0	0	1	0		Thú cßŞi: Mao Ngßu
+257	99	0	RideHeader1_5		interface\31.wav					0	0	0	1	0		Thú cßŞi: Lµc
+258	99	0	RideHeader1_9		interface\36.wav					0	0	0	1	0		Thú cßŞi: Ğiêu
+259	99	0	RideHeader1_7		interface\30.wav					0	0	0	1	0		Thú cßŞi: Khôi Lang
+260	99	0	RideHeader1_14		interface\sound_tiger.wav					0	0	0	1	0		Thú cßŞi: BÕch H±
+261	99	0	RideHeader1_2		interface\sound_horse.wav					0	0	0	1	0		Thú cßŞi: Thanh BÕch Tông Mã
+262	99	0	RideHeader1_12		interface\35.wav					0	0	0	1	0		Thú cßŞi: BÕch LÕc Ğà
+263	99	0	RideHeader2_1		interface\32.wav					0	0	0	1	0		Thú cßŞi: Kim Dñc HÕc
+264	99	0	RideHeader1_15		interface\33.wav					0	0	0	1	0		Thú cßŞi: H°ng BÕch Phøng
+265	99	0	RideHeader1_4		interface\34.wav					0	0	0	1	0		Thú cßŞi: BÕch Mao Ngßu
+266	99	0	RideHeader1_6		interface\31.wav					0	0	0	1	0		Thú cßŞi: BÕch Lµc
+267	99	0	RideHeader1_10		interface\36.wav					0	0	0	1	0		Thú cßŞi: BÕch Ğiêu
+268	99	0	RideHeader1_8		interface\30.wav					0	0	0	1	0		Thú cßŞi: BÕch Lang
+269	269	0	Buff5_9	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Biªn thân
+270	270	0	Buff5_10							0	0	0	1	0		H°i sinh: trÕng thái này sau khi chªt s¨ tñ ğµng h°i sinh
+271	271	0	Buff5_7							1	0	0	0	0		TrÕng thái v§n chuy¬n: Không th¬ tàng hình, quay lÕi thành và cßŞi thú
+272	272	0	Buff5_8							0	0	0	0	0		Tào v§n cß¶ng ğÕo: Giöi phá khä nång tàng hình, t¯c ğµ di chuy¬n r¤t nhanh
+273	273	0	Buff5_11							0	0	0	1	0		M°i câu: giun ğ¤t, nâng cao t¯c ğµ câu cá
+274	273	1	Buff5_12							0	0	0	1	0		M°i câu: h°ng trùng, nâng cao t¯c ğµ câu cá
+275	273	2	Buff5_13							0	0	0	1	0		M°i câu: t¢m cát, nâng cao t¯c ğµ câu cá
+276	276	0	Buff5_14							0	0	0	0	0		Sóng ğôi: th¶i gian ğÑng sóng ğôi, không th¬ t¤n công và d¸ch chuy¬n, cûng không b¸ sát thß½ng
+277	277	0	Buff5_15							0	0	0	0	0		G£p ğ¸ch: không th¬ giao chuy¬n
+278	99	0	RideHeader2_3		interface\sound_tiger.wav					0	0	0	1	0		Thú cßŞi: Sß TØ
+279	99	0	RideHeader2_4		interface\sound_tiger.wav					0	0	0	1	0		Thú cßŞi: BÕch Sß
+280	280	0	Buff1_4				g01_buff44		Í·¶¥×´Ì¬µã	0	0	0	0	0		S½ h· chï ği¬m: b¸ Vß½ng Ngæ Yên chï ra s½ h· cüa chiêu thÑc
+281	281	0	FightSkillMingJiao_7							0	0	0	0	0		Báo thù: sau khi giªt chªt ğ¯i phß½ng s¨ nh§n ğßşc sñ báo thù cüa ğ¯i phß½ng
+282	282	0	FightSkillXiaoYao_9							1	1	0	1	0		Giam c¥m: Không th¬ sØ døng kÛ nång và v§t ph¦m
+283	283	0	FightSkillShaoLin2_6							0	1	0	1	0		Di l£c hµ thân: Tång cß¶ng th¬ lñc
+284	284	0	FightSkillMingJiao1_6							0	1	0	1	0		QuÏ hoa th¥n lñc: Tång cß¶ng lñc
+285	285	0	FightSkillGaiBang_6							0	1	0	1	0		Nhß änh tuÏ hình: Tång cß¶ng thân pháp
+286	286	0	FightSkillWuDang2_6							0	1	0	1	0		Tê ngßu v÷ng nguy®t: Tång nµi lñc
+287	287	0	FightSkillEMei2_6							0	1	0	1	0		ToÕ hoài b¤t loÕn: Tång trí lñc
+288	288	0	FightSkillXinXiu2_6							0	1	0	1	0		Bách ğµc b¤t xâm: Tång khä nång kháng ğµc
+289	289	0	FightSkillDaLi1_6							0	1	0	1	0		Chính khí hÕo nhiên: Tång khä nång kháng huy«n
+290	290	0	FightSkillTianShan1_6							0	1	0	1	0		Bång c½ ng÷c c¯t: Tång khä nång kháng bång
+291	291	0	FightSkillXiaoYao1_6							0	1	0	1	0		M£c thü thành qui: Tång khä nång kháng hoä
+292	59	0	FightSkillShaoLin2_5				ÃØ¼®_sl_zdo		ÉíÌåÖĞĞÄµã	0	0	0	1	0		D¸ch cân ğoán c¯t: Tång gi¾i hÕn máu
+293	293	0	FightSkillMingJiao1_5				ÃØ¼®_mj_zdo		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thu¥n dß½ng vô cñc: Tång hoä công và tính kháng hoä
+294	14	0	FightSkillWuDang2_5							0	1	1	0	0		Thiên ngoÕi phi tiên: tê li®t, không th¬ di chuy¬n, không th¬ cØ ğµng, có th¬ b¸ t¤n công, không th¬ thÑc tïnh
+295	1	0	FightSkillEMei2_5							0	1	1	0	0		CØu Âm BÕch C¯t Träo: liên tøc m¤t máu
+296	34	0	FightSkillXinXiu2_5							0	1	1	0	0		Hoá c¯t miên chß·ng: cß¶ng lñc, nµi lñc suy yªu
+297	26	0	FightSkillDaLi1_5							0	1	1	0	0		Thiªu trÕch kiªm: T¤n công s½ h·, suy yªu khä nång t¤n công và phòng thü
+298	13	0	FightSkillTianShan1_5							0	1	1	0	0		Ğ°ng sinh cµng tØ: ği¬m huy®t, không th¬ di chuy¬n, không th¬ cØ ğµng, có th¬ b¸ t¤n công, không cách nào thÑc tïnh
+299	99	0	RideHeader1_9							0	0	0	1	0		Thú cßŞi: Løc Hành Ğiêu
+300	300	0	Buff2_12							0	0	0	1	0		Tång cß¶ng: ngoÕi công
+301	301	0	Buff2_13							0	0	0	1	0		Tång cß¶ng: nµi công
+302	302	0	Buff2_14							0	0	0	1	0		Tång cß¶ng: ngoÕi thü
+303	303	0	Buff2_15							0	0	0	1	0		Tång cß¶ng: nµi thü
+304	304	0	Charm_1							1	0	0	1	0		Tång cß¶ng: bång công
+305	305	0	Charm_2							1	0	0	1	0		Tång cß¶ng: hoä công
+306	306	0	Charm_3							1	0	0	1	0		Tång cß¶ng: ğµc công
+307	307	0	Charm_4							1	0	0	1	0		Tång cß¶ng: huy«n công
+308	308	0	OtherTools1_5							1	0	0	1	0		Tång cß¶ng: kháng bång
+309	309	0	OtherTools1_6							1	0	0	1	0		Tång cß¶ng: kháng hoä
+310	310	0	OtherTools1_7							1	0	0	1	0		Tång cß¶ng: kháng ğµc
+311	311	0	OtherTools1_8							1	0	0	1	0		Tång cß¶ng: kháng huy«n
+312	312	0	MenpaiGoods_1							1	0	0	1	0		Tång cß¶ng: cß¶ng lñc
+313	313	0	MenpaiGoods_2							1	0	0	1	0		Tång cß¶ng: nµi lñc
+314	314	0	MenpaiGoods_3							1	0	0	1	0		Tång cß¶ng: th¬ lñc
+315	315	0	MenpaiGoods_4							0	0	0	1	0		Tång cß¶ng: trí lñc
+316	316	0	MenpaiGoods_5							1	0	0	1	0		Tång cß¶ng: thân pháp
+317	317	0	MenpaiGoods_6							0	0	0	1	0		Tång cß¶ng: ğµ chính xác
+318	318	0	MenpaiGoods_7							0	0	0	1	0		Tång cß¶ng: né tránh
+319	319	0	MenpaiGoods_8							0	0	0	1	0		Tång cß¶ng: hµi công
+320	320	0	Charm_15							1	0	0	1	0		Tång cß¶ng: máu gi¾i hÕn trên
+321	321	0	Charm_14							1	0	0	1	0		Tång cß¶ng: khí gi¾i hÕn trên
+322	99	0	RideHeader2_6		ambience\nature\animal\elephant.wav					0	0	0	1	0		V§t cßŞi: Voi
+323	99	0	RideHeader2_5		ambience\nature\animal\elephant.wav					0	0	0	1	0		Thú cßŞi: BÕch Tßşng
+324	99	0	RideHeader1_10		interface\36.wav					0	0	0	1	0		CßŞi: Th¥n Ğiêu
+325	325	0	Cloth3_2							1	0	0	0	0		Ğ¸a linh ğan: kinh nghi®m cüa Trân thú nh§n ğßşc g¤p ğôi
+326	99	0	RideHeader2_15		ambience\nature\animal\xiniu.wav					0	0	0	1	0		CßŞi: Tê Ngßu
+327	99	0	RideHeader2_11		ambience\nature\bird\tuoniao.wav					0	0	0	1	0		CßŞi: Ğà Ği¬u
+328	99	0	RideHeader2_14		ambience\nature\insect\spider_1.wav					0	0	0	1	0		Thú cßŞi: Phù Vån KÜ Sî
+329	99	0	RideHeader2_12							0	0	0	1	0		CßŞi: Huy«n Quy
+330	99	0	RideHeader2_10		ambience\nature\animal\lion_1.wav					0	0	0	1	0		CßŞi: Løc Ngô
+331	99	0	RideHeader2_13		ambience\society\machine.wav					0	0	0	1	0		CßŞi: Mµc Ngßu Lßu Mã
+332	99	0	RideHeader2_9		ambience\nature\animal\bear_1.wav					0	0	0	1	0		CßŞi: Hùng
+333	99	0	RideHeader1_1							0	0	0	1	0		CßŞi thú
+334	334	0	TaskTools3_3							0	0	0	1	0		Truy«n t¯ng bäo hµ: vô ğ¸ch, sau khi di chuy¬n ho£c sØ døng kÛ nång, bäo v® s¨ m¤t
+335	335	0	CommonLiveSkill_16							1	0	0	0	0		M®t möi: chü nhân ko th¬ tiªp tøc ph¯i hşp Trân thú phóng ra chÑc nång công kích.
+336	336	0	TaskTools4_10							1	0	0	0	0		Mã yên: gia tång t¯c ğµ di chuy¬n cüa Thú cßŞi
+337	99	0	Ride2_15		ambience\nature\animal\river_horse.wav					0	0	0	1	0		Thú cßŞi: Hà Mã
+338	99	0	Ride2_11		ambience\nature\animal\carriage.wav					0	0	0	1	0		Thú cßŞi: Mã Xa
+339	99	0	Ride2_13		ambience\nature\animal\horse_2.wav					0	0	0	1	0		Thú cßŞi: Thiên Mã
+340	99	0	Ride2_9							0	0	0	1	0		Thú cßŞi: Th¯ TØ
+341	99	0	Ride2_14		ambience\nature\animal\dance_lion.wav					0	0	0	1	0		Thú cßŞi: Vû sß
+342	99	0	Ride2_10		interface\31.wav					0	0	0	1	0		Thú cßŞi: Tu¥n Lµc
+343	343	0	Medicine2_12							1	0	0	0	0		Càn khôn h°: Tñ ğµng thu th§p v§t ph¦m lúc quái v§t r¾t ra
+344	344	0	TaskTools6_7							1	0	0	0	0		Tâm Hoài C¯ Chü: tÕm th¶i không th¬ gia nh§p bang phái khác, th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 5 ği¬m
+345	345	0	MenpaiLiveSkill2_9							0	0	1	0	0		Di®t thØ tri«u thñc: Thu hút quái v§t công kích
+346	345	0	MenpaiLiveSkill2_11							0	0	1	0	0		Ği®u H± Ly S½n: dø quái v§t công kích và giäm khä nång phòng ngñ cüa nó
+347	347	0	MakeMaterial11_3				g01_buff10_01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Song hÕt t¯c long ğan: gia tång t¯c ğµ di chuy¬n
+349	349	0	Cloth3_14							1	1	0	0	0		Thông thiên linh ğan: kinh nghi®m nhân v§t nh§n ğßşc tr· thành g¤p 2.5
+350	325	0	Cloth3_15							1	1	0	0	0		Tri®t ğ¸a linh ğan: kinh nghi®m Trân thú nh§n ğßşc tr· thành g¤p 2.5
+351	349	0	Cloth3_16							1	1	0	0	0		Ti¬u Linh Ğan: kinh nghi®m mà nhân v§t và Trân Thú nh§n ğßşc tång thành 1.5 l¥n, có th¬ sØ døng ğ°ng th¶i v¾i Ğ¸a Linh Ğan và nhân ğôi kinh nghi®m.
+352	352	0	CommonLiveSkill_15							1	0	0	0	0		M®t möi: chü nhân không th¬ tiªp tøc ph¯i hşp v¾i trân thú sØ døng kÛ nång Th¥n hæu.
+353	353	0	CommonLiveSkill_14							1	0	0	0	0		M®t möi: chü nhân không th¬ tiªp tøc ph¯i hşp v¾i trân thú sØ døng kÛ nång Cµng sinh và Huyªt tª.
+354	354	0	Cloth4_5				Ãµ¹å»¨		ÉíÌåÖĞĞÄµã	0	0	0	1	0		999 ğóa hoa h°ng
+355	355	0	Cloth6_1	±ùÕòÎ÷¹Ï	interface\sound_shengji.wav	ÉíÌåÊÜ»÷µã				0	0	0	1	0		Bång tr¤n dßa h¤u: làm cho ngß¶i Th¥n thanh khí thoán, Gia tång 15% theo c½ s· nhân v§t NgoÕi công công kích và c½ s· nhân v§t Nµi công công kích.
+356	99	0	Ride2_12							0	0	0	1	0		Thú cßŞi: Tuyªt Vû
+357	357	0	CommonLiveSkill_14							1	0	0	0	0		M®t möi: chü nhân không th¬ ph¯i hşp cùng v¾i trân thú sØ døng kÛ nång nhøc tß¶ng
+358	99	0	RideHeader2_16							0	0	0	1	0		Thú cßŞi: Cñ nhân
+359	99	0	RideHeader2_7							0	0	0	1	0		Thú cßŞi: Phi long
+#																
+360	360	0	PetSkill2_13							0	0	0	0	0		Bång tinh: giäm sát thß½ng h® bång, tång sát thß½ng h® hoä
+361	360	0	PetSkill2_14							0	0	0	0	0		Hoä tinh: giäm sát thß½ng h® hoä, tång sát thß½ng h® bång
+362	360	0	PetSkill3_3							0	0	0	0	0		Ğµc c±: giäm sát thß½ng h® ğµc, tång sát thß½ng h® huy«n
+363	360	0	PetSkill3_8							0	0	0	0	0		Huy«n thú: giäm sát thß½ng h® huy«n, tång sát thß½ng h® ğµc
+364	364	0	PetSkill1_7							0	0	0	0	0		Ch§m chÕp: Tång mÑc gi¾i hÕn máu, khä nång né tránh và ğµ chính xác giäm
+365	364	0	PetSkill3_6							0	0	0	0	0		Giäo hoÕt: Tång khä nång né tránh và ğµ chính xác, khä nång phòng thü suy yªu
+366	364	0	PetSkill3_7							0	0	0	0	0		Th§t thà: Tång phòng thü, hµi công giäm
+367	364	0	PetSkill3_5							0	0	0	0	0		Li«u mÕng: tång hµi công, gi¾i hÕn máu giäm
+368	364	0	PetSkill3_9							0	0	0	0	0		Pháp h°n: nµi công tång, ngoÕi công suy yªu
+369	364	0	PetSkill3_10							0	0	0	0	0		Man lñc: ngoÕi công tång, nµi công suy yªu
+370	370	0	PetSkill5_13				cw_chongsheng		ÉíÌåÊÜ»÷µã	0	0	0	0	0		H°i sinh: trÕng thái này sau khi chªt s¨ tñ ğµng h°i sinh
+371	370	0	PetSkill5_14				cw_chongsheng		ÉíÌåÊÜ»÷µã	0	0	0	0	0		H°i sinh c¤p cao: · trÕng thái này sau khi chªt s¨ tñ ğµng h°i sinh
+372	372	0	PetSkill2_9				cw_rouqiang		Í·¶¥×´Ì¬µã	0	0	0	0	0		Nhøc tß¶ng: Chuy¬n mµt ph¥n sát thß½ng sang thú nuôi
+373	372	0	PetSkill2_10				cw_rouqiang		Í·¶¥×´Ì¬µã	0	0	0	0	0		Nhøc tß¶ng c¤p ğµ cao: Chuy¬n mµt ph¥n sát thß½ng sang thú nuôi
+374	374	0	PetSkill4_1				cw_shengyou		Í·¶¥×´Ì¬µã	0	0	0	0	0		Th¥n hæu: không b¸ sát thß½ng cûng không th¬ t¤n công ğ¸ch
+375	374	0	PetSkill4_2				cw_shengyou		Í·¶¥×´Ì¬µã	0	0	0	0	0		Th¥n hæu c¤p ğµ cao: không b¸ sát thß½ng cûng không th¬ t¤n công ğ¸ch
+376	376	0	PetSkill7_1				cw_shixue		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Khát máu: Hy sinh phòng thü ğ¬ tÕm th¶i nâng cao ngoÕi công
+377	376	0	PetSkill7_2				cw_shixue		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Khát máu c¤p ğµ cao: Hy sinh phòng thü ğ¬ tÕm th¶i nâng cao ngoÕi công
+380	380	0	PetSkill5_6							0	0	0	0	0		NguÜ trang: thú nuôi · trÕng thái tàng hình, hi®n hình khi t¤n công ho£c b¸ sát thß½ng
+381	380	0	PetSkill5_5							0	0	0	0	0		NguÜ trang ğµ c¤p cao: thú nuôi nguÜ trang, s¨ hi®n hình khi t¤n công ho£c b¸ sát thß½ng
+382	382	0	PetSkill2_5				npc_all_fushen		ÉíÌåÊÜ»÷µã	0	0	1	0	1	ÉíÌåÊÜ»÷µã	Phø thân: Thú nuôi phø thân v¾i ğ¸ch, hai bên ğ«u không th¬ hoÕt ğµng
+383	382	0	PetSkill2_6				npc_all_fushen		ÉíÌåÊÜ»÷µã	0	0	1	0	1	ÉíÌåÊÜ»÷µã	Phø thân c¤p ğµ cao: Thú nuôi áp sát ğ¸ch, hai bên ğ«u không th¬ cØ ğµng
+384	384	0	PetSkill1_1	cw_fanji		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Phän công: xác su¤t nh¤t ğ¸nh phän công ğ¸ch khi b¸ t¤n công
+385	384	0	PetSkill1_2	cw_fanji		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Phän công ğµ c¤p cao: xác su¤t nh¤t ğ¸nh phän công ğ¸ch khi b¸ t¤n công
+386	386	0	PetSkill5_15	cw_xixue		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Hút máu: xác su¤t nh¤t ğ¸nh l¤y sinh mÕng cüa ğ¸ch khi t¤n công
+387	386	0	PetSkill5_16	cw_xixue		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Hút máu c¤p ğµ cao: xác su¤t nh¤t ğ¸nh l¤y sinh mÕng cüa ğ¸ch khi t¤n công
+388	388	0	PetSkill1_13	cw_fanzhen		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Phän ch¤n: xác su¤t nh¤t ğ¸nh phän h°i sát thß½ng khi ğªn g¥n
+389	388	0	PetSkill1_14	cw_fanzhen		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Phän ch¤n c¤p ğµ cao: xác su¤t nh¤t ğ¸nh phän h°i sát thß½ng khi ğªn g¥n
+390	390	0	PetSkill4_9	cw_lingdong		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Di chuy¬n linh hoÕt: xác su¤t nh¤t ğ¸nh làm giäm thi¬u sát thß½ng
+391	390	0	PetSkill4_10	cw_lingdong		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Di chuy¬n linh hoÕt c¤p ğµ cao: xác su¤t nh¤t ğ¸nh làm giäm thi¬u sát thß½ng
+392	392	0	PetSkill2_7	cw_ximo		ÉíÌåÊÜ»÷µã				0	0	0	0	0		H¤p khí: khi công kích có c½ hµi hút khí cüa kë ğ¸ch
+393	392	0	PetSkill2_8	cw_ximo		ÉíÌåÊÜ»÷µã				0	0	0	0	0		H¤p khí cao c¤p: khi công kích có c½ hµi hút khí cüa kë ğ¸ch
+394	394	0	PetSkill4_5	cw_danu		½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		N±i gi§n: xác xu¤t nh¤t ğ¸nh tiêu hao nµ khí cüa ğ¸ch khi t¤n công
+395	394	0	PetSkill4_6	cw_danu		½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		N±i gi§n c¤p ğµ cao: xác xu¤t nh¤t ğ¸nh tiêu hao nµ khí cüa ğ¸ch khi t¤n công
+396	396	0	PetSkill5_1	cw_zhongxin		Í·¶¥×´Ì¬µã				0	0	0	0	0		Trung thành: có xác su¤t nh¤t ğ¸nh thay chü nhân ğánh ch£n t¤n công sát thß½ng
+397	396	0	PetSkill5_2	cw_zhongxin		Í·¶¥×´Ì¬µã				0	0	0	0	0		Trung thành c¤p ğµ cao: có xác su¤t nh¤t ğ¸nh thay chü nhân ğánh ch£n t¤n công sát thß½ng
+398	398	0	PetSkill5_3	cw_lingqi		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Nµi lñc: có xác su¤t nh¤t ğ¸nh thay chü nhân ğánh ch£n änh hß·ng x¤u
+399	398	0	PetSkill5_4	cw_lingqi		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Nµi lñc c¤p ğµ cao: có xác su¤t nh¤t ğ¸nh thay chü nhân ğánh ch£n änh hß·ng x¤u
+400	400	0	PetSkill5_7	cw_shipo		Í·¶¥×´Ì¬µã				0	0	0	0	0		ThÑc phá: Tång cß¶ng khä nång dò xét tàng hình
+401	400	0	PetSkill5_8	cw_shipo		Í·¶¥×´Ì¬µã				0	0	0	0	0		ThÑc phá c¤p ğµ cao: Tång cß¶ng khä nång dò xét tàng hình
+402	402	0	PetSkill3_13	cw_jieli		Í·¶¥×´Ì¬µã				0	0	0	0	0		Mßşn sÑc: Tång cß¶ng cß¶ng lñc cüa chü nhân
+403	402	0	PetSkill3_14	cw_jieli		Í·¶¥×´Ì¬µã				0	0	0	0	0		Mßşn sÑc c¤p ğµ cao: Tång cß¶ng cß¶ng lñc cüa chü nhân
+404	404	0	PetSkill1_5	cw_yihun		Í·¶¥×´Ì¬µã				0	0	0	0	0		Di h°n: Tång cß¶ng trí lñc cüa chü nhân
+405	404	0	PetSkill1_6	cw_yihun		Í·¶¥×´Ì¬µã				0	0	0	0	0		Di h°n c¤p cao: Tång cß¶ng trí lñc cüa chü nhân
+406	406	0	PetSkill3_15	cw_jiasu		Í·¶¥×´Ì¬µã				0	0	0	0	0		Thu¤n änh: Tång cß¶ng thân pháp cüa chü nhân
+407	406	0	PetSkill3_16	cw_jiasu		Í·¶¥×´Ì¬µã				0	0	0	0	0		Thu¤n änh c¤p ğµ cao: Tång cß¶ng thân pháp cüa chü nhân
+408	408	0	PetSkill1_3	cw_qiangshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Cß¶ng thân: Tång cß¶ng th¬ lñc cüa chü nhân
+409	408	0	PetSkill1_4	cw_qiangshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Cß¶ng thân c¤p ğµ cao: Tång cß¶ng th¬ lñc cüa chü nhân
+410	410	0	PetSkill3_1	cw_ningshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Chåm chú: Tång cß¶ng nµi lñc cüa chü nhân
+411	410	0	PetSkill3_2	cw_ningshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Chåm chú c¤p ğµ cao: Tång cß¶ng nµi lñc cüa chü nhân
+412	37	0	PetSkill6_5	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		Suy yªu: Giäm khä nång nµi công và ngoÕi công cüa møc tiêu
+413	37	0	PetSkill6_6	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		Suy yªu c¤p ğµ cao: Giäm khä nång nµi công và ngoÕi công cüa møc tiêu
+414	25	0	PetSkill6_7	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		S½ h·: Giäm khä nång phòng thü cüa møc tiêu
+415	25	0	PetSkill6_8	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		S½ h· c¤p ğµ cao: Giäm khä nång phòng thü cüa møc tiêu
+416	23	0	PetSkill6_15	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		V¤p ngã: Giäm t¯c ğµ di chuy¬n cüa møc tiêu
+417	23	0	PetSkill6_16	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	1	1	0	0		V¤p ngã c¤p ğµ cao: Giäm t¯c ğµ di chuy¬n cüa møc tiêu
+418	418	1	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 10 ği¬m
+419	418	2	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 15 ği¬m
+420	418	3	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 20 ği¬m
+421	418	4	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 25 ği¬m
+422	418	5	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 30 ği¬m
+423	418	6	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 35 ği¬m
+424	418	7	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 40 ği¬m
+425	418	8	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 45 ği¬m
+426	418	9	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #rGia tång Cß¶ng lñc, Nµi lñc cµng 50 ği¬m
+427	427	0	FightSkillShaoLin2_7							0	1	0	1	0		Ğäo chuy¬n càn khôn: Tång sát thß½ng cüa các kÛ nång
+428	427	0	FightSkillMingJiao1_7							0	1	0	1	0		CØ hoä thiêu thiên: Tång sát thß½ng cüa các kÛ nång
+429	427	0	FightSkillGaiBang_7							0	1	0	1	0		BÕt thäo t¥m xà: Tång sát thß½ng cüa các kÛ nång
+430	427	0	FightSkillWuDang2_7							0	1	0	1	0		Không minh thÑc: Tång sát thß½ng cüa các kÛ nång
+431	427	0	FightSkillEMei2_9							0	1	0	1	0		CØu âm ğµc long công: Tång sát thß½ng cüa các kÛ nång
+432	427	0	FightSkillXinXiu2_7							0	1	0	1	0		Hoá huyªt th¥n ğµc: Tång sát thß½ng cüa các kÛ nång
+433	427	0	FightSkillDaLi1_7							0	1	0	1	0		Thß½ng dß½ng kiªm: Tång sát thß½ng cüa các kÛ nång
+434	427	0	FightSkillTianShan1_7							0	1	0	1	0		Thiên ğ¸a minh di®t: Tång sát thß½ng cüa các kÛ nång
+435	427	0	FightSkillXiaoYao1_7							0	1	0	1	0		Ğiên ğµng thß½ng minh: Tång sát thß½ng cüa các kÛ nång
+436	436	0	CommonNPCHeader8_23							1	1	0	1	0		Mµc Uy¬n Thanh võ h÷c tâm ğ¡c: kiên cß¶ng #rTång ngoÕi thü
+437	436	0	CommonNPCHeader8_10							1	1	0	1	0		Chung Linh võ h÷c tâm ğ¡c: trí lñc #rTång trí lñc
+438	436	0	CommonNPCHeader8_4							1	1	0	1	0		Ğoàn Diên Khánh võ h÷c tâm ğ¡c: th¬ ch¤t #rTång cß¶ng th¬ lñc
+439	436	0	CommonNPCHeader4_22							1	1	0	1	0		Ğoàn Dñ võ h÷c tâm ğ¡c: né tránh #rTång khä nång né tránh
+440	436	0	CommonNPCHeader3_2							1	1	0	1	0		A Châu võ h÷c tâm ğ¡c: hoä di®m #rTång hoä công
+441	436	0	CommonNPCHeader8_18							1	1	0	1	0		A Bích võ h÷c tâm ğ¡c: quên lãng #rTång nµi thü
+442	436	0	CommonNPCHeader4_25							1	1	0	1	0		Vß½ng Ngæ Yên võ h÷c tâm ğ¡c: trí tu® #rTång nµi lñc
+443	436	0	CommonNPCHeader4_23							1	1	0	1	0		Tiêu Phong võ h÷c tâm ğ¡c: cß¶ng lñc #rTång cß¶ng lñc
+444	436	0	CommonNPCHeader3_3							1	1	0	1	0		A TØ võ h÷c tâm ğ¡c: k¸ch ğµc#r tång cß¶ng ğµc công
+445	436	0	CommonNPCHeader3_1							1	1	0	1	0		Mµ Dung Phøc võ h÷c tâm ğ¡c: thân pháp #rTång cß¶ng thân pháp
+446	436	0	CommonNPCHeader4_24							1	1	0	1	0		Hß Trúc võ h÷c tâm ğ¡c: ği¬m yªu #rTång hµi công
+447	436	0	CommonNPCHeader11_1							1	1	0	1	0		Cßu Ma Trí võ h÷c tâm ğ¡c: Huy«n di®u #rTång huy«n công
+448	436	0	CommonNPCHeader8_12							1	1	0	1	0		Công chúa Ngân Xuyên võ h÷c tâm ğ¡c: hàn bång #rTång bång công
+449	449	0	Chrismas2_15				g01_buff_ĞÒ¸£Ñ©Çò		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		HÕnh Phúc Tuyªt C¥u: tång 30 ği¬m th¬ lñc
+450	450	0	MakeMaterial8_16							0	0	0	0	0		Mùa xuân vui vë
+451	451	0	Choujiang_13							0	0	0	0	0		Khoái HoÕt tTam: không th¬ tham gia rút thåm trúng thß·ng hÕnh v§n khoái hoÕt tam, th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 5 ği¬m
+452	418	4	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 55 ği¬m ngoÕi công, nµi công 
+453	418	5	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 60 ği¬m ngoÕi công, nµi công 
+454	418	6	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 65 ği¬m ngoÕi công, nµi công 
+455	418	7	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 70 ği¬m ngoÕi công, nµi công 
+456	418	8	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 75 ği¬m ngoÕi công, nµi công 
+457	418	9	PetSkill2_3							0	1	0	1	0		Quan h® bang phái #r gia tång 80 ği¬m ngoÕi công, nµi công 
+458	458	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		ĞoÕt Bäo Sß Ğ° Luy®n: cµng 30 ği¬m thuµc tính höa công
+459	458	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		ĞoÕt Bäo Sß Ğ° Luy®n: cµng 30 ği¬m thuµc tính bång công
+460	458	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		ĞoÕt Bäo Sß Ğ° Luy®n: cµng 30 ği¬m thuµc tính huy«n công
+461	458	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		ĞoÕt Bäo Sß Ğ° Luy®n: cµng 30 ği¬m thuµc tính ğµc công
+462	462	0	Ring2_15				buff_ÖØÂ¥ÍûÔÂ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Trùng lâu v÷ng nguy®t: lúc t¤n công có 2% tÖ l® ğoÕt h°n cüa ğ¯i phß½ng, khiªn b¸ phong huy®t, kéo dài 15 giây, phong huy®t không th¬ giäi tr×.
+463	463	0	Amulet3_5				buff_ÖØÂ¥ÄæÌì		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Trùng lâu ngh¸ch thiên: lúc t¤n công có 2% tÖ l® ğoÕt h°n cüa ğ¯i phß½ng, khiªn b¸ ma tı, kéo dài 15 giây, ma tı không th¬ giäi tr×.
+464	464	0	Buff0_9	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Phong huy®t: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+465	465	0	Buff6_13				g01_buffÂé±Ô		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Ma tí: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+466	458	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		ĞoÕt Bäo Sß Ğ° Luy®n: tång 30 ği¬m th¬ lñc
+467	459	0	PetSkill7_4							0	0	0	0	0		Bång H°n: cµng 50 ği¬m thuµc tính kháng bång
+468	460	0	PetSkill7_6							0	0	0	0	0		Hoä H°n: cµng 50 ği¬m thuµc tính kháng höa
+469	461	0	PetSkill7_5							0	0	0	0	0		Ğµc H°n: cµng 50 ği¬m thuµc tính kháng ğµc
+470	462	0	PetSkill7_3							0	0	0	0	0		Huy«n H°n: cµng 50 ği¬m kháng huy«n
+471	463	0	Buff6_12				ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Sß Ğ° Tâm Liên Tâm: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 10 ği¬m
+472	472	0	CircularTaskTool3_11	all_em_bj00000		ÉíÌåÊÜ»÷µã	g01_ÊÕ¼¯Ç©Ãû		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	S± kı tên: thu th§p chæ kı cüa häo hæu
+473	473	0	Buff1_7							0	0	0	1	0		Man lñc: tång cß¶ng công kích
+474	474	0	FightSkillXiaoYao_8							0	0	0	1	0		Höa Nhãn Kim Tinh: tång cß¶ng trí lñc
+475	475	0	Gem9_3_1							0	0	0	1	0		H± Nhãn ThÕch tinh hoa: tång sát thß½ng ngoÕi công
+476	476	0	Gem9_3_8							0	0	0	1	0		Miêu Nhãn ThÕch tinh hoa: tång sát thß½ng nµi cung
+477	477	0	Gem9_3_2							0	0	0	1	0		TØ Ng÷c tinh hoa: tång chính xác
+478	478	0	Gem9_3_7							0	0	0	1	0		T± Mçu Løc tinh hoa: tång né tránh
+479	479	0	Gem9_3_4							0	0	0	1	0		Lam Tinh ThÕch tinh hoa: tång sát thß½ng bång công
+480	480	0	Gem9_3_5							0	0	0	1	0		H°ng Tinh ThÕch tinh hoa: tång sát thß½ng höa công
+481	481	0	Gem9_3_3							0	0	0	1	0		Hoàng Tinh ThÕch tinh hoa: tång sát thß½ng huy«n công
+482	482	0	Gem9_3_6							0	0	0	1	0		Løc Tinh ThÕch tinh hoa: tång sát thß½ng ğµc công
+483	483	0	Gem1_2_16							0	0	0	1	0		H°ng Bäo ThÕch tinh hoa: tång gi¾i hÕn th¬ lñc
+484	484	0	Gem3_2_16							0	0	0	1	0		Huyªt Tinh ThÕch tinh hoa: tång gi¾i hÕn máu
+485	474	0	Buff1_4							0	1	1	0	0		Hß Nhßşc: giäm công kích nµi ngoÕi công
+486	475	0	Buff1_11							0	0	0	1	0		Cß¶ng Hóa: tång cß¶ng công kích nµi ngoÕi công
+487	481	0	Ride2_3							0	0	0	1	0		Giäi Huy®t: giäi tr× trÕng thái phong huy®t cüa phe mình
+488	482	0	Buff1_4							0	0	0	1	0		Giäm T¯c: giäm t¯c ğµ di chuy¬n cüa phe ğ¸ch
+489	483	0	Buff1_5							0	0	0	1	0		Mi­n D¸ch Phong Huy®t
+490	484	0	Buff1_6							0	0	0	1	0		Tång: 10% gi¾i hÕn huyªt
+491	485	0	Buff1_7							0	0	0	1	0		Tång: 10% gi¾i hÕn khí
+492	486	0	Buff1_8							0	0	0	1	0		Tång: 15% ngoÕi công
+493	487	0	Buff1_9							0	0	0	1	0		Tång: 15% nµi công
+494	488	0	Buff1_10							0	0	0	1	0		Tång: 15% ngoÕi thü
+#																
+495	495	0	Buff10_3							0	0	0	1	0		Sßu Bäo Chuyên Gia: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 30 ği¬m 
+496	496	0	Banner_3							0	0	0	1	0		KÏ thü siêu c¤p: tång 20% ngoÕi thü c½ bän và nµi thü c½ bän
+497	497	0	Buff5_6							0	0	0	1	0		Liên Träm Cu°ng Khách: tång 20% ngoÕi công c½ bän và nµi công c½ bän 
+498	498	0	Buff10_4							0	0	0	1	0		Tri nhøc h§u dûng
+499	499	0	Buff10_2				b_½ªÌ«¹«µöÓã01		Í·¶¥×´Ì¬µã	0	0	0	1	0		Khß½ng Thái Công câu cá: vô ğ¸ch, khi di chuy¬n hay sau khi sØ døng kÛ nång thì bäo hµ s¨ biªn m¤t. 
+500	99	0	Ride2_3							0	0	0	1	0		Thú cßŞi: Tuyªt Khiêu
+501	99	0	Ride2_4							0	0	0	1	0		KÜ thu§t: TØ Ği®n
+502	99	0	Ride2_16							0	0	0	1	0		Thú cßŞi: Minh Vû
+503	99	0	RideHeader2_8							0	0	0	1	0		Thú cßŞi: Hùng Nhß İ
+504	99	0	Ride2_6							0	0	0	1	0		Thú cßŞi: Niên Thú
+505	99	0	Ride2_7							0	0	0	1	0		Thú cßŞi: Hoa Xa
+506	99	0	Ride2_8							0	0	0	1	0		Thú cßŞi: Toàn Chuy¬n Mµc Mã
+507	507	0	FightSkillWuDang2_8				g01_wd_ÌÚÔÆ¼İÎíbuff01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tiên Phong ĞÕo C¯t: nµi thü tång mÕnh trong th¶i gian ng¡n
+508	13	0	FightSkillXinXiu2_8		Skills\Xx\Xx_ÎüĞÇÊÉÔÂ_»è.wav		g01_xx_ÎüĞÇÊÉÔÂ_zdo		ÉíÌåÖĞĞÄµã	0	1	1	0	0		Hàm Tiªu Bán Bµ Diên: tÕm th¶i b¸ phong huy®t
+509	509	0	FightSkillDaLi1_12				g01_dl_ĞÂÉÌÑô½£buff		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Thß½ng Dß½ng Kiªm: gây sát thß½ng liên tøc, b¸ giäi tr× khi di chuy¬n.
+510	510	0	FightSkillMingJiao1_8				g01_mj_·é»ğÁ¬³Ç_xinzd		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Phong Höa Liên Thành: hoa m¡t, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc ğßşc
+511	511	0	FightSkillTianShan1_8		Skills\Common\ice_explode_1.wav		g01_ts_ÌìµØÃ÷Ãğ_zdo		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Thiên Ğ¸a Minh Di®t: bång phong, không th¬ di chuy¬n, không th¬ thao tác, trÕng thái vô ğ¸ch, không th¬ b¸ công kích
+512	122	0	FightSkillXinXiu2_8		Skills\Xx\Xx_ÎüĞÇÊÉÔÂ_»è.wav					0	1	1	0	0		Hàm Tiªu Bán Bµ Diên: phong huy®t, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc ğßşc
+513	99	0	RideHeader3_1							0	0	0	1	0		Thú cßŞi: BÕch Vân
+514	99	0	RideHeader3_2							0	0	0	1	0		Thú cßŞi: H¡c Th±
+#																
+515	515	8500	FightSkillDaLi2_3				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÀ¶		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Bång Kình: 3 thuµc tính kháng ngoài Bång kháng b¸ giäm xu¯ng
+516	515	8500	FightSkillDaLi2_2				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffºì		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Höa Kình: 3 thuµc tính kháng ngoài Höa kháng b¸ giäm xu¯ng
+517	515	8500	FightSkillDaLi2_5				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buff»Æ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Huy«n Kình: 3 thuµc tính kháng ngoài Huy«n kháng b¸ giäm xu¯ng
+518	515	8500	FightSkillDaLi2_4				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÂÌ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ğµc Kình: 3 thuµc tính kháng ngoài Ğµc kháng b¸ giäm xu¯ng
+519	519	8500	FightSkillShaoLin2_8				g01_´Èº½ÆÕ¶È_buff01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		T× Hàng Ph± Ğµ: ğßşc ğ® tØ Thiªu Lâm bäo hµ. Giäm sát thß½ng nh§n ğßşc giäm, ğ°ng th¶i Thiªu Lâm s¨ chia mµt nØa sát thß½ng. Khi hi®u Ñng m¤t ği s¨ gây Ğ¸nh Thân cho 6 møc tiêu · xung quanh.
+520	520	1000	FightSkillShaoLin2_8		Skills\Xx\Xx_ĞşÚ¤ÉñÕÆ.wav		g01_´Èº½ÆÕ¶È_buff±¬Õ¨01		ÉíÌåÖĞĞÄµã	0	0	0	0	0		T× Hàng Ph± Ğµ Bµc Phát: Gây Ğ¸nh Thân 6 giây cho t¯i ğa 6 møc tiêu · xung quanh.
+521	145	0	FightSkillEMei2_11				g01_em_jq_zdo_ÆĞÌá»¤Ìå		ÉíÌåÖĞĞÄµã	0	0	0	1	0		KÛ Gia Chuyên Thuµc: Kích hoÕt KÛ Gia Quang Hoàn, tång 20 ği¬m t¤t cä thuµc tính
+522	522	0	FightSkillDaLi2_1				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buff»Æ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Nµi Thß½ng : Trung Xung Kiªm Công Kích Giäm Kháng Ğ¯i Phß½ng
+523	523	0	FightSkillGaiBang_10							0	0	1	0	0		Thanh Säng Tâm Tình: Tång cß¶ng lñc 26 ği¬m
+524	524	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång nµi lñc 26 ği¬m
+525	525	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång th¬ lñc 26 ği¬m
+526	526	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång trí lñc 26 ği¬m
+527	527	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång cß¶ng lñc, th¬ lñc m²i loÕi 26 ği¬m
+528	528	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång nµi lñc, th¬ lñc m²i loÕi 26 ği¬m
+529	529	1000	Buff10_15							0	0	0	1	0		Thanh Säng Tâm Tình: Tång cß¶ng lñc, nµi lñc, trí lñc, th¬ lñc m²i loÕi 26 ği¬m
+530	530	1000	Buff10_16							0	0	0	1	0		Thanh Lß½ng Tuı İ: chuy¬n 400 ği¬m Chính Xác thành 1000 ği¬m Né Tránh
+531	531	1000	Buff11_1							0	0	0	1	0		Th¥n Thanh Khí Säng: ngoÕi công c½ bän và nµi công c½ bän cüa nhân v§t +15%
+532	532	9100	Buff1_16				boss_Â¬¿¡Òå_»ÆÉ«»ğÑæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Thiên Cang Hoàng Khí: Hoàng ĞÕo Chi Khí, giäm sát thß½ng nh§n ğßşc.
+533	533	9100	Buff2_11				g01_dl_ÖĞ³å½£01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Cang Bá Khí: Bá ĞÕo Chi Khí, phän lÕi công kích.
+534	534	9100	Buff0_10				boss_Â¬¿¡Òå_ÌìÈËÎåË¥		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Thiên Nhân Ngû Suy: Suy BÕi Chi Khí, tång sát thß½ng nh§n ğßşc.
+535	534	1000	Buff11_2				boss_Â¬¿¡Òå_ÌìÈËÎåË¥		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Sát Khí Ôn D¸ch: Sát thß½ng nh§n ğßşc tång 20%. Ğ°ng ğµi và Trân Thú trong phÕm vi 5m xung quanh có th¬ nh§n ğßşc 2% sát thß½ng m²i 2 giây, ğ°ng th¶i b¸ nhi­m sát khí ôn d¸ch.
+536	534	1000	Buff11_2				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Sát Khí Bµc Phát: tång mÕnh lñc t¤n công.
+537	534	1000	Buff0_10				boss_Â¬¿¡Òå_ÌìÈËÎåË¥		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Thiên Sát Cô Tinh: M®nh phÕm sát tinh, sinh m®nh không ng×ng m¤t ği.
+538	534	1000	FightSkillShaoLin1_4				g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tång t¯c ğµ
+539	534	1000	FightSkillShaoLin2_4				g01_buff7		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Sinh Môn: M®nh môn cüa Di®t Thª Ğao Tr§n. Không phäi ch¸u sát thß½ng do Di®t Thª Ğao Tr§n gây ra.
+540	534	1000	Buff0_15		Skills\Sl\Sl_½ğ¸Õ·üÄ§È¦_¶¨Éí.wav		g01_buff27		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Ğ¸nh Thân Phù: M²i 2 giây ch¸u 1 l¥n hi®u quä ğ¸nh thân.
+541	534	1000	Buff0_9	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Phong Huy®t Phù: M²i 2 giây ch¸u 1 l¥n hi®u quä phong huy®t.
+542	534	1000	Buff0_11				buff_hunmi_01		Í·¶¥×´Ì¬µã	0	0	0	1	0		Hôn Mê Phù: M²i 4 giây ch¸u 1 l¥n hi®u quä hôn mê.
+543	534	1000	Buff2_11				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Cß¶ng hóa công kích
+544	680	7500	PetSkill9_7							0	0	0	6	0		Mi­n d¸ch công kích thuµc tính Ğµc
+545	680	7500	PetSkill9_7							0	0	0	6	0		Mi­n d¸ch công kích thuµc tính Huy«n
+546	680	1000	PetSkill9_7							0	0	0	6	0		Kháng ğµc Hß nhßşc
+547	680	1000	PetSkill9_7							0	0	0	6	0		Kháng höa Hß nhßşc
+548	680	1000	PetSkill9_7							0	0	0	6	0		Kháng bång Hß nhßşc
+549	680	1000	PetSkill9_7							0	0	0	6	0		Kháng huy«n Hß nhßşc
+550	680	7500	PetSkill9_7							0	0	0	6	0		Mi­n d¸ch công kích thuµc tính Bång
+551	680	7500	PetSkill9_7							0	0	0	6	0		Mi­n d¸ch công kích thuµc tính Höa
+552	680	1000	FightSkillXiaoYao_15							0	0	0	6	0		Nhân Vong Tr§n: Tång sát thß½ng nh§n ğßşc
+553	680	7500	FightSkillTianShan1_8		Skills\Common\ice_explode_1.wav		g01_ts_ÌìµØÃ÷Ãğ_zdo		½ÅÏÂ¹âÈ¦µã	0	0	0	6	0		Bång Phong
+554	680	8000	Buff11_2				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		ÉíÌåÊÜ»÷µã	0	0	0	6	0		Cu°ng bÕo
+555	555	8000	FightSkillShaoLin2_4				g01_buff7		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Sát Tinh Hµ Th¬: mi­n giäm toàn bµ sát thß½ng
+556	556	7500	FightSkillShaoLin2_4				g01_buff7		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Cô Phß½ng Tñ Thß·ng: Cách ly bän thân v¾i thª gi¾i. Mi­n d¸ch sát thß½ng nµi ngoÕi công, mi­n d¸ch sát thß½ng thuµc tính.
+557	557	8000	Buff0_10				g01_ts_ÌìµØÃ÷Ãğ_zdo		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Cô L§p Vô Vi®n: Dß¾i sñ giúp ğŞ cüa Khô Vinh ĞÕi Sß, phong ¤n ğµng tác cüa Thiên Cô Tinh và Hµ Th¬ Khí Kình.
+558	558	1000	Buff11_2				buff_ÊİÏ÷ÇàÄêÏÀ¿Í»Æ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Hoàng S¡c Yêu Tinh: Hoàng S¡c Yêu Tinh cüa Ngô Døng Phøc Binh.
+559	559	1000	Buff11_2				buff_ÊİÏ÷ÇàÄêÏÀ¿Íºì		ÉíÌåÊÜ»÷µã	0	0	0	1	0		H°ng S¡c Yêu Tinh: H°ng S¡c Yêu Tinh cüa Ngô Døng Phøc Binh.
+560	560	1000	Buff11_2				buff_ÊİÏ÷ÇàÄêÏÀ¿Í×Ï		ÉíÌåÊÜ»÷µã	0	0	0	1	0		TØ S¡c Yêu Tinh: TØ S¡c Yêu Tinh cüa Ngô Døng Phøc Binh.
+561	561	1000	PetSkill8_2							0	0	0	1	0		Phá Bång: giäm kháng Bång
+562	562	1000	PetSkill8_5							0	0	0	1	0		Phá Ğµc: giäm kháng Ğµc 
+563	563	1000	PetSkill7_6							0	0	0	1	0		Phá Höa: giäm kháng Höa
+564	564	1000	PetSkill7_3							0	0	0	1	0		Phá Huy«n: giäm kháng Huy«n
+565	565	1000	FightSkillShaoLin1_13				buff_boss¾ÛÆøÌØĞ§		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Thiên Cang Hµ Th¬: vô ğ¸ch, ğang tø khí
+566	566	1400	RideHeader3_5							0	0	0	1	0		Thú cßŞi: Lßu Ly Phøng
+567	567	1400	RideHeader3_8							0	0	0	1	0		Thú cßŞi: Ngân Nguy®t Lang
+568	568	1400	RideHeader3_12							0	0	0	1	0		Thú cßŞi: Li®t Di­m Sß
+569	569	1400	RideHeader3_7							0	0	0	1	0		Thú cßŞi: Nhß İ H±
+570	570	1400	RideHeader3_10							0	0	0	1	0		Thú cßŞi: Long Huyªt Mã
+571	571	1400	RideHeader3_4							0	0	0	1	0		Thú cßŞi: Vø Änh Ğiêu
+572	572	1400	RideHeader3_6							0	0	0	1	0		Thú cßŞi: ThuÜ Liên HÕc
+573	573	1400	RideHeader3_9							0	0	0	1	0		Thú cßŞi: Th¤t Thái Lµc
+574	574	1400	RideHeader3_11							0	0	0	1	0		Thú cßŞi: Thanh Mao Ngßu
+575	575	1000	RideHeader3_13							0	0	0	1	0		Sí Bàng: Huy­n Vû
+576	576	1400	RideHeader3_14							0	0	0	1	0		Thú cßŞi: Thi¬m Ği®n Ğiêu
+577	577	1400	RideHeader3_15							0	0	0	1	0		Thú cßŞi: Ği®p Vû
+581	581	0	FightSkillMingJiao1_9				m01_mj_Å­»ğÁ¬Õ¶_³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Nµ Höa Liên Träm: Khi t¤n công s¨ tång t¯c ğµ di chuy¬n và sát thß½ng gây ra s¨ tång d¥n
+582	11	0	Buff5_1		Skills\Xy\Xy_»­µØÎªÀÎ_»÷ÖĞ.wav		g01_xy_sf_zdo_»­µØÎªÀÎ		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Bµ Bµ Sinh Hoa: cách mµt khoäng th¶i gian tñ ğµng ğ£t mµt cÕm bçy dß¾i chân
+583	583	0	FightSkillTianShan1_9				m01_ts_±ùÄıËª»ª_³ÖĞø		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Ğóng Bång: không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğánh thÑc
+584	584	0	FightSkillXinXiu2_9				g01_xx_Ê¬±¬_³ÖĞøbuff		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Nh¤t Nh§t Tang M®nh Tán: trong 20 giây møc tiêu tØ vong s¨ gây sát thß½ng ğµc và trÕng thái Th¤t Minh cho các møc tiêu xung quanh, nªu không tØ vong s¨ gây trÕng thái Th¤t Minh cho các møc tiêu xung quanh.
+585	585	0	FightSkillGaiBang_10				g01_gb_½£ÈĞÂÒÎè_³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Hoành Täo Càn Khôn: mi­n d¸ch kÛ nång kh¯ng chª, bän thân không th¬ sØ døng kÛ nång, gây sát thß½ng kéo dài cho nhi«u møc tiêu ğ¯i ğ¸ch · xung quanh
+586	586	0	FightSkillMingJiao_4				g01_buff45_01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Nµ Höa Trung Thiêu: tång t¯c ğµ di chuy¬n
+587	587	0	FightSkillShaoLin2_8							0	0	0	1	0		Sş hãi: Di chuy¬n tuÏ c½, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+#																
+600	600	0	Buff3_4							0	0	0	1	0		Vi®n trş: Gia tång ğ« khán Bång
+601	601	0	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Tân lam quang hoàn: Gia tång t¤t cä thuµc tính
+602	602	0	Buff5_4	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂºì¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Sß ğ° tình thâm: gia tång cß¶ng lñc và nµi lñc
+603	603	0	Function_3	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂ»Æ¹â»·		ÉíÌåÖĞĞÄµã	0	0	0	1	0		M×ng ngày ğoàn viên: gia tång t¤t cä các thuµc tính
+604	604	0	fuqiskill_5	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	Çé±È½ğ¼á		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Tình tÜ kim kiên: gia tång t¤t cä thuµc tính
+605	605	0	Buff5_16	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	buffer_¿Æ¾Ù		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Kim bäng ğ« danh: gia tång hµi công công kích và phòng thü hµi công
+606	606	0	Buff6_1							0	0	0	1	0		Võ lâm minh chü: không th¬ m· bäo rß½ng trong Tung S½n phong thi«n ğài
+607	607	0	Buff6_6							0	0	0	1	0		Di®t: gia tång ngoÕi công công kích
+608	607	0	Buff6_5							0	0	0	1	0		Ch¤n: gia tång nµi công công kích
+609	607	0	Buff6_4							0	0	0	1	0		T¤n: gia tång t¯c ğµ di chuy¬n
+610	607	0	Buff6_3							0	0	0	1	0		HoÕt: tång cß¶ng thân pháp
+611	116	0	Buff6_2							0	0	0	1	0		Sinh: sau khi chªt có th¬ h°i sinh, sau khi h°i sinh máu và khí ğ«u ğ¥y
+612	612	0	CommonNPCHeader7_12							0	0	0	0	0		Bäo hµ cüa Vu CØu Liên: không th¬ di chuy¬n và xu¤t chiêu và cûng không g£p phäi sát thß½ng
+613	613	0	Buff3_15							0	0	0	0	0		T§p trung tinh th¥n, không màng xung quanh
+614	36	0	FightSkillXiaoYao_15							0	1	1	0	0		Hß nhßşc: M· rµng phÕm vi sát thß½ng
+615	615	0	Buff6_12				»î¶¯BUFF_A01		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Thiên Long m×ng tu±i: tång nµi công, ngoÕi công #rCó th¬ ğªn ĞÕi Lı Cung Thái Vân (170,123) nh§n lînh
+616	616	0	Buff6_11				»î¶¯BUFF_B01		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Chân tình h°i quÛ: tång nµi công, ngoÕi công
+617	617	0	PetSkill4_1				cw_shengyou		Í·¶¥×´Ì¬µã	0	0	0	1	0		Quy xác: không phäi ch¸u sát thß½ng ğ°ng th¶i không th¬ di chuy¬n và công kích
+618	618	0	PetSkill3_3				cw_rouqiang		Í·¶¥×´Ì¬µã	0	0	1	0	0		Tu La Chú: giäm nµi thü
+619	619	0	Food_8				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tân Xuân vui vë: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 20 ği¬m #r#YThiên chi giao tØ#r Ğªn#GTä Ğ°ng · Tô Châu#Yğ¬ nh§n#rThiên Long Bát Bµ chúc các hÕ nåm m¾i vui vë!
+620	620	0	Food_8				g01_buff_Ê¥µ®ÀñºĞ02		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tân Xuân vui vë: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 20 ği¬m #r#YThiên chi giao tØ#r Ğªn#GTä Ğ°ng · Tô Châu#Yğ¬ nh§n#rThiên Long Bát Bµ chúc các hÕ nåm m¾i vui vë!
+621	621	0	Food_8				g01_buff_Ê¥µ®ÀñºĞ03		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tân Xuân vui vë: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 20 ği¬m #r#YThiên chi giao tØ#r Ğªn#GTä Ğ°ng · Tô Châu#Yğ¬ nh§n#rThiên Long Bát Bµ chúc các hÕ nåm m¾i vui vë!
+622	622	0	Food_8				g01_buff_Ê¥µ®ÀñºĞ04		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tân Xuân vui vë: th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi tång 20 ği¬m #r#YThiên chi giao tØ#r Ğªn#GTä Ğ°ng · Tô Châu#Yğ¬ nh§n#rThiên Long Bát Bµ chúc các hÕ nåm m¾i vui vë!
+623	623	0	PetSkill4_1				g01_xx_jq_ÉñÄ¾ĞĞ_1		ÉíÌåÖĞĞÄµã	0	0	0	1	0		PhÕm thú Kh¯n: s¨ tñ phát n± sau 10 giây, làm giäm t¯c ğµ di chuy¬n cho 6 møc tiêu lân c§n.
+624	624	0	Buff5_1		Skills\Xy\Xy_»­µØÎªÀÎ_»÷ÖĞ.wav		g01_xy_sf_zdo_»­µØÎªÀÎ		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		PhÕm thú: bao vây, không th¬ di chuy¬n, không th¬ sØ døng b¤t kÏ thao tác nào, ğ°ng th¶i cûng không th¬ công kích.
+625	625	0	PetSkill4_1				g01_xx_jq_ÉñÄ¾ĞĞ_1		ÉíÌåÖĞĞÄµã	0	0	0	1	0		PhÕm thú - Trì: s¨ tñ phát n± sau 10 giây, làm giäm t¯c ğµ di chuy¬n cho 6 møc tiêu lân c§n.
+626	626	0	PetSkill4_1				g01_xx_jq_ÉñÄ¾ĞĞ_1		ÉíÌåÖĞĞÄµã	0	0	0	1	0		PhÕm thú - Biªn: s¨ tñ phát n± sau 10 giây, làm giäm t¯c ğµ di chuy¬n cho 6 møc tiêu lân c§n.
+627	627	0	Buff1_1	g01_yanggetianjun		ÉíÌåÊÜ»÷µã	g01_buff100		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		PhÕm thú: di chuy¬n t¯c ğµ giäm ch§m.
+628	628	0	Buff6_12	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Vui Ch½i Thiên Long: gia tång sát thß½ng ngoÕi công, nµi công #rCó th¬ ğªn ĞÕi Lı g£p Cung Thái Vân (170,123) ğ¬ nh§n.
+629	629	0	Charm4_14				g01_buffÊ¥»ğÊ¹Õß		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Rùa thö chÕy ğua: chï sÑ giä chuy«n lØa m¾i có tß cách ğ¯t Kh±ng Minh Ğång
+632	632	0	PetHeader1_14							0	0	1	0	0		Biªn hình- Ô Quy: biªn thành rùa ğen (không th¬ tñ giäi tr×)
+633	633	0	PetHeader1_25							0	0	1	0	0		Biªn hình- Thö: biªn thành thö (không th¬ tñ giäi tr×)
+634	634	0	Buff7_2				g01_buff»¬µ¹		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Trßşt ngã: trßşt vö dßa ngã, t¯c ğµ di chuy¬n giäm 50%
+635	635	0	Buff7_1				g01_buff»¬ĞĞ		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Trßşt ği: giçm vö dßa trßşt ği, t¯c ğµ di chuy¬n tång 50%
+636	636	0	Buff6_16				g01_buff¶¨Éí		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		ĞÑng yên: b¸ trúng bçy, không th¬ di chuy¬n
+637	637	0	Buff6_14				g01_buff¿Ö¾å		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Sş hãi: b¸ ğ° ch½i con rít d÷a ğªn sş xanh m£t
+638	638	0	Buff6_15				g01_buff»èË¯		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Ngü mê: b¸ kháp thøy trùng c¡n, ngü mê m®t
+639	639	0	Buff6_13				g01_buffÂé±Ô		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Tê li®t: b¸ ong vò vë chích tê li®t, không th¬ cØ ğµng
+640	640	0	Huodong_2_1							0	0	0	0	0		Thánh Höa SÑ Giä
+641	641	0	TaskTools3_7							0	0	0	0	0		Hµ T¯ng Thánh Höa: khi hµ t¯ng Thánh Höa s¨ r½i vào trÕng thái V§n Thâu
+642	641	0	TaskTools3_8							0	0	0	0	0		Tång: 15% nµi thü
+643	463	0	CircularTaskTool17_6				buff_ÖØÂ¥ÄæÌì		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Chân Trùng Lâu Ng÷c: Lúc công kích tång 3% khä nång ch¤n nhiªp h°n phách kë ğ¸ch, làm cho kë ğ¸ch tê li®t, kéo dài trong 20 giây, không th¬ phá giäi.
+644	462	0	CircularTaskTool17_5				buff_ÖØÂ¥ÍûÔÂ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Thú cßŞi: Cñ Viên
+#																
+645	645	0	RideHeader2_7				taiwan_GM		Í·¶¥×´Ì¬µã	1	0	0	1	0		GM chuyên dùng BUFF: tång t¯c, ¦n thân, vô ğ¸ch
+646	646	0	Shenqi_3							1	0	0	0	0		Dung Kim LÕc Dß½ng: Khi ğánh trúng kë ğ¸ch, có th¬ tung ra sát thß½ng cµng hß·ng gây t±n thß½ng thêm cho kë ğ¸ch ğ°ng th¶i tång ngoÕi công cüa bän thân, giäm ngoÕi thü cüa ğ¯i phß½ng trong mµt khoäng th¶i gian.
+647	646	0	Shenqi_2							1	0	0	0	0		Thu Thüy Vô Ngân:  Khi ğánh trúng kë ğ¸ch, có th¬ tung ra sát thß½ng cµng hß·ng gây t±n thß½ng thêm cho kë ğ¸ch ğ°ng th¶i tång ngoÕi công cüa bän thân, giäm ngoÕi thü cüa ğ¯i phß½ng trong mµt khoäng th¶i gian.
+648	646	0	Shenqi_5							1	0	0	0	0		Bích Häi Ngân Ğào:  Khi ğánh trúng kë ğ¸ch, có th¬ tung ra sát thß½ng cµng hß·ng gây t±n thß½ng thêm cho kë ğ¸ch ğ°ng th¶i tång ngoÕi công cüa bän thân, giäm ngoÕi thü cüa ğ¯i phß½ng trong mµt khoäng th¶i gian.
+649	646	0	Shenqi_4							1	0	0	0	0		VÕn Hác Tùng Phong:  Khi ğánh trúng kë ğ¸ch, có th¬ tung ra sát thß½ng cµng hß·ng gây t±n thß½ng thêm cho kë ğ¸ch ğ°ng th¶i tång ngoÕi công cüa bän thân, giäm ngoÕi thü cüa ğ¯i phß½ng trong mµt khoäng th¶i gian.
+650	650	0	Buff2_12				wq_¹íÍ·µ¶´¥·¢		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		D¯c lñc: tång ngoÕi công
+651	651	0	Buff2_13				wq_ÉñÆ÷ÎäÆ÷´¥·¢		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		Tích lñc: tång nµi công
+652	652	0	Buff2_10				wq_ÉñÆ÷ÎäÆ÷´¥·¢		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		Tuy®t di®u: tång hµi công
+653	653	0	Buff2_8				wq_ÕÛÉÈ´¥·¢		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		Tinh di®u: tång chính xác
+654	654	0	Buff2_10				wq_ÉñÆ÷ÎäÆ÷´¥·¢		×óÎäÆ÷°ó¶¨µã	0	0	0	1	0		Tuy®t di®u: tång hµi công
+655	655	0	CommonLiveSkill2_4				g01_buffÆÕÍ¨¹Ò»ú		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		C± Mµ hành công tâm pháp
+656	655	0	CommonLiveSkill2_5				g01_bufÈËÃñ±Ò¹Ò»ú		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Toàn Chân hành công tâm pháp
+658	658	0	Charm4_16							0	0	0	0	0		Biªn hình Th¢ng B¶m: không th¬ nào dùng tay xóa bö
+659	659	0	Charm4_16							0	0	0	0	0		Biªn hình L­ Sß Phø: không th¬ nào dùng tay xóa bö
+660	660	0	PetSkill8_16	cw_jieli		Í·¶¥×´Ì¬µã				0	0	0	0	0		Siêu C¤p Tá Lñc: Tång cß¶ng lñc
+661	661	0	PetSkill8_7	cw_yihun		Í·¶¥×´Ì¬µã				0	0	0	0	0		Siêu C¤p Di H°n: Tång trí lñc
+662	662	0	PetSkill8_14	cw_jiasu		Í·¶¥×´Ì¬µã				0	0	0	0	0		Siêu C¤p Thu¤n Änh: Tång thân pháp
+663	663	0	PetSkill8_11	cw_qiangshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Siêu C¤p Cß¶ng Thân: Tång th¬ lñc
+664	664	0	PetSkill8_4	cw_ningshen		Í·¶¥×´Ì¬µã				0	0	0	0	0		Siêu Cñc Ngßng Th¥n: Tång nµi lñc
+665	665	0	PetSkill8_2							0	0	0	0	0		Bång Cang: tång 50 ği¬m Bång kháng ğ°ng th¶i tång t¤t cä thuµc tính
+666	666	0	PetSkill9_4							0	0	0	0	0		Höa Cang: tång 50 ği¬m Höa kháng ğ°ng th¶i tång t¤t cä thuµc tính
+667	667	0	PetSkill8_5							0	0	0	0	0		Ğµc Cang: tång 50 ği¬m Ğµc kháng ğ°ng th¶i tång t¤t cä thuµc tính
+668	668	0	PetSkill9_1							0	0	0	0	0		Huy«n Cang: tång 50 ği¬m Huy«n kháng ğ°ng th¶i tång t¤t cä thuµc tính
+669	669	0	PetSkill8_1							0	0	0	0	0		ĞÕi Trí Nhßşc Ngu: tång gi¾i hÕn máu, giäm khä nång né tránh và chính xác
+670	670	0	PetSkill9_3							0	0	0	0	0		C± Linh Tinh Quái: tång khä nång chính xác và né tránh, giäm phòng ngñ
+671	671	0	PetSkill8_12							0	0	0	0	0		Thô Trung Hæu Tª: tång phòng ngñ, giäm hµi công
+672	672	0	PetSkill9_2							0	0	0	0	0		Bính TØ Tß½ng Bác: tång hµi công, giäm gi¾i hÕn máu
+673	673	0	PetSkill9_6							0	0	0	0	0		Th¥n Du TÑ Häi: tång nµi công, giäm ngoÕi công
+674	674	0	PetSkill9_9							0	0	0	0	0		Lñc BÕt S½n Hà: tång ngoÕi công, giäm nµi công
+675	675	0	PetSkill8_3							0	0	0	1	0		Siêu C¤p Th¯ng Kích: tång ğµ chính xác
+676	676	0	PetSkill8_6							0	0	0	2	0		Siêu C¤p Mãnh Kích: tång ğµ chính xác
+677	677	0	PetSkill9_10							0	0	0	3	0		Cñc Bång Chú: tång Bång công
+678	678	0	PetSkill9_8							0	0	0	4	0		Minh Höa Chú: tång Höa công
+679	679	0	PetSkill9_5							0	0	0	5	0		Thiên Lôi Chú: tång Huy«n công
+680	680	0	PetSkill9_7							0	0	0	6	0		Th¸ Ğµc Chú: tång Ğµc công
+681	13	0	Buff0_9				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Phong huy®t: Không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+682	23	0	Buff1_1				g01_buff100		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Cß½ng nghÕnh: T¯c ğµ di chuy¬n ch§m
+683	619	0	Treasure3_2				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		T¯ng Phiêu Hß½ng: v×a m¾i dùng xong miªng bánh th½m ngon, cäm th¤y khí lñc toàn thân, tång t¤t cä thuµc tính 5 ği¬m
+684	684	0	Shenqi_3_5							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 12 ği¬m
+685	685	0	Shenqi_3_1							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 15 ği¬m
+686	686	0	Shenqi_3_3							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 18 ği¬m
+687	687	0	Shenqi_3_9							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 21 ği¬m
+688	688	0	Shenqi_3_6							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 24 ği¬m
+689	689	0	Shenqi_3_2							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 27 ği¬m
+690	690	0	Shenqi_3_4							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 30 ği¬m
+691	691	0	Shenqi_3_7							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 33 ği¬m
+692	692	0	Shenqi_3_8							1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 36 ği¬m
+693	700	0	Huodong_3_1				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 39 ği¬m
+694	700	0	Huodong_3_1				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	1	0	0	0	0		Chúc m×ng Tªt Ğoan Ng÷: Tång t¤t cä thuµc tính 9 ği¬m
+#																
+700	700	0	TaskTools4_12							1	0	0	0	0		Chiªu bài : Nghê H°ng Ğång
+701	700	0	TaskTools4_12							1	0	0	0	0		Chiªu bài: Ğao kiªm tranh phong
+702	700	0	TaskTools4_12							1	0	0	0	0		Chiªu bài: Thiªt giáp ğ°ng bích
+703	700	0	TaskTools4_12							1	0	0	0	0		Chiªu bài: Trân c¥m d¸ thú
+704	700	0	TaskTools4_12							1	0	0	0	0		Chiªu bài: Kim Tñ Chiªu bài
+705	343	0	Treasure_12							1	0	0	0	0		Càn khôn bôi: Tñ ğµng thu th§p v§t ph¦m lúc quái v§t r¾t ra
+706	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 6 ği¬m t¤t cä thuµc tính
+707	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 9 ği¬m t¤t cä thuµc tính
+708	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 12 ği¬m t¤t cä thuµc tính
+709	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 15 ği¬m t¤t cä thuµc tính
+710	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 18 ği¬m t¤t cä thuµc tính
+711	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 21 ği¬m t¤t cä thuµc tính
+712	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 24 ği¬m t¤t cä thuµc tính
+713	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 27 ği¬m t¤t cä thuµc tính
+714	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 30 ği¬m t¤t cä thuµc tính
+715	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 33 ği¬m t¤t cä thuµc tính
+716	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 36 ği¬m t¤t cä thuµc tính
+717	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoà Hài Quang Hoàn: tång 39 ği¬m t¤t cä thuµc tính
+718	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 6 ği¬m
+719	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 9 ği¬m
+720	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 12 ği¬m
+721	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 15 ği¬m
+722	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 18 ği¬m
+723	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 21 ği¬m
+724	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 24 ği¬m
+725	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 27 ği¬m
+726	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 30 ği¬m
+727	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 33 ği¬m
+728	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 36 ği¬m
+729	700	1000	Buff10_10				buff_ÀÍ¶¯×î¿ìÀÖ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lao Ğµng Vui Vë: Tång t¤t cä thuµc tính 39 ği¬m
+730	700	1000					ÌÒ»¨Õóµ×ÅÌ		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		
+731	700	1000					ÌÒ»¨Õóµ×ÅÌÂÌ		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		
+732	700	1000	Buff2_12							1	0	0	0	0		Lam S¡c Ph§t Ğång: Nµi ngoÕi công c½ bän tång 100%
+733	700	7500	FightSkillShaoLin1_13							1	0	0	0	0		H°ng S¡c Ph§t Ğång: mi­n d¸ch sát thß½ng
+734	646	2000	Shenqi_4							1	0	0	0	0		Ğánh trúng kë ğ¸ch có khä nång ra ğòn Tinh di®u nh¤t kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång Chính xác cüa bän thân, giäm Né tránh cüa ğ¯i phß½ng 
+735	811	2000	PetSkill6_8	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Nµi ngoÕi thü giäm 2400
+736	812	2000	PetSkill6_6	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Nµi ngoÕi công giäm 2400
+737	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 10 ği¬m, duy trì 30 phút
+738	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 16 ği¬m, duy trì 30 phút
+739	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 22 ği¬m, duy trì 30 phút
+740	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 28 ği¬m, duy trì 30 phút
+741	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 34 ği¬m, duy trì 30 phút
+742	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chúc phúc cüa lão hæu, t¤t cä thuµc tính tång 40 ği¬m, duy trì 30 phút
+743	743	1000	Buff11_4				buff_ÀÏÓÑ¹éÀ´		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Lão Hæu Quy Lai: khi ğánh quái có th¬ nh§n ğßşc thêm 20% kinh nghi®m. Hi®u quä duy trì 7 ngày.
+744	744	1000	Buff11_11				buff_»¶ÀÖÃ×½¬		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Hoan LÕc M­ Tß½ng. T¤t cä thuµc tính nhân v§t +8, duy trì 15 phút. Khi mang trong ngß¶i loÕi quang hoàn này, ngß¶i ch½i khác có th¬ ğªn nh¶ các hÕ giúp ğŞ sØ døng Ğoàn Viên Nhu M­ chª thành Niên Cao.
+745	745	1000	Buff11_13				buff_½ø±¦Ã×½¬		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Tiªn Bäo M­ Tß½ng. Th¬ lñc cüa nhân v§t +15, duy trì 15 phút. Khi mang trong ngß¶i loÕi quang hoàn này, ngß¶i ch½i khác có th¬ ğªn nh¶ các hÕ giúp ğŞ sØ døng Chiêu Tài Nhu M­ chª thành Niên Cao.
+746	746	1000	Buff11_12				buff_ĞÒ¸£Ã×½¬		ÉíÌåÖĞĞÄµã	1	0	0	0	0		HÕnh Phúc M­ Tß½ng. Thân pháp cüa nhân v§t +15, duy trì 15 phút. Khi mang trong ngß¶i loÕi quang hoàn này, ngß¶i ch½i khác có th¬ ğªn nh¶ các hÕ giúp ğŞ sØ døng Ği«m MÛ Nhu M­ chª thành Niên Cao.
+747	699	1000	RideHeader2_7							1	0	0	1	0		Tuyªn Thßşng Chí Nguy®n Giä
+748	748	1000	Charm7_2							0	0	0	1	0		Ph¥n thß·ng nh§n ğßşc khi tham gia hoÕt ğµng Kim Ng÷c Mãn Ğß¶ng, t¤t cä thuµc tính tång 10 ği¬m.
+749	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+10. Duy trì 30 phút.
+750	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+16. Duy trì 30 phút.
+751	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+22. Duy trì 30 phút.
+752	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+28. Duy trì 30 phút.
+753	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+34. Duy trì 30 phút.
+754	749	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Mai Khôi Chúc Phúc: t¤t cä thuµc tính+40. Duy trì 30 phút.
+755	755	1000	Buff11_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Túc C¥u Quang Hoàn: t¤t cä sát thß½ng gây ra tång 10%
+756	756	0	Shenqi_13							1	0	0	0	0		ĞÕi HÕ Long Tß¾c: có tÖ l® hút máu cüa møc tiêu
+757	757	0	Shenqi_13							1	0	0	0	0		ĞÕi HÕ Long Tß¾c: có tÖ l® giäm t¯c ğµ di chuy¬n cüa ğ¯i phß½ng
+758	758	0	Shenqi_13							1	0	0	0	0		ĞÕi HÕ Long Tß¾c: có tÖ l® tr× nµi thü, ngoÕi thü phòng ngñ cüa ğ¯i phß½ng
+759	759	0	Shenqi_12							1	0	0	0	0		ĞÕi Thß½ng Tr¥n Änh: có tÖ l® hút máu cüa møc tiêu
+760	760	0	Shenqi_12							1	0	0	0	0		ĞÕi Thß½ng Tr¥n Änh: có tÖ l® hút khí cüa møc tiêu
+761	761	0	Shenqi_12							1	0	0	0	0		ĞÕi Thß½ng Tr¥n Änh: có tÖ l® tr× nµi thü, ngoÕi thü phòng ngñ cüa ğ¯i phß½ng
+762	762	0	Shenqi_6							1	0	0	0	0		ĞÕi Châu Lam DÕ: có tÖ l® hút máu cüa møc tiêu
+763	763	0	Shenqi_6							1	0	0	0	0		ĞÕi Châu Lam DÕ: có tÖ l® giäm sát thß½ng ngoÕi công, nµi công cüa ğ¯i phß½ng gây ra
+764	764	0	Shenqi_6							1	0	0	0	0		ĞÕi Châu Lam DÕ: có tÖ l® tr× nµi, ngoÕi thü phòng ngñ cüa ğ¯i phß½ng
+765	765	0	Shenqi_9							1	0	0	0	0		ĞÕi T¥n Phong Ğích: có tÖ l® hút máu cüa møc tiêu
+766	766	0	Shenqi_9							1	0	0	0	0		ĞÕi T¥n Phong Ğích: có tÖ l® giäm t¯c ğµ di chuy¬n cüa ğ¯i phß½ng
+767	767	0	Shenqi_9							1	0	0	0	0		ĞÕi T¥n Phong Ğích: có tÖ l® giäm sát thß½ng ngoÕi công, nµi công cüa ğ¯i phß½ng gây ra
+768	768	0	Shenqi_10							1	0	0	0	0		ĞÕi Hán Ho¢ng Cß½ng: có tÖ l® hút máu cüa møc tiêu
+769	769	0	Shenqi_10							1	0	0	0	0		ĞÕi Hán Ho¢ng Cß½ng: có tÖ l® hút khí cüa møc tiêu
+770	770	0	Shenqi_10							1	0	0	0	0		ĞÕi Hán Ho¢ng Cß½ng: có tÖ l® giäm sát thß½ng ngoÕi , nµi công cüa ğ¯i phß½ng gây ra
+771	771	0	Shenqi_7							1	0	0	0	0		ĞÕi T¤n Tinh Ngân: có tÖ l® hút máu cüa møc tiêu
+772	772	0	Shenqi_7							1	0	0	0	0		ĞÕi T¤n Tinh Ngân: có tÖ l® giäm nµ khí cüa ğ¯i phß½ng
+773	773	0	Shenqi_7							1	0	0	0	0		ĞÕi T¤n Tinh Ngân: có tÖ l® giäm sát thß½ng ngoÕi , nµi công cüa ğ¯i phß½ng gây ra
+774	775	0	Shenqi_11							1	0	0	0	0		ĞÕi TuÏ Ngßng Sß½ng: có tÖ l® giäm t¯c ğµ di chuy¬n cüa ğ¯i phß½ng
+775	774	0	Shenqi_11							1	0	0	0	0		ĞÕi TuÏ Ngßng Sß½ng: có tÖ l® hút máu cüa møc tiêu
+776	776	0	Shenqi_11							1	0	0	0	0		ĞÕi TuÏ Ngßng Sß½ng: có tÖ l® giäm sát thß½ng ngoÕi , nµi công cüa ğ¯i phß½ng gây ra
+777	777	0	Shenqi_14							1	0	0	0	0		ĞÕi Ğß¶ng Côn NhÕc: có tÖ l® hút máu cüa møc tiêu
+778	778	0	Shenqi_14							1	0	0	0	0		ĞÕi Ğß¶ng Côn NhÕc: có tÖ l® giäm t¯c ğµ di chuy¬n cüa ğ¯i phß½ng
+779	779	0	Shenqi_14							1	0	0	0	0		ĞÕi Ğß¶ng Côn NhÕc: có tÖ l® giäm sát thß½ng ngoÕi , nµi công cüa ğ¯i phß½ng gây ra
+780	780	0	Shenqi_8							1	0	0	0	0		ĞÕi T¯ng Quân S¥m: có tÖ l® hút máu cüa møc tiêu
+781	781	0	Shenqi_8							1	0	0	0	0		ĞÕi T¯ng Quân S¥m: có tÖ l® hút khí cüa møc tiêu
+782	782	0	Shenqi_8							1	0	0	0	0		ĞÕi T¯ng Quân S¥m: có tÖ l® giäm sát thß½ng ngoÕi , nµi công cüa ğ¯i phß½ng gây ra
+783	783	0	Shenqi_13				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi HÕ Long Tß¾c: hút máu møc tiêu
+784	784	0	Shenqi_13				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi HÕ Long Tß¾c: t¯c ğµ di chuy¬n cüa møc tiêu giäm 40% 
+785	785	0	Shenqi_13				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi HÕ Long Tß¾c: tr× 1923 ği¬m nµi , ngoÕi thü phòng ngñ cüa møc tiêu
+786	786	0	Shenqi_12				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Thß½ng Tr¥n Änh: hút máu møc tiêu
+787	787	0	Shenqi_12				wq_ÎüÆø´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Thß½ng Tr¥n Änh: hút khí møc tiêu
+788	788	0	Shenqi_12				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Thß½ng Tr¥n Änh: tr× 1923 ği¬m nµi , ngoÕi thü phòng ngñ cüa møc tiêu
+789	789	0	Shenqi_6				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Châu Lam DÕ: hút máu møc tiêu
+790	790	0	Shenqi_6				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Châu Lam DÕ: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+791	791	0	Shenqi_6				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Châu Lam DÕ: tr× 1923 ği¬m nµi , ngoÕi thü phòng ngñ cüa møc tiêu
+792	792	0	Shenqi_9				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¥n Phong Ğích: hút máu møc tiêu
+793	793	0	Shenqi_9				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¥n Phong Ğích: t¯c ğµ di chuy¬n cüa møc tiêu giäm 40%
+794	794	0	Shenqi_9				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¥n Phong Ğích: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+795	795	0	Shenqi_10				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Hán Ho¢ng Cß½ng: hút máu møc tiêu
+796	796	0	Shenqi_10				wq_ÎüÆø´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Hán Ho¢ng Cß½ng: hút khí møc tiêu
+797	797	0	Shenqi_10				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Hán Ho¢ng Cß½ng: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+798	798	0	Shenqi_7				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¤n Tinh Ngân: hút máu møc tiêu
+799	799	0	Shenqi_7				wq_´òÅ­´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¤n Tinh Ngân: giäm nµ khí cüa møc tiêu
+800	800	0	Shenqi_7				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¤n Tinh Ngân: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+801	801	0	Shenqi_11				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi TuÏ Ngßng Sß½ng: t¯c ğµ di chuy¬n cüa møc tiêu giäm 40%
+802	802	0	Shenqi_11				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi TuÏ Ngßng Sß½ng: hút máu møc tiêu
+803	803	0	Shenqi_11				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi TuÏ Ngßng Sß½ng: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+804	804	0	Shenqi_14				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Ğß¶ng Côn NhÕc: hút máu møc tiêu
+805	805	0	Shenqi_14				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Ğß¶ng Côn NhÕc: t¯c ğµ di chuy¬n cüa møc tiêu giäm 40%
+806	806	0	Shenqi_14				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Ğß¶ng Côn NhÕc: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+807	807	0	Shenqi_8				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¯ng Quân S¥m: hút máu møc tiêu
+808	808	0	Shenqi_8				wq_ÎüÆø´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¯ng Quân S¥m: hút khí møc tiêu
+809	809	0	Shenqi_8				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¯ng Quân S¥m: tr× 1923 ği¬m sát thß½ng ngoÕi , nµi công cüa møc tiêu
+810	810	0	PetSkill6_15	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Giäm T¯c: tr× 40% t¯c ğµ di chuy¬n
+811	811	0	PetSkill6_8	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Phá trán: tr× 1923 ği¬m ngoÕi , nµi thü phòng ngñ
+812	812	0	PetSkill6_6	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Hß nhßşc: tr× 1923 ği¬m ngoÕi , nµi công công kích
+813	813	0	Buff9_7							1	0	0	0	0		Ph± Ğµ: khi ğánh trúng møc tiêu có xác su¤t giäm 30 ği¬m kháng Huy«n cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+814	814	0	Buff9_10							1	0	0	0	0		Ph¥n H°n: khi ğánh trúng møc tiêu có xác su¤t giäm 30 ği¬m kháng Höa cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+815	815	0	Buff9_8							1	0	0	0	0		Viêm Ğµc: khi ğánh trúng møc tiêu có xác su¤t giäm 20 ği¬m kháng Ğµc và kháng Höa cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+816	816	0	Buff9_6							1	0	0	0	0		Hàn Lôi: khi ğánh trúng møc tiêu có xác su¤t giäm 20 ği¬m kháng Ğµc và kháng Höa cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+817	817	0	Buff9_13							1	0	0	0	0		S§u Sß½ng: khi ğánh trúng møc tiêu có xác su¤t giäm 20 ği¬m kháng Bång và kháng Huy«n cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+818	818	0	Buff9_12							1	0	0	0	0		Ph® Tâm: khi ğánh trúng møc tiêu có xác su¤t giäm 30 ği¬m kháng Ğµc cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+819	819	0	Buff9_9							1	0	0	0	0		Thích C¯t: khi ğánh trúng møc tiêu có xác su¤t giäm 30 ği¬m kháng Bång cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+820	820	0	Buff9_5							1	0	0	0	0		Bích Höa: khi ğánh trúng møc tiêu có xác su¤t giäm 20 ği¬m kháng Höa và kháng Ğµc cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+821	821	0	Buff9_11							1	0	0	0	0		Th¥n Quang: khi ğánh trúng møc tiêu có xác su¤t giäm 10 ği¬m t¤t cä tính kháng cüa ğ¯i phß½ng, có th¬ làm giäm thuµc tính kháng cüa møc tiêu xu¯ng âm
+822	822	0	Buff9_7							0	0	1	0	0		Ph± Ğµ: tr× 30 ği¬m kháng huy«n cüa ğ¯i phß½ng
+823	823	0	Buff9_10							0	0	1	0	0		Phân H°n: tr× 30 ği¬m kháng höa cüa ğ¯i phß½ng
+824	824	0	Buff9_8							0	0	1	0	0		Viêm Ğµc: tr× 20 ği¬m kháng ğµc và kháng höa cüa ğ¯i phß½ng
+825	825	0	Buff9_6							0	0	1	0	0		Hàn Lôi: tr× 20 ği¬m kháng huy«n và kháng bång cüa ğ¯i phß½ng
+826	826	0	Buff9_13							0	0	1	0	0		Sâu Sß½ng: tr× 20 ği¬m kháng bång và kháng huy«n cüa ğ¯i phß½ng
+827	827	0	Buff9_12							0	0	1	0	0		Phê Tâm: tr× 30 ği¬m kháng ğµc cüa ğ¯i phß½ng
+828	828	0	Buff9_9							0	0	1	0	0		Thích C¯t: tr× 30 ği¬m kháng bång cüa ğ¯i phß½ng
+829	829	0	Buff9_5							0	0	1	0	0		Bích Hoä: tr× 20 ği¬m kháng ğµc và kháng höa cüa ğ¯i phß½ng
+830	830	0	Buff9_11							0	0	1	0	0		Th¥n Quang: tr× 15 ği¬m t¤t cä thuµc tính kháng cüa ğ¯i phß½ng
+831	831	0	Ore2_3	kvk_zc_ÇàÁúÕ½³µ_buff		½ÅÏÂ¹âÈ¦µã				0	0	1	0	0		Phát ğµng công kích chiªn xa
+832	832	0	Ore2_3	kvk_zc_°×»¢Õ½³µ_buff		½ÅÏÂ¹âÈ¦µã				0	0	1	0	0		Phát ğµng công kích chiªn xa
+833	833	0	Ore2_3	kvk_zc_ÖìÈ¸Õ½³µ_buff		½ÅÏÂ¹âÈ¦µã				0	0	1	0	0		Phát ğµng công kích chiªn xa
+834	834	0	Ore2_3	kvk_zc_ĞşÎäÕ½³µ_buff		½ÅÏÂ¹âÈ¦µã				0	0	1	0	0		Phát ğµng công kích chiªn xa
+835	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		H¤p thø sinh m®nh cüa møc tiêu
+836	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		H¤p thø chân khí cüa møc tiêu
+837	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ğã giäm 2400 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+838	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+839	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ğã giäm 45% t¯c ğµ di chuy¬n cüa 1 møc tiêu
+840	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Giäm nµ khí cüa møc tiêu
+841	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Có khä nång h¤p thø sinh m®nh cüa møc tiêu
+842	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Có khä nång giäm t¯c ğµ di chuy¬n cüa møc tiêu
+843	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Có khä nång giäm nµi ngoÕi thü cüa møc tiêu 
+844	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Có khä nång h¤p thø chân khí cüa møc tiêu
+845	700	0	Buff10_5				buff_ºÍĞ³¹â»·01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Có khä nång giäm nµi ngoÕi công cüa møc tiêu 
+#																
+850	850	0	Buff7_11				g01_buff5		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng ngoÕi công
+851	851	0	Buff7_12				g01_buff5		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng nµi công
+852	852	0	Buff7_14							1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng ngoài thuµc tính Bång công ra
+853	853	0	Buff7_13							1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng ngoài thuµc tính Höa công ra
+854	854	0	Buff7_15							1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng ngoài thuµc tính Huy«n công ra
+855	855	0	Buff7_16							1	0	0	0	0		Xu¤t Th± Vån V§t: mi­n d¸ch t¤t cä sát thß½ng ngoài thuµc tính Ğµc công ra
+856	856	0	Buff7_3				boss_Æ®Ãì·å¹ş´ó°Ôbuff01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Huy«n Xu Chi Th¯ng: t¤n công vào huy®t sinh tØ, không th¬ di chuy¬n, nhßng sát thß½ng gây ra lúc này tång g¤p ğôi
+857	857	0	Buff7_5				boss_Æ®Ãì·å¹ş´ó°Ôbuff03		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Khí Häi Chi Th¯ng: t¤n công vào huy®t sinh tØ, sát thß½ng khi nh§n phäi tång g¤p ğôi
+858	858	0	Buff7_4				boss_Æ®Ãì·å¹ş´ó°Ôbuff02		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ty Trúc Không Chi Th¯ng: t¤n công vào huy®t sinh tØ, løc thân b¤t nh§n, và không th¬ ch÷n møc tiêu t¤n công
+859	859	0	Buff7_6				boss_Æ®Ãì·åÎÚÀÏ´óbuff·è¿ñ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Phong Cu°ng: nâng cao sát thß½ng và t¯c ğµ di chuy¬n lên cñc ğÕi
+860	860	0	Buff0_15				g01_buff27		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Na Lı T¦u: làm cho ğ¯i phß½ng không th¬ di chuy¬n
+861	861	0	Buff8_3		Skills\Common\½ğ¼×Ã÷¾µ.wav		boss_Æ®Ãì·å×¿²»·²03		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Kim Giáp: mi­n d¸ch sát thß½ng ngoÕi công
+862	862	0	Buff8_4		Skills\Common\½ğ¼×Ã÷¾µ.wav		boss_Æ®Ãì·å×¿²»·²02		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Minh Kính: mi­n d¸ch sát thß½ng nµi công
+863	863	0	Buff7_7				boss_Æ®Ãì·å×¿²»·²01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Huynh Ğ®: trÕng thái phçn nµ, nâng cao sát thß½ng và t¯c ğµ di chuy¬n
+864	864	0	Buff8_5		Skills\Common\ÑÌ»¨¡¢°µÀ×.wav		boss_Æ®Ãì·å²»Æ½µÀÈË02		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ám Lôi: thân trung ám lôi, sau khi bùng n± s¨ tÕo mµt lßşng sát thß½ng lên các møc tiêu xung quanh 
+865	865	0	Buff8_5		Skills\Common\ÑÌ»¨¡¢°µÀ×.wav		boss_Æ®Ãì·å²»Æ½µÀÈË04		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Ám Lôi: thân trung ám lôi, sau khi bùng n± s¨ tÕo mµt lßşng sát thß½ng lên các møc tiêu xung quanh 
+866	866	0	Buff8_6		Skills\Common\½ğ¼×Ã÷¾µ.wav		boss_Æ®Ãì·å²»Æ½µÀÈË03		½ÅÏÂ¹âÈ¦µã	1	0	0	0	0		Tinh Toán: giäm sát thß½ng ngoÕi công, nµi công nh§n phäi, ğ°ng th¶i tång g¤p ğôi sát thß½ng gây ra.
+867	867	0	Buff9_2							0	0	0	0	0		Hæu Thú: m²i giây h°i phøc mµt ít lßşng máu
+868	868	0	Buff9_4							0	0	0	0	0		Ch¤n Nhiªp: m²i giây hao t±n mµt ít lßşng máu
+869	869	0	Buff7_10							0	0	0	0	0		Ngßu Mao Ğµc Châm: dùng ğµc châm làm giäm t¯c ğµ di chuy¬n ğ¯i phß½ng xu¯ng th¤p
+870	870	0	Buff8_1							0	0	0	0	0		Ğµc Tính Biªn Hoán: giäm kháng ğµc xu¯ng 180 ği¬m
+871	871	0	Buff8_2				g01_buff32		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Ma Tı Ğµc Dßşc: thñc c¯t chi ğµc, m²i giây nh§n phäi mµt lßşng sát thß½ng nh¤t ğ¸nh
+872	872	0	Buff8_9							0	0	0	0	0		Hàn Bång: ğóng bång ğ¯i phß½ng, làm giäm t¯c ğµ di chuy¬n xu¯ng th¤p
+873	873	0	FightSkillDaLi_4							0	0	0	0	0		Hæu Thú: tång t¯c ğµ di chuy¬n lên 15%
+874	874	0	Buff1_1	g01_yanggetianjun		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Ch¤n Nhiªp: giäm t¯c ğµ di chuy¬n xu¯ng 15%
+875	875	0	Buff8_12				boss_ÀîÇïË®04		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-Nµi
+876	875	0	Buff8_13				boss_ÀîÇïË®06		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-Höa
+877	875	0	Buff8_15				boss_ÀîÇïË®11		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-NgoÕi
+878	875	0	Buff8_14				boss_ÀîÇïË®14		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-Huy«n
+879	875	0	Buff8_11				boss_ÀîÇïË®16		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-Bång
+880	875	0	Buff8_10				boss_ÀîÇïË®18		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Kiªm Vû-Ğµc
+881	881	0	Buff8_12							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû Nµi
+882	881	0	Buff8_13							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû Höa
+883	881	0	Buff8_15							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû NgoÕi
+884	881	0	Buff8_14							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû Huy«n
+885	881	0	Buff8_11							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû Bång
+886	881	0	Buff8_10							0	0	0	0	0		Kiªm Vû Mi­n D¸ch: Mi­n d¸ch Lı Thu ThuÖ kiªm vû Ğµc
+887	887	0	Buff9_1							0	0	0	0	0		Hæu Thú: m²i giây s¨ hµi phøc mµt ít lßşng khí
+888	888	0	Buff9_3							0	0	0	0	0		Ch¤n Nhiªp: m²i giây s¨ làm giäm mµt ít lßşng khí
+889	99	0	Ride2_5							0	0	0	1	0		Thú cßŞi: Bích Thüy Kim Tình Thú
+890	890	0	Buff0_16				buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Không th¬ sØ døng b¤t cÑ chiêu thÑc nào
+891	891	0	Buff8_1							0	0	0	0	0		Ğµc Tính Biªn Hoán: giäm kháng ğµc xu¯ng 1 ği¬m
+892	892	0	FabaoDaoju_1							0	-1	-1	0	0		Ti¬u Minh Møc Ğan: kinh nghi®m có ğßşc khi dùng ám khí tång 1,5 l¥n
+893	893	0	FabaoDaoju_5							0	-1	-1	0	0		ĞÕi Minh Møc Ğan: kinh nghi®m có ğßşc khi dùng ám khí tång 1,5 l¥n
+894	894	0	Buff8_2				g01_buff32		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Nguy«n rüA:liên tøc m¤t máu
+900	900	0	Buff5_9				»î¶¯BUFF_A01		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Thái Hoàng Chiªn Th¥n: tång ngoÕi công, nµi công công kích c½ bän cüa nhân v§t.
+901	655	0	haiwai1_1				g01_xy_jq_»Æ½ğ¼×_1		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Phu Thê Hành Công tâm pháp
+902	902	1000	Buff1_6							0	0	0	1	0		Tång: 10% gi¾i hÕn huyªt
+903	903	1000	Buff1_7							0	0	0	1	0		Tång: 10% gi¾i hÕn khí
+904	904	1000	Buff1_8							0	0	0	1	0		Tång: 15% ngoÕi công
+905	905	1000	Buff1_9							0	0	0	1	0		Tång: 15% nµi công
+906	906	1000	Buff1_10							0	0	0	1	0		Tång: 15% ngoÕi thü
+907	907	1000	TaskTools3_8							0	0	0	1	0		Tång: 15% nµi thü
+908	908	1000	Buff1_6							0	0	0	1	0		Tång: 11% gi¾i hÕn huyªt
+909	909	1000	Buff1_7							0	0	0	1	0		Tång: 11% gi¾i hÕn khí
+910	910	1000	Buff1_8							0	0	0	1	0		Tång: 16% ngoÕi công
+911	911	1000	Buff1_9							0	0	0	1	0		Tång: 16% nµi công
+912	912	1000	Buff1_10							0	0	0	1	0		Tång: 16% ngoÕi thü
+913	913	1000	TaskTools3_8							0	0	0	1	0		Tång: 16% nµi thü
+914	914	1000	Buff1_6							0	0	0	1	0		Tång: 11% gi¾i hÕn huyªt
+915	915	1000	Buff1_7							0	0	0	1	0		Tång: 11% gi¾i hÕn khí
+916	916	1000	Buff1_8							0	0	0	1	0		Tång: 17% ngoÕi công
+917	917	1000	Buff1_9							0	0	0	1	0		Tång: 17% nµi công
+918	918	1000	Buff1_10							0	0	0	1	0		Tång: 17% ngoÕi thü
+919	919	1000	TaskTools3_8							0	0	0	1	0		Tång: 17% nµi thü
+920	920	1000	Buff1_6							0	0	0	1	0		Tång: 12% gi¾i hÕn huyªt
+921	921	1000	Buff1_7							0	0	0	1	0		Tång: 12% gi¾i hÕn khí
+922	922	1000	Buff1_8							0	0	0	1	0		Tång: 18% ngoÕi công
+923	923	1000	Buff1_9							0	0	0	1	0		Tång: 18% nµi công
+924	924	1000	Buff1_10							0	0	0	1	0		Tång: 18% ngoÕi thü
+925	925	1000	TaskTools3_8							0	0	0	1	0		Tång: 18% nµi thü
+926	926	1000	Buff12_2							1	0	0	0	0		Tham Nµ Ği¬n C¯-Kh·i: Tham Nµ Ği¬n C¯, cß¶ng lñc+30, nµi lñc+30
+927	927	1000	Buff12_2							1	0	0	0	0		Tham Nµ Ği¬n C¯-Th×a: Tham Nµ Ği¬n C¯, cß¶ng lñc+30, nµi lñc+30
+928	928	1000	Buff12_2							1	0	0	0	0		Tham Nµ Ği¬n C¯-Chuy¬n: Tham Nµ Ği¬n C¯, cß¶ng lñc+30, nµi lñc+30
+929	929	1000	Buff12_2							1	0	0	0	0		Tham Nµ Ği¬n C¯-Hşp: Tham Nµ Ği¬n C¯, cß¶ng lñc+30, nµi lñc+30
+930	930	0	FightSkillDaLi2_3							1	0	0	0	0		Nµi Thß½ng : Trung Xung Kiªm Công Kích Giäm Kháng Ğ¯I Phß½ng
+931	931	0	FightSkillDaLi2_2							1	0	0	0	0		Bång Thuµc Tß¾ng : M®nh Trúng Ğ¸ch B¤t Khä Kháng
+932	932	0	FightSkillDaLi2_5							1	0	0	0	0		Höa Thuµc Tß¾ng : M®nh Trúng Ğ¸ch B¤t Khä Kháng
+933	933	0	FightSkillDaLi2_4							1	0	0	0	0		Huy«n Thuµc Tß¾ng : M®nh Trúng Ğ¸ch B¤t Khä Kháng
+934	934	0	FightSkillDaLi2_3							0	0	1	0	0		Ğµc Thuµc Tß¾ng : M®nh Trúng Ğ¸ch B¤t Khä Kháng
+935	935	0	FightSkillDaLi2_2							0	0	1	0	0		Phá Kháng : Bång Kháng Hàng
+936	936	0	FightSkillDaLi2_5							0	0	1	0	0		Phá Kháng : Höa Kháng Hàng
+937	937	0	FightSkillDaLi2_4							0	0	1	0	0		Phá Kháng : Huy«n Kháng Hàng
+#																Phá Kháng : Ğµc Kháng Hàng
+950	99	0	Ride2_4							0	0	0	1	0		V§n chuy¬n
+951	99	0	RideHeader4_13							0	0	0	1	0		Hß nhßşc: sát thß½ng nh§n ğßşc tång 50%
+955	955	1000	PetEquipBuff1_9							0	0	0	1	0		Tång tÖ l® phóng ra kÛ nång Liên Kích
+956	956	1000	PetEquipBuff1_5							0	0	0	1	0		Tång tÖ l® phóng ra kÛ nång Mãnh Kích
+957	957	1000	PetEquipBuff1_4							0	0	0	1	0		Khi phóng thích kÛ nång Mãnh Kích tång thêm ngoÕi công
+958	958	1000	PetEquipBuff1_3							0	0	0	1	0		Tång tÖ l® phóng ra kÛ nång Th¯ng Kích
+959	959	1000	PetEquipBuff1_8							0	0	0	1	0		Tång tÖ l® phóng ra kÛ nång Li®t Höa Chú, Huy«n Lôi Chú, Huyªt Ğµc Chú, Hàn Bång Chú
+960	960	1000	PetEquipBuff1_2							0	0	0	1	0		Khi phóng thích kÛ nång Mãnh Kích tång thêm nµi công
+961	961	1000	PetEquipBuff1_7							0	0	0	1	0		Khi phòng thích Li®t Höa Chú, Huy«n Lôi Chú, Huyªt Ğµc Chú, Hàn Bång Chú tång thêm công kích thuµc tính tß½ng Ñng
+962	962	1000	PetEquipBuff1_6							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Linh Ğµng ğ¯i v¾i Trân Thú
+963	963	1000	PetEquipBuff2_3							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Linh Khí ğ¯i v¾i ngß¶i ch½i
+964	964	1000	PetEquipBuff1_1							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Trung Tâm ğ¯i v¾i ngß¶i ch½i
+965	965	1000	PetEquipBuff1_12							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Phän Ch¤n ğ¯i v¾i møc tiêu
+966	966	1000	PetEquipBuff1_11							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Phän Kích ğ¯i v¾i møc tiêu
+967	966	1000	PetEquipBuff1_10							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Su¤t Bán ğ¯i v¾i møc tiêu
+968	964	1000	PetEquipBuff2_2							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Phá Tri«n ğ¯i v¾i møc tiêu
+969	965	1000	PetEquipBuff2_1							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Hß Nhßşc ğ¯i v¾i møc tiêu
+970	966	1000	PetEquipBuff1_16							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång Ğä Nµ ğ¯i v¾i møc tiêu
+971	967	1000	PetEquipBuff1_14							0	0	0	1	0		Tång tÖ l® có hi®u quä cüa kÛ nång H¤p Khí ğ¯i v¾i møc tiêu
+972	968	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±ä°µºì		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+973	969	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±ä³È		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+974	970	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±ä·Ûºì		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+975	971	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±äºÚ		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+976	972	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±äºì		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+977	973	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±ä»Æ		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+978	974	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±äÂÌ		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+979	975	1000	OtherTools2_15	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂÀ¶¹â»·_±äÇ³À¶		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Thiên Long Quang Hoàn: Tång t¤t cä thuµc tính
+980	980	0	Ore2_3							1	0	0	0	0		CßŞi Xuy Vßu Thanh Long Chiªn Xa
+981	981	0	Ore2_3							1	0	0	0	0		CßŞi Xuy Vßu BÕch H± Chiªn Xa
+982	982	0	Ore2_3							1	0	0	0	0		CßŞi Xuy Vßu Chu Tß¾c Chiªn Xa
+983	983	0	Ore2_3							1	0	0	0	0		CßŞi Xuy Vßu Huy«n Vû Chiªn Xa
+984	984	0	Ore2_3							1	0	0	0	0		CßŞi Xuy Vßu Bàn C± Chiªn Xa
+985	985	0	Ore2_3							1	0	0	0	0		CßŞi Viêm Hoàng Thanh Long Chiªn Xa
+986	986	0	Ore2_3							1	0	0	0	0		CßŞi Viêm Hoàng BÕch H± Chiªn Xa
+987	987	0	Ore2_3							1	0	0	0	0		CßŞi Viêm Hoàng Chu Tß¾c Chiªn Xa
+988	988	0	Ore2_3							1	0	0	0	0		CßŞi Viêm Hoàng Huy«n Vû Chiªn Xa
+989	989	0	FightSkillGaiBang_3							0	0	0	1	0		Mi­n D¸ch Giäm T¯c
+990	990	0	FightSkillMingJiao1_3				g01_buff18		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Mi­n D¸ch Tán Công
+991	991	0	FightSkillShaoLin2_3	g01_sl_zdo_mingjingtai_01		ÉíÌåÊÜ»÷µã				0	0	0	1	0		Mi­n D¸ch Th¤t Minh
+992	993	0	FightSkillTianShan_9	g01_ts_zdo_renwowuxiang		ÉíÌåÊÜ»÷µã	g01_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Ği¬m huy®t: Phong huy®t, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc ğßşc
+993	993	0	Ore2_3							1	0	0	0	0		CßŞi Viêm Hoàng bàn C± Chiªn Xa
+994	994	0	Buff0_15		Skills\Sl\Sl_½ğ¸Õ·üÄ§È¦_¶¨Éí.wav		g01_buff27		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Ğ¸nh thân: không th¬ di chuy¬n ğ°ng th¶i không th¬ công kích ho£c sØ døng kÛ nång
+995	1022	0	YuanDan1_1				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Giáng Sinh Vui Vë
+996	1022	0	YuanDan1_4				g01_buff_Ê¥µ®ÀñºĞ02		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Giáng Sinh Vui Vë
+997	1022	0	YuanDan1_3				g01_buff_Ê¥µ®ÀñºĞ03		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Giáng Sinh Vui Vë
+998	1022	0	YuanDan1_2				g01_buff_Ê¥µ®ÀñºĞ04		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Giáng Sinh Vui Vë
+999	999	0	Buff4_16							0	0	0	0	0		Mi­n d¸ch kh¯ng chª và ğông cÑng
+1000	1000	0	Buff4_16							0	0	0	0	0		Mi­n d¸ch kh¯ng chª
+1001	30	0	Buff1_4							0	1	1	0	0		Phá trán: Gia tång sát thß½ng khi b¸ kÛ nång Hoä thiêu xích bích công kích
+1002	34	0	Buff1_5							0	1	1	0	0		Hß nhßşc: Giäm b¾t Nµi công công kích
+1003	1003	0	FightSkillXiaoYao1_5							0	0	1	0	0		Giao long xu¤t thuÖ: Khi b¸ Th§n long loÕn vû công kích s¨ r¾t vào trÕng thái Ğ¸nh thân
+1004	23	0	Buff1_1	g01_yanggetianjun		ÉíÌåÊÜ»÷µã	g01_buff100		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Th§n long loÕn vû: ğông cÑng, T¯c ğµ di chuy¬n b¸ giäm.
+1005	1005	0	FightSkillXiaoYao1_7							0	0	1	0	0		Häi th¸ th§n lâu: Gia tång sát thß½ng khi b¸ kÛ nång Giao long loÕn vû công kích
+1006	1006	0	FightSkillMingJiao_15				boss_¾µºşË®¹í_»ğÉÕ³à±Ú		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Höa thiêu xích bích: làm cho t¤t cä møc tiêu ğÑng g¥n trong phÕm vi 15 mét s¨ b¸ hi®u quä kéo dài cüa Höa công kích và Phá trán.
+1007	1007	0	FightSkillGaiBang1_8				boss_¾µºşË®¹í_òÔÁúÂÒÎè		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Giao long loÕn vû: làm cho t¤t cä møc tiêu ğÑng g¥n trong phÕm vi 5 mét s¨ b¸ Höa công kích
+1008	1008	0	FightSkillGaiBang_4				boss_¾µºşË®¹í_ò×ÁúÂÒÎè		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Th§n long loÕn vû: làm cho t¤t cä møc tiêu ğÑng g¥n trong phÕm vi 5 mét s¨ b¸ hi®u quä ğông cÑng giäm t¯c và Höa công kích.
+1009	345	0	PetSkill3_3				cw_rouqiang		Í·¶¥×´Ì¬µã	0	0	1	0	0		Vß½ng Thú g¥m thét: thu hút quái v§t công kích bän thân
+1010	58	0	Buff2_8				cw_shixue		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Cu°ng bÕo: hµi công tång
+1011	25	0	Buff1_3							0	1	1	0	0		Phá tri«n: hµi thü giäm
+1012	1012	0	FightSkillMingJiao_9	g01_em_buff1114	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	g01_dl_ÖĞ³å½£01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Ğ¦u Chuy¬n Tinh Di: g§y ông ğ§p lßng ông
+1013	98	0	Buff1_5							0	1	1	0	0		Ğông cÑng: né tránh giäm
+1014	1014	0	Buff2_8				cw_shixue		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Cu°ng bÕo: công kích tång, phòng thü giäm
+1015	1015	0	PetSkill3_7				cw_shixueÀ¶		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Ham h§u: phòng thü tång, công kích giäm
+1016	1016	0	Buff2_8				cw_shixue		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Cu°ng bÕo: tång khä nång công kích, phòng thü giäm
+1017	1017	0	PetSkill3_5				cw_shixue»Æ		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Bính m®nh: hµi công, chính xác tång; hµi thü, né tránh giäm
+1018	1018	0	PetSkill4_1				cw_shengyou		Í·¶¥×´Ì¬µã	0	0	0	1	0		Th¥n hñu: không g£p phäi sát thß½ng
+1019	30	0	Buff1_4				g01_xy_jq_»Æ½ğ¼×_1		Í·¶¥×´Ì¬µã	0	0	0	0	0		S½ h· chï ği¬m: b¸ Vß½ng Ngæ Yên chï ra s½ h· cüa chiêu thÑc
+1020	25	0	Buff1_3							0	1	1	0	0		Phá tri«n: kÛ nång loÕi phát công th¶i gian duy trì giäm
+1021	1001	0	Buff4_16							0	0	0	0	0		Mi­n d¸ch hi®u quä mù và sş hãi
+1022	1022	0	MakeMaterial8_16							0	0	0	0	0		Chúc phúc cüa Tuyªt Nhân: tång t¤t cä thuµc tính 10 ği¬m
+1023	334	0	TaskTools3_3							0	0	0	1	0		M· Bäo Sß½ng Bäo Hµ: vô ğ¸ch, chï khi di chuy¬n hoåc sØ døng chiêu thÑc thì trÕng thái s¨ biªn m¤t
+1024	1024	0	Buff9_6				g01_buff118_01		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Quà t£ng 1 tháng 5: Sau khi BUFF biªn m¤t, có th¬ ğªn ch² trß·ng môn cüa môn phái ğ¬ nh§n quà
+1025	1025	0	FightSkillkunxiansuo_6				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång cß¶ng lñc và th¬ lñc
+1026	1026	0	FightSkillkunxiansuo_4				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång Chính Xác và công kích hµi tâm
+1027	1027	0	FightSkillkunxiansuo_2				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång cß¶ng lñc và thân pháp
+1028	1028	0	FightSkillkunxiansuo_8				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång nµi lñc và th¬ lñc
+1029	1029	0	FightSkillkunxiansuo_1				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång Chính Xác và công kích hµi tâm
+1030	1030	0	FightSkillkunxiansuo_10				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång nµi lñc và thân pháp
+1031	1031	0	FightSkillkunxiansuo_5				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång th¬ lñc
+1032	1032	0	FightSkillkunxiansuo_7				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång th¬ lñc và thân pháp
+1033	1033	0	FightSkillkunxiansuo_9				buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Gia tång thân pháp
+1034	1034	0	Shenqi_3_5							0	1	1	0	0		Tång 5 ği¬m t¤t cä thuµc tính
+1035	1035	0	Shenqi_3_1							0	1	1	0	0		Tång: 10% gi¾i hÕn huyªt, 5% gi¾i hÕn khí
+1036	1036	0	Shenqi_3_3							0	1	1	0	0		Tång: 15% ngoÕi công, 5% ngoÕi thü
+1037	1037	0	Shenqi_3_9							0	1	1	0	0		Tång: 15% nµi công, 5% nµi thü
+1038	1038	0	Shenqi_3_6							0	1	1	0	0		Tång: 11% gi¾i hÕn huyªt, 6% gi¾i hÕn khí
+1039	1039	0	Shenqi_3_2							0	1	1	0	0		Tång: 16% ngoÕi công, 6% ngoÕi thü
+1040	1040	0	Shenqi_3_4							0	1	1	0	0		Tång: 16% nµi công, 6% nµi thü
+1041	1041	0	Shenqi_3_7							0	1	1	0	0		Tång: 11% gi¾i hÕn huyªt, 6% gi¾i hÕn khí
+1042	1042	0	Shenqi_3_8							0	1	1	0	0		Tång: 17% ngoÕi công, 6% ngoÕi thü
+1043	1043	0	Shenqi_3_5							0	1	1	0	0		Tång: 17% nµi công, 6% nµi thü
+1044	1044	0	Shenqi_3_1							0	1	1	0	0		Tång: 12% gi¾i hÕn huyªt, 8% gi¾i hÕn khí
+1045	1045	0	Shenqi_3_3							0	1	1	0	0		Tång: 18% ngoÕi công, 8% ngoÕi thü
+1046	1046	0	Shenqi_3_9							0	1	1	0	0		Tång: 18% nµi công, 8% nµi thü
+1047	1047	0	Shenqi_3_6							0	1	1	0	0		Ngßng Lñc Chi H°n: Có tÖ l® nh¤t ğ¸nh tång cß¶ng lñc cüa bän thân
+1048	1048	0	Shenqi_3_2							0	1	1	0	0		Tång cß¶ng lñc
+1049	1049	0	Shenqi_3_4							0	1	1	0	0		Tø Linh Chi H°n: Có tÖ l® nh¤t ğ¸nh tång nµi lñc cüa bän thân
+1050	1050	0	Shenqi_3_7							0	1	1	0	0		Tång nµi lñc
+1051	1051	0	Shenqi_3_8							0	1	1	0	0		Cß¶ng Th¬ Chi H°n: Có tÖ l® nh¤t ğ¸nh tång th¬ lñc cüa bän thân
+1052	1052	0	RideHeader5_4							0	0	0	0	0		Tång th¬ lñc
+1053	1053	0	Buff13_9							1	0	0	0	0		C¯ Ğ¸nh Chi H°n: Có tÖ l® nh¤t ğ¸nh tång trí lñc cüa bän thân
+1054	1054	0	Buff13_9							0	0	1	0	0		Tång trí lñc
+1055	462	0	Necklace2_15				buff_ÖØÂ¥ÍûÔÂ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Du Thân Chi H°n: Có tÖ l® nh¤t ğ¸nh tång thân pháp cüa bän thân
+1056	1056	3000	Buff1_9				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång thân pháp
+1057	1057	3000	WuhunSkill2_3							0	0	0	1	0		L® Cß½ng Chi H°n: Có tÖ l® nh¤t ğ¸nh tång ngoÕi công cüa bän thân
+1058	1058	3000	WuhunSkill2_3				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång ngoÕi công
+1059	1059	3000	WuhunSkill2_4							0	0	0	1	0		Toàn Nhu Chi H°n: Có tÖ l® nh¤t ğ¸nh tång nµi công cüa bän thân
+1060	1060	3000	WuhunSkill2_4				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång nµi công
+1061	1061	3000	WuhunSkill2_5							0	0	0	1	0		Võ Nh§n Chi H°n: Có tÖ l® nh¤t ğ¸nh tång ngoÕi thü cüa bän thân
+1062	1062	3000	WuhunSkill2_5				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång ngoÕi thü
+1063	1063	3000	WuhunSkill2_6							0	0	0	1	0		Âm Miên Chi H°n: Có tÖ l® nh¤t ğ¸nh tång nµi thü cüa bän thân
+1064	1064	3000	WuhunSkill2_6				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång nµi thü
+1065	1065	3000	WuhunSkill2_7							0	0	0	1	0		Tinh Chu¦n Chi H°n: Có tÖ l® nh¤t ğ¸nh tång Chính Xác cüa bän thân
+1066	1066	3000	WuhunSkill2_7				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång Chính Xác
+1067	1067	3000	WuhunSkill2_8							0	0	0	1	0		Linh Sái Chi H°n: Có tÖ l® nh¤t ğ¸nh tång Né Tránh cüa bän thân
+1068	1068	3000	WuhunSkill2_8				buff_Îä»êÔöÒæ		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tång Né Tránh
+1069	1069	3000	Buff1_9							0	0	0	1	0		PhÕp Lñc Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm cß¶ng lñc cüa møc tiêu
+1070	1070	3000	Buff1_9				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm cß¶ng lñc
+1071	1071	3000	Buff1_9							0	0	0	1	0		Di®t Linh Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm nµi lñc cüa møc tiêu
+1072	1072	3000	Buff1_9				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm nµi lñc
+1073	1073	3000	WuhunSkill2_15							0	0	0	1	0		Phá Th¬ Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm th¬ lñc cüa møc tiêu
+1074	1074	3000	WuhunSkill2_15				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm th¬ lñc
+1075	1075	3000	Buff1_9							0	0	0	1	0		LoÕn Ğ¸nh Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm trí lñc cüa møc tiêu
+1076	1076	3000	Buff1_9				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm trí lñc
+1077	1077	3000	Buff1_9							0	0	0	1	0		Trùng Thân Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm thân pháp cüa møc tiêu
+1078	1078	3000	Buff1_9				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm thân pháp
+1079	1079	3000	WuhunSkill2_9							0	0	0	1	0		ĞoÕn Cß½ng Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm ngoÕi công cüa møc tiêu
+1080	1080	3000	WuhunSkill2_9				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm ngoÕi công
+1081	1081	3000	WuhunSkill2_10							0	0	0	1	0		Li®t Nhu Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm nµi công cüa møc tiêu
+1082	1082	3000	WuhunSkill2_10				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm nµi công
+1083	1083	3000	WuhunSkill2_11							0	0	0	1	0		Äm Nh§n Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm ngoÕi thü cüa møc tiêu
+1084	1084	3000	WuhunSkill2_11				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm ngoÕi thü
+1085	1085	3000	WuhunSkill2_12							0	0	0	1	0		Thích Miên Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm nµi thü cüa møc tiêu
+1086	1086	3000	WuhunSkill2_12				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm nµi thü
+1087	1087	3000	WuhunSkill2_13							0	0	0	1	0		Nhi­u Chu¦n Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm Chính Xác cüa møc tiêu
+1088	1088	3000	WuhunSkill2_13				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm Chính Xác
+1089	1089	3000	WuhunSkill2_14							0	0	0	1	0		Tuy®t Sái Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm Né Tránh cüa møc tiêu
+1090	1090	3000	WuhunSkill2_14				buff_Îä»êĞéÈõ		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm Né Tránh
+1091	1091	3000	WuhunSkill2_15							0	0	0	1	0		Cß¶ng Kích Chi H°n: Có tÖ l® nh¤t ğ¸nh gây sát thß½ng tång thêm
+1092	1092	3000	WuhunSkill2_16							0	0	0	1	0		Tuy®t Khí Chi H°n: Có tÖ l® nh¤t ğ¸nh làm giäm chân khí ğ¯i phß½ng
+1093	1093	3000	WuhunSkill3_1							0	0	0	1	0		Thßşng Võ Chi H°n: Có tÖ l® nh¤t ğ¸nh tång t¤t cä thuµc tính cüa bän thân
+1094	1094	3000	WuhunSkill3_1				buff_Îä»êÉĞÎäÖ®»ê		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tång t¤t cä thuµc tính
+1095	1095	3000	WuhunSkill3_2							0	0	0	1	0		Tuy®t Tình Chi H°n: Có tÖ l® nh¤t ğ¸nh giäm møc tiêu t¤t cä thuµc tính
+1096	1096	3000	WuhunSkill3_2				buff_Îä»ê¾øÇéÖ®»ê		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Giäm t¤t cä thuµc tính
+1100	1100	2000	Shenqi_3_5							1	0	0	0	0		Xích Di­m CØu Vån: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Ph¤n Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång ngoÕi công bän thân, giäm ngoÕi thü ğ¯i phß½ng 
+1101	1101	2000	Shenqi_3_9							1	0	0	0	0		Hàm Quang Lµng Änh: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Súc Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång nµi công bän thân, giäm nµi thü ğ¯i phß½ng 
+1102	1102	2000	Shenqi_3_7							1	0	0	0	0		Toái Tình Vø Änh: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Tuy®t Di®u Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång công kích hµi tâm cüa bän thân, giäm phòng ngñ hµi tâm ğ¯i phß½ng 
+1103	1103	2000	Shenqi_3_4							1	0	0	0	0		Lôi Minh Ly Höa: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Tinh di®u nh¤t kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång Chính xác cüa bän thân, giäm Né tránh cüa ğ¯i phß½ng 
+1104	1104	2000	Shenqi_6				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Chu Lam DÕ: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1105	1105	2000	Shenqi_6				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Chu Lam DÕ: ğã giäm 2400 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+1106	1106	2000	PetSkill6_15	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Giäm T¯c: giäm 45% t¯c ğµ di chuy¬n 
+1107	1107	2000	PetSkill6_8	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Phá Tri«n: nµi ngoÕi thü giäm 2400
+1108	1108	2000	PetSkill6_6	npc_all_kongzhi_zdo		ÉíÌåÊÜ»÷µã				0	0	1	0	0		Hß Nhßşc: nµi ngoÕi công giäm 2400
+1109	1109	2000	Shenqi_3_6							1	0	0	0	0		VÕn Nh§n Long Uyên: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Súc Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång nµi công bän thân, giäm nµi thü ğ¯i phß½ng 
+1110	1110	2000	Shenqi_12				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Thß½ng Tr¥n Änh: ğã giäm 2400 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+1111	1111	2000	Shenqi_3_2							1	0	0	0	0		Chuy¬n H°n Di®t Phách: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Súc Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång nµi công bän thân, giäm nµi thü ğ¯i phß½ng 
+1112	1112	2000	Shenqi_7				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¤n Tinh Ngân: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1113	1113	2000	Shenqi_13				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi HÕ Long Tß¾c: ğã giäm 45% t¯c ğµ di chuy¬n cüa 1 møc tiêu
+1114	1114	2000	Shenqi_13				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi HÕ Long Tß¾c: ğã giäm 2400 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+1115	1115	2000	Shenqi_3_1							1	0	0	0	0		Träm ¿u ĞoÕn S¥u: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Ph¤n Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång ngoÕi công bän thân, giäm ngoÕi thü ğ¯i phß½ng 
+1116	1116	2000	Shenqi_9				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¥n Phong Ğích: ğã giäm 45% t¯c ğµ di chuy¬n cüa 1 møc tiêu
+1117	1117	2000	Shenqi_9				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¥n Phong Ğích: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1118	1118	2000	Shenqi_3_3							1	0	0	0	0		D¸ch Thiên Phá Tà: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Ph¤n Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång ngoÕi công bän thân, giäm ngoÕi thü ğ¯i phß½ng 
+1119	1119	2000	Shenqi_14				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Ğß¶ng Côn NhÕc: ğã giäm 45% t¯c ğµ di chuy¬n cüa 1 møc tiêu
+1120	1120	2000	Shenqi_14				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Ğß¶ng Côn NhÕc: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1121	1121	2000	Shenqi_11				wq_Ë¤°í´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi TuÏ Ngßng Sß½ng: ğã giäm 45% t¯c ğµ di chuy¬n cüa 1 møc tiêu
+1122	1122	2000	Shenqi_11				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi TuÏ Ngßng Sß½ng: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1123	1123	2000	Shenqi_3_8							1	0	0	0	0		Thiên Tinh Di®u Dß½ng: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Súc Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång nµi công bän thân, giäm nµi thü ğ¯i phß½ng 
+1124	1124	2000	Shenqi_10				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Hán Ho¢ng Cß½ng: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1125	1125	2000	Shenqi_8				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi T¯ng Quân S¥m: ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1126	1126	1000	PetChapletBuff1_5							1	0	0	0	0		Tång cß¶ng lñc và th¬ lñc
+1127	1127	1000	PetChapletBuff1_12							1	0	0	0	0		Tång Chính Xác và Hµi Tâm
+1128	1128	1000	PetChapletBuff1_14							1	0	0	0	0		Tång cß¶ng lñc và thân pháp
+1129	1129	1000	PetChapletBuff1_2							1	0	0	0	0		Tång nµi lñc và th¬ lñc
+1130	1130	1000	PetChapletBuff1_12							1	0	0	0	0		Tång Chính Xác và Hµi Tâm
+1131	1131	1000	PetChapletBuff1_14							1	0	0	0	0		Tång nµi lñc và thân pháp
+1132	1132	1000	PetChapletBuff1_1							1	0	0	0	0		Tång th¬ lñc
+1133	1133	1000	PetChapletBuff1_14							1	0	0	0	0		Tång th¬ lñc và thân pháp
+1134	1134	1000	PetChapletBuff1_14							1	0	0	0	0		Gia tång thân pháp
+1135	1135	1000	PetChapletBuff1_9							1	0	0	0	0		Tång cß¶ng lñc và th¬ lñc
+1136	1136	1000	PetChapletBuff1_11							1	0	0	0	0		Tång Chính Xác và Hµi Tâm
+1137	1137	1000	PetChapletBuff1_16							1	0	0	0	0		Tång cß¶ng lñc và thân pháp
+1138	1138	1000	PetChapletBuff1_8							1	0	0	0	0		Tång nµi lñc và th¬ lñc
+1139	1139	1000	PetChapletBuff1_11							1	0	0	0	0		Tång Chính Xác và Hµi Tâm
+1140	1140	1000	PetChapletBuff1_16							1	0	0	0	0		Tång nµi lñc và thân pháp
+1141	1141	1000	PetChapletBuff2_3							1	0	0	0	0		Tång th¬ lñc
+1142	1142	1000	PetChapletBuff1_16							1	0	0	0	0		Tång th¬ lñc và thân pháp
+1143	1143	1000	PetChapletBuff1_16							1	0	0	0	0		Gia tång thân pháp
+1144	1144	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+10
+1145	1145	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+15
+1146	1146	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+20
+1147	1147	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+25
+1148	1148	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+30
+1149	1149	1000	Buff11_9				buff_¸£Ïã°ü		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Tân Niên Phúc Hß½ng Bao: t¤t cä thuµc tính+35
+1150	1050	1000	Buff11_10				buff_ÉËĞÄ¶Ï³¦		ÉíÌåÖĞĞÄµã	0	0	0	0	0		C¥u ái th¤t bÕi, thß½ng tâm ğoÕn trß¶ng. Trong 1 phút không th¬ tö tình v¾i ngß¶i khác. SØ døng Vong Tình Thüy có th¬ giäi tr× trÕng thái này.
+1151	1151	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Ái Ngæ Quang Hoàn, tång 10 ği¬m t¤t cä thuµc tính nhân v§t, duy trì 30 phút.
+1152	1152	1000	CircularTaskTool9_15							0	0	0	1	0		Bµc trúc lôi ğµng, hoán tïnh mãn viên xuân s¡c (Thßşng Li­n Thông Thß¶ng): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 10 ği¬m
+1153	1153	1000	CircularTaskTool9_3							0	0	0	1	0		ThuÜ tuyªt phiêu phi, tri®u th¸ nh¤t tuª phúc trÕch (HÕ Li­n Thông Thß¶ng): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 10 ği¬m
+1154	1154	1000	CircularTaskTool9_16							0	0	0	1	0		Xuân Li­n HÕ Tuª (Cao C¤p): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 30 ği¬m
+1155	1155	1000	CircularTaskTool9_4							0	0	0	1	0		Xuân Li­n HÕ Tuª (Thß¶ng): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 20 ği¬m
+1157	1150	1000	CircularTaskTool10_1							0	0	0	1	0		Xuân phong sÕ kh·i, tä tñu mãn thành c¦m tú (Thßşng Li­n ¿u MÛ): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 10 ği¬m
+1158	1151	1000	CircularTaskTool10_2							0	0	0	1	0		Phi tuyªt s½ ngßng, trang thành nh¤t thø linh lung (HÕ Li­n ¿u MÛ): Tång cß¶ng lñc, nµi lñc, th¬ lñc, trí lñc, thân pháp m²i loÕi 10 ği¬m
+1159	1159	1000	CircularTaskTool9_9				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Phóng Phi KÏ Phúc: tång th¬ lñc, cß¶ng lñc, nµi lñc, trí lñc, thân pháp m²i loÕi 20 ği¬m
+1160	1160	1000	YuanDan1_1				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Mùa xuân vui vë
+1161	1161	1000	YuanDan1_4				g01_buff_Ê¥µ®ÀñºĞ02		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Mùa xuân vui vë
+1162	1162	1000	YuanDan1_3				g01_buff_Ê¥µ®ÀñºĞ03		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Mùa xuân vui vë
+1163	1163	1000	YuanDan1_2				g01_buff_Ê¥µ®ÀñºĞ04		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Mùa xuân vui vë
+1164	1164	1000	Tattoo2_6							1	0	0	0	0		Vong Vô : cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 1 trong tâm pháp quy¬n thÑ 1
+1165	1165	1000	Tattoo2_7							1	0	0	0	0		Minh Tß·ng : cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 1 trong tâm pháp quy¬n thÑ 2
+1166	1166	1000	Tattoo2_8							1	0	0	0	0		Trang B¸ Ğiêu Vån: cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 3 trong tâm pháp quy¬n thÑ 4
+1167	1167	1000	Tattoo2_9							1	0	0	0	0		Ngñ Kình : cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 2 trong tâm pháp quy¬n thÑ 5
+1168	1168	1000	Tattoo2_10							1	0	0	0	0		Trang B¸ Ğiêu Vån: cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 3 trong tâm pháp quy¬n thÑ 5
+1169	1169	1000	Tattoo2_11							1	0	0	0	0		BÕo Nµ : cß¶ng hóa sát thß½ng cüa kÛ nång thÑ 1 trong tâm pháp quy¬n thÑ 6
+1170	1170	1000	Shenqi_7							0	0	0	1	0		M£c Tích: tång 100% sát thß½ng gây ra
+1171	1171	1000	Buff5_1							0	0	0	1	0		Tàng hình
+1172	1172	1000	CircularTaskTool12_3							0	0	0	1	0		Nguyên Th¥n Tiên Ğan: sau khi sØ døng Nguyên Th¥n Tiên Ğan, nµi công s¨ tång mÕnh
+1173	1173	1000	CircularTaskTool12_2							0	0	0	1	0		Thiªt C¯t Tiên Ğan: sau khi sØ døng Thiªt C¯t Tiên Ğan, ngoÕi công s¨ tång mÕnh
+1174	1174	2000	Shenqi_3							0	0	0	1	0		Dung Kim LÕc Nh§t: SØ døng Dung Kim LÕc Nh§t Phù khiªn vû khí tÕm th¶i có ğßşc hi®u quä Dung Kim LÕc Nh§t Ğao
+1175	1175	2000	Shenqi_2							0	0	0	1	0		Thu ThuÖ Vô Ngân: SØ døng Thu ThuÖ Vô Ngân Phù khiªn vû khí tÕm th¶i có ğßşc hi®u quä Thu ThuÖ Vô Ngân Kiªm
+1176	1176	2000	Shenqi_4							0	0	0	1	0		VÕn Hác Tùng Phong: SØ døng VÕn Hác Tùng Phong Phù khiªn vû khí tÕm th¶i có ğßşc hi®u quä VÕn Hác Tùng Phong Phiªn
+1177	1177	2000	Shenqi_5							0	0	0	1	0		Bích Häi Ngân Ğào: SØ døng Bích Häi Ngân Ğào Phù khiªn vû khí tÕm th¶i có ğßşc hi®u quä Bích Häi Ngân Ğào Hoàn
+1178	1178	1000	CircularTaskTool12_10							0	0	0	1	0		Bång Long Thích: Khäm Bång Long Thích lên vû khí, khiªn vû khí tÕm th¶i có ğßşc hi®u quä công kích thuµc tính Bång.
+1179	1179	1000	CircularTaskTool12_7							0	0	0	1	0		Lôi Long Thích: Khäm Lôi Long Thích lên vû khí, khiªn vû khí tÕm th¶i có ğßşc hi®u quä công kích thuµc tính Huy«n.
+1180	1180	1000	CircularTaskTool12_9							0	0	0	1	0		Höa Long Thích: Khäm Höa Long Thích lên vû khí, khiªn vû khí tÕm th¶i có ğßşc hi®u quä công kích thuµc tính Höa.
+1181	1181	1000	CircularTaskTool12_8							0	0	0	1	0		Ğµc Long Thích: Khäm Ğµc Long Thích lên vû khí, khiªn vû khí tÕm th¶i có ğßşc hi®u quä công kích thuµc tính Ğµc.
+1182	1182	1000	CircularTaskTool11_16							0	0	0	1	0		Tuy®t H÷c-Bôn Lôi: Bí quyªt võ công ghi chép trong Bôn Lôi-Tàn Quy¬n, khi t¤n công møc tiêu có khä nång phóng thích hi®u quä công kích Bôn Lôi.
+1183	1183	1000	CircularTaskTool11_15							0	0	0	1	0		Tuy®t H÷c-Cñc Sát: Bí quyªt võ công ghi chép trong Cñc Sát-Tàn Quy¬n, khi t¤n công møc tiêu có khä nång phóng thích hi®u quä công kích Cñc Sát.
+1184	1184	1000	CircularTaskTool11_14							0	0	0	1	0		Tuy®t H÷c-Tiêu H°n: Bí quyªt võ công ghi chép trong Tiêu H°n-Tàn Quy¬n, khi t¤n công møc tiêu có khä nång phóng thích hi®u quä công kích Tiêu H°n.
+1185	1185	1000	CircularTaskTool11_12							0	0	0	1	0		Tuy®t H÷c-ĞoÕt M®nh: Bí quyªt võ công ghi chép trong ĞoÕt M®nh-Tàn Quy¬n, khi t¤n công møc tiêu có khä nång phóng thích hi®u quä công kích ĞoÕt M®nh.
+1186	1186	1000	CircularTaskTool11_13							0	0	0	1	0		Tuy®t H÷c-Sát İ: Bí quyªt võ công ghi chép trong Sát İ-Tàn Quy¬n, khi t¤n công møc tiêu có khä nång phóng thích hi®u quä công kích Sát İ.
+1187	1187	1000	CircularTaskTool10_16				boss_Æ®Ãì·å¹ş´ó°Ôbuff01		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Tham Lang Sát Khí: Tham Lang Tinh nh§p thân, tång t¯i ğa lñc công kích.
+1188	1188	1000	Buff12_1							0	1	1	0	0		Ác T§t: phän Ñng trúng ğµc khi ån nh¥m KÏ D¸ Ngß biªn ch¤t, giäm th¬ lñc.
+1189	1189	1000	Buff11_16							0	1	1	0	0		Phong Ngß B®nh: phän Ñng trúng ğµc khi ån nh¥m KÏ D¸ Ngß có b®nh, khiªn t¦u höa nh§p ma.
+1190	1190	1000	Buff11_14							0	0	0	1	0		Thao Thiªt: ğ¡c ı vì ån ğßşc món ngon chª biªn t× KÏ D¸ Ngß, tång t¯i ğa lñc chiªn ğ¤u.
+1191	1191	1000	Buff11_15							0	1	0	1	0		MÛ Thñc: hi®u quä tång ích nh§n ğßşc sau khi ån KÏ D¸ Ngß, tång t¯i ğa th¬ lñc.
+1192	1192	1000	Buff12_14				buff_ÖòÓ°Ò¡ºì		ÉíÌåÊÜ»÷µã	0	0	1	0	0		Chúc Änh Dao H°ng: M²i giây gây 2% sát thß½ng cho ğ°ng ğµi trong phÕm vi 10m xung quanh 
+1193	1193	1000	Buff12_13				buff_½ğÉ«¿ñÎè		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Kim S¡c Cu°ng Vû: gây sát thß½ng cho các møc tiêu xung quanh
+1194	1194	1000	Buff12_11							0	0	0	0	0		M£c H± Thü Hµ: giäm 70% sát thß½ng nh§n ğßşc
+1195	1195	8500	FightSkillDaLi2_3				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÀ¶		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Bång H±: chï ch¸u sát thß½ng thuµc tính Bång
+1196	1196	8500	FightSkillDaLi2_2				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffºì		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Höa H±: chï ch¸u sát thß½ng thuµc tính Höa
+1197	1197	8500	FightSkillDaLi2_5				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buff»Æ		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Huy«n H±: chï ch¸u sát thß½ng thuµc tính Huy«n
+1198	1198	8500	FightSkillDaLi2_4				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÂÌ		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Ğµc H±: chï ch¸u sát thß½ng thuµc tính Ğµc
+1199	1199	1000	Buff12_12				boss_¾µºşË®¹í_òÔÁúÂÒÎè		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Thanh ¿ng Thü Hµ: M²i giây gây 5% sát thß½ng cho các møc tiêu · xung quanh
+1200	1200	1000	Buff12_15				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Thân TÕi ThØ S½n Trung:tång 300% sát thß½ng gây ra
+1201	1201	1000	Buff12_9							0	0	0	0	0		Long Trø Thü Hµ: giäm 70% sát thß½ng nh§n ğßşc
+1202	1202	1000	Buff12_10				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Long Trø Uy Lñc: tång 300% sát thß½ng gây ra
+1203	1203	1000	Buff12_4				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÀ¶		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Kim Long Chi Nµ: tång 200% sát thß½ng thuµc tính Huy«n nh§n ğßşc
+1204	1204	1000	Buff12_5				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffºì		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Mµc Long Chi Nµ: tång 200% sát thß½ng thuµc tính Ğµc nh§n ğßşc
+1205	1205	1000	Buff12_6				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buff»Æ		ÉíÌåÊÜ»÷µã	0	0	0	0	0		ThuÖ Long Chi Nµ: tång 200% sát thß½ng thuµc tính Bång nh§n ğßşc
+1206	1206	1000	Buff12_7				g01_dl_ÌìÁú80¼¶¼¼ÄÜ_buffÂÌ		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Höa Long Chi Nµ: tång 200% sát thß½ng thuµc tính Höa nh§n ğßşc
+1207	1207	1000	Buff12_8				boss_Â¬¿¡Òå_ÌìÈËÎåË¥		ÉíÌåÊÜ»÷µã	0	0	0	0	0		Th± Long Chi Nµ: tång 200% t¤t cä sát thß½ng thuµc tính nh§n ğßşc
+1208	1208	1000	Buff11_2				boss_Â¬¿¡Òå_ÌìÈËÎåË¥		ÉíÌåÊÜ»÷µã	0	0	0	0	0		TÑ Tuy®t Chi Nµ: tång 500% sát thß½ng nh§n ğßşc
+1209	1209	1500	Buff12_3							1	0	0	0	0		Tinh Di: Sau khi ğánh trúng møc tiêu có khä nång giäm 30 ği¬m kháng Huy«n cüa ğ¯i phß½ng, có th¬ làm thuµc tính kháng cüa møc tiêu giäm xu¯ng dß¾i 0
+1210	1210	1500	Buff12_3							0	0	1	0	0		Tinh Di: giäm 30 ği¬m kháng Huy«n
+1211	376	1000	PetSkill7_2				boss_Â¬¿¡Òå_Ììî¸°ÔÆø		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Khát máu c¤p ğµ cao: Hy sinh phòng thü ğ¬ tÕm th¶i nâng cao ngoÕi công
+1212	1212	1000	FightSkillkunxiansuo_6				m01_À¦ÏÉË÷_buffsl		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1213	1212	1000	FightSkillkunxiansuo_4				m01_À¦ÏÉË÷_buffmj		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1214	1212	1000	FightSkillkunxiansuo_2				m01_À¦ÏÉË÷_buffgb		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1215	1212	1000	FightSkillkunxiansuo_8				m01_À¦ÏÉË÷_buffwd		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1216	1212	1000	FightSkillkunxiansuo_1				m01_À¦ÏÉË÷_buffem		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1217	1212	1000	FightSkillkunxiansuo_10				m01_À¦ÏÉË÷_buffxx		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1218	1212	1000	FightSkillkunxiansuo_5				m01_À¦ÏÉË÷_buffdl		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1219	1212	1000	FightSkillkunxiansuo_7				m01_À¦ÏÉË÷_buffts		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1220	1212	1000	FightSkillkunxiansuo_9				m01_À¦ÏÉË÷_buffxy		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1221	1212	1000	FightSkillkunxiansuo_3				m01_À¦ÏÉË÷_buffgs		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Ác Mãng Tri«n Thân : không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1222	1222	2000	Shenqi_3_10							1	0	0	0	0		Tinh Di Vô Ngân: Ğánh trúng kë ğ¸ch có khä nång ra ğòn Súc Lñc Nh¤t Kích, gây thêm sát thß½ng, ğ°ng th¶i trong mµt khoäng th¶i gian tång nµi công bän thân, giäm nµi thü ğ¯i phß½ng 
+1223	1223	2000	Shenqi_3_11							1	0	0	0	0		ĞÕi Yªn V§n Chß½ng : Có khä nång h¤p thø sinh m®nh cüa møc tiêu
+1224	1224	2000	Shenqi_3_11							1	0	0	0	0		ĞÕi Yªn V§n Chß½ng : Có khä nång giäm nµi ngoÕi công cüa møc tiêu 
+1225	1225	2000	Shenqi_3_11							1	0	0	0	0		ĞÕi Yªn V§n Chß½ng : Có khä nång giäm nµi ngoÕi thü cüa møc tiêu 
+1226	1226	2000	Shenqi_3_11				wq_ÎüÑª´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Yªn V§n Chß½ng : H¤p thø sinh m®nh cüa møc tiêu
+1227	1227	2000	Shenqi_3_11				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Yªn V§n Chß½ng : ğã giäm 1923 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1228	1228	2000	Shenqi_3_11				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Yªn V§n Chß½ng : ğã giäm 1923 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+1229	1229	2000	Shenqi_3_11				wq_ĞéÈõ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Yªn V§n Chß½ng : ğã giäm 2400 ği¬m nµi ngoÕi công cüa 1 møc tiêu
+1230	1230	2000	Shenqi_3_11				wq_ÆÆÕÀ´¥·¢01		ÓÒÎäÆ÷°ó¶¨µã	0	0	0	1	0		ĞÕi Yªn V§n Chß½ng : ğã giäm 2400 ği¬m nµi ngoÕi thü cüa 1 møc tiêu
+1231	1231	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Công Chúa Quang Hoàn: Tång 20 ği¬m t¤t cä thuµc tính nhân v§t, duy trì 5 gi¶.
+1232	99	1400	RideHeader4_6							0	0	0	1	0		Thú cßŞi : Hùng Miêu 
+1233	99	1400	RideHeader4_7							0	0	0	1	0		Thú cßŞi : Lôi LÕng 
+1234	99	1400	RideHeader4_8							0	0	0	1	0		Thú cßŞi : Xích MÜ ¿ng 
+1235	99	1400	RideHeader4_9							0	0	0	1	0		Thú cßŞi : Ám MÜ ¿ng 
+1236	99	1400	RideHeader4_10							0	0	0	1	0		Thú cßŞi : TØ MÜ ¿ng 
+1237	1237	1000	CircularTaskTool15_7							0	0	0	0	0		Quán Khái Trung : Dî Kinh B¸ Nhi­u Thüy Quá Li­u, Nh¤t ĞoÕn Th¶I Gian Nµi B¤t Nång Tái B¸ Nhi­u
+1238	1238	1000	Huodong_4_10							0	0	0	1	0		Thª Gi¾i Xúc Cúc ĞÕi Tái : Cäm Thø Thª Gi¾i Xúc Cúc ĞÕi Tái, S· Hæu Thuµc Tính Tång 20 Ği¬m
+1239	1239	1000	Huodong_4_12							1	0	0	0	0		Thanh Lß½ng Nh¤t HÕ : Bang Trş Tô Châu ( 196, 168 ) Qua Quy«n Hæu Mãi
+1240	1240	1000	Huodong_4_11							1	0	0	0	0		Thanh Säng Vô HÕn : Bang Hµi Thành Th¸ ( 129, 98 ) Chu Thª Hæu C¤p B±n Bang Thành Viên
+1241	100	1000	CircularTaskTool14_2							0	0	0	1	0		Bång Sát Møc : TrÕng Thái HÕ Thü Nång Khán Ğáo Bång Sát
+1242	99	1400	RideHeader4_12							0	0	0	1	0		Thú cßŞi : Huy«n Thiên Lôi Thú 
+1243	99	1400	RideHeader4_13							0	0	0	1	0		Thú cßŞi : Huy«n Thiên Lôi Thú 
+1244	99	1400	RideHeader4_11							0	0	0	1	0		Thú cßŞi : Khô Mµc Côi L²i 
+1245	99	1400	RideHeader4_15							0	0	0	1	0		Thú cßŞi : Nguy®t Th¯ 
+1246	294	8100	CircularTaskTool17_5				buff_ÖØÂ¥ÍûÔÂ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Trùng Lâu.Tri®u? khi t¤n công có 2% tï l®?gây phong huy®t?liên tiªp7 giây? phong huy®t không th¬ giäi
+1247	295	8100	CircularTaskTool17_6				buff_ÖØÂ¥ÄæÌì		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Trùng Lâu.Quy? khi t¤n công có 2% tï l® gây tê li®t?liên tiªp7 giây?Tê li®t không th¬ giäi
+1248	99	1400	RideHeader5_1							0	0	0	1	0		Thú cßŞi : Giang Nam Töa Giáp Mã KÜ 
+1249	99	1400	RideHeader5_2							0	0	0	1	0		Thú cßŞi : ĞÕi MÕc Kim Qua Mã 
+1250	1250	1000	Huodong_5_11							0	0	0	0	0		Cµng Hß·ng Ğång Mê : TÕi ThØ TrÕng Thái Tài Thü Nång Tiªp Thü Ğång Mê
+1251	1251	1000	Huodong_5_11							0	0	0	0	0		Trì Tøc Th¶i Gian Nµi TÕm Th¶i Vô Pháp Giäi Ğáp Ğång Mê
+1252	99	1400	RideHeader5_8							0	0	0	1	0		Thú cßŞi : Løc Hành Ği¬u 
+1253	99	1400	RideHeader5_3							0	0	0	1	0		Thú cßŞi : Yên Vû Thanh Hà 
+1254	99	1400	RideHeader5_5							0	0	0	1	0		T÷a kÜ: Huy­n Höa Xích Lân Thú. Sau khi cßŞi t¯c ğµ di chuy¬n +80%.
+1255	99	1400	RideHeader5_7							0	0	0	1	0		T÷a kÜ: Thiên Công Linh Lung ThØ. Sau khi cßŞi t¯c ğµ di chuy¬n +80%.
+1256	99	1400	RideHeader5_6							0	0	0	1	0		Thú cßŞi : Thiên Phúc C¦m Lân 
+1257	99	1400	RideHeader5_4							0	0	0	1	0		Thú cßŞi : Chính Túc QuÖ Mã 
+1260	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 20% kÛ nång mi­n d¸ch không chª
+1261	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 25% kÛ nång mi­n d¸ch không chª
+1262	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 30% kÛ nång mi­n d¸ch không chª
+1263	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 35% kÛ nång mi­n d¸ch không chª
+1264	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 40% kÛ nång mi­n d¸ch không chª
+1265	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 45% kÛ nång mi­n d¸ch không chª
+1266	231	8100	Necklace2_15				buff_ÖØÂ¥ÏîÁ´		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Trùng Lâu Giä Møc? khi t¤n công có 2% tï l®?gây mù?liên tiªp 20 giây?gây mù không th¬ giäi
+1267	17	9000	Buff0_13				g01_em_buff38		Í·¶¥×´Ì¬µã	0	0	1	0	0		Th¤t minh: Di chuy¬n tuÏ c½, không th¬ thao tác, có th¬ b¸ công kích, không có cách gì ğánh tïnh
+1268	232	8200	Necklace2_15				buff_ÖØÂ¥ÏîÁ´		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Chân.Trùng Lâu Liên? khi t¤n công có 3% tï l®?gây mù?liên tiªp 25 giây?gây mù không th¬ giäi
+1269	1238	1000	Huodong_3_6				buff_ÆßÏ¦_01		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Hoàng Thiên Chï HÕc Truy«n Vân Ái : S· Hæu Thuµc Tính + 20 Ği¬m
+1270	99	1400	RideHeader5_9							0	0	0	1	0		Thú cßŞi : Kim Lân Vû Sß 
+1271	1271	1000	Buff9_5							0	0	0	0	0		L­ Hoa Nhiên Phóng Trung
+1272	99	1400	RideHeader5_10							0	0	0	1	0		Thú cßŞi : Kı Cß Giäi 
+1273	99	1400	RideHeader5_14							0	0	0	1	0		Thú cßŞi : Kim Dñc Long Thú 
+1274	99	1400	RideHeader5_11							0	0	0	1	0		Thú cßŞi : Th¤t Bäo Liên 
+1275	99	1400	RideHeader5_12							0	0	0	1	0		Thú cßŞi: Xích Lân BÕch TrÕch
+1276	99	1400	RideHeader5_13							0	0	0	1	0		Thú cßŞi: Thanh Lân BÕch TrÕch
+1277	99	1400	RideHeader6_2							0	0	0	1	0		Thú Cß·I : Dung Nham Ma Tê 
+1278	99	1400	RideHeader6_3							0	0	0	1	0		Thú cßŞi : TÑ HÖ T¯ng Lı Ğài Thai 
+1279	99	1400	RideHeader6_4							0	0	0	1	0		Thú cßŞi : Nguy®t Nhøc BÕch Long Mã 
+1280	99	1400	RideHeader6_1							0	0	0	1	0		Thú cßŞi : Phï Thúy Ngñ Giá 
+1281	99	1000	RideHeader3_13							0	0	0	1	0		Xí Bäng : Huy«n Vû T¯c Ğµ Di Chuy¬n 40 %
+1282	99	1400	RideHeader5_15							0	0	0	1	0		Thú cßŞi : Lam Dñc Long Thú 
+1283	99	1400	RideHeader5_16							0	0	0	1	0		Thú cßŞi : Thanh Dñc Long Thú 
+1284	99	1400	Ride2_10		interface\31.wav					0	0	0	1	0		Thú cßŞi : Tu¥n Lµc T¯c Ğµ Di Chuy¬n 40 %
+1285	99	1400	Ride2_16							0	0	0	1	0		Ğôi cánh: Minh Vû
+1286	99	1400	RideHeader6_5							0	0	0	1	0		T÷a KÜ : NgÕo Tuyªt Linh Sß
+1287	1287	1500	Buff14_7							1	0	0	0	0		Bång Túy Änh Nguy®t : Chí M®nh Trúng Xác Su¤t Tång Bång Công Kích 110 Ği¬m
+1288	1288	1500	Buff14_8							1	0	0	0	0		Höa Ánh Li®t Dß½ng : Chí M®nh Trúng Xác Su¤t Tång Gia Höa Công Kích 110 Ği¬m
+1289	1289	1500	Buff14_9							1	0	0	0	0		Huy«n Minh Di®u Th¥n : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Huy«n Công Kích 110 Ği¬m
+1290	1290	1500	Buff14_10							1	0	0	0	0		Ğµc Ám Di®t : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Gia Ğµc Công Kích 110 Ği¬m
+1291	1291	1500	Buff14_7							1	0	0	0	0		Bång Túy Änh Nguy®t : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Gia Bång Công Kích 130 Ği¬m 
+1292	1292	1500	Buff14_8							1	0	0	0	0		Höa Änh Li®t Dß½ng : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Gia Höa Công Kích 130 Ği¬m
+1293	1293	1500	Buff14_9							1	0	0	0	0		Huy«n Minh Di®u Th¥n : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Huy«n Công Kích 130 Ği¬m
+1294	1294	1500	Buff14_10							1	0	0	0	0		Ğµc Ám Di®t : Chí M®nh Trúng Møc Tiêu Xác Su¤t Tång Gia Ğµc Công Kích 130 Ği¬m
+1295	1295	1000	Buff13_9				buff_¾«¸Ö»¤Ìå		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Cao C¤p Tinh Cß½ng Hµ Th¬ : Kh¡c Dî Mi­n Giäm Thuong . Ğ¯i KÏ SØ Døng Niên Hoa Côn Pháp Kh¡c Dî Khinh Ğäo
+1296	1296	1000	Buff13_9				buff_¾«¸Ö»¤Ìå		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Tinh Cß½ng Hµ Th¬ : Kh¡c Dî Mi­n Giäm Thß½ng . Ğ¯i KÏ SØ Døng Niên Hoa Côn Pháp Kh¡c Dî Khinh Ğäo
+1297	1297	1000	Buff5_9							0	0	0	0	0		Niêm Hoa Tñ Tång : Ğ« Cao T¯c Ğµ Di Chuy¬n 40 %
+1298	1298	1000	FBSkill_1_2				buff_Äé»¨²½·¨		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Niêm Hoa Bµ Pháp : T¯c Ğµ Gia Tång 50 %
+1299	1299	100	RideHeader2_7							0	0	0	1	0		Vô Ğ¸ch : Mi­n D¸ch Phø Di®n Hi¬u Quä
+1300	99	1400	RideHeader3_16							0	0	0	1	0		Thú cßŞi: Ba Thiên H±
+1301	99	1400	RideHeader4_4							0	0	0	1	0		Thú cßŞi: Phi Long 
+1302	99	1400	RideHeader4_1							0	0	0	1	0		Thú cßŞi: Linh Dß½ng
+1303	99	1400	RideHeader4_2							0	0	0	1	0		Thú cßŞi: Tuyªt Linh Dß½ng
+1304	99	1400	RideHeader4_3							0	0	0	1	0		Thú cßŞi: U Quang Linh
+1305	1305	1000	FightSkillMurong_11				m01_gs_ÌìÔöËêÔÂ_buff		ÉíÌåÊÜ»÷µã	0	1	0	1	0		Thiên Tång Tuª Nguy®t: Tång gi¾i hÕn huyªt 
+1306	100	1000	FightSkillMurong1_2				m01_gs_Ä°ÉÏĞĞ_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		MÕch Thßşng Hành: Tång t¯c ğµ di chuy¬n
+1307	13	1000	FightSkillMurong_12	all_bj0000		ÉíÌåÊÜ»÷µã	m01_gs_Ì½ÓªÈ¡½«_buff		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Thám Doanh Thü Tß¾ng: Phong Huy®t, không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1308	1308	1000	FightSkillMurong1_8				m01_gs_»÷¹ÄÁî_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Kích C± L®nh: Tång nµi công
+1309	1309	1000	FightSkillMurong_3							0	1	1	0	0		Trùng Vân Y¬m Nh§t: Hß nhßşc, giäm th¬ lñc, trí lñc
+1310	1310	1000	FightSkillMurong_9							0	1	1	0	0		Tâm Kiªm Giao Dung: Phá Tri«n, giäm phòng ngñ
+1311	1311	1000	FightSkillMurong_6							0	1	1	0	0		Súc Vân Døc Vû: giäm công kích
+1312	1312	1000	FightSkillMurong1_15				m01_gs_ĞÄ½£½»ÈÚ_buff		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Tá Lñc : Khi nh§n ğßşc sñ công kích Tá Lñc, có th¬ sØ døng kÛ nång Tá Lñc phän lÕi ğòn công kích.
+1313	1313	7500	FightSkillMurong1_4	g01_sl_zdo_mingjingtai_01		ÉíÌåÊÜ»÷µã	m01_gs_¾»ĞÄ¹ÛÔÂ_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		T¸nh Tâm Quán Nguy®t: mi­n d¸ch Th¤t Minh
+1314	1314	1000	FightSkillMurong1_13				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Bao Vây): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Bao Vây
+1315	1314	1000	FightSkillMurong2_1				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Phong Huy®t): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Phong Huy®t
+1316	1314	1000	FightSkillMurong1_16				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Hôn Mê): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Hôn Mê
+1317	1314	1000	FightSkillMurong2_2				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Th¤t Minh): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Th¤t Minh
+1318	1314	1000	FightSkillMurong1_14				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Ğ¸nh Thân): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Ğ¸nh Thân
+1319	1314	1000	FightSkillMurong1_12				m01_gs_ĞîÔÆÓûÓê_buff		ÉíÌåÊÜ»÷µã	0	0	0	1	0		Súc Khí (Tán Công): SØ døng kÛ nång Bï Hành Ngã Thích có th¬ gây hi®u quä Tán Công
+1320	11	1000	Buff0_7		Skills\Common\rock_huge_1.wav		g01_buff12		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Bï Hành Ngã Thích (Bao vây): không th¬ di chuy¬n, không th¬ thao tác, không th¬ b¸ công kích
+1321	13	1000	Buff0_9	all_bj0000		ÉíÌåÊÜ»÷µã	buff_fengxue_01		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Bï Hành Ngã Thích (Phong Huy®t): không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1322	15	1000	Buff0_11				buff_hunmi_01		Í·¶¥×´Ì¬µã	0	1	1	0	0		Bï Hành Ngã Thích (Hôn Mê): không th¬ di chuy¬n, không th¬ thao tác, có th¬ b¸ công kích, có th¬ ğánh thÑc
+1323	17	1000	Buff0_13				g01_em_buff38		Í·¶¥×´Ì¬µã	0	1	1	0	0		Bï Hành Ngã Thích (Th¤t Minh): di chuy¬n tùy ı, không th¬ thao tác, có th¬ b¸ công kích, không th¬ ğánh thÑc
+1324	19	1000	Buff0_15		Skills\Sl\Sl_½ğ¸Õ·üÄ§È¦_¶¨Éí.wav		g01_buff27		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Bï Hành Ngã Thích (Ğ¸nh Thân): trong trÕng thái Ğ¸nh Thân có th¬ công kích nhßng không th¬ di chuy¬n
+1325	21	1000	Buff0_16				buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Bï Hành Ngã Thích (Tán Công): không th¬ sØ døng kÛ nång môn phái
+1326	126	1000	FightSkillMurong_6							0	0	0	1	0		Súc Vân Døc Vû: trÕng thái phòng ngñ, tång t¯c ğµ nh§n ğßşc nµ khí, trúng kÛ nång kh¯ng chª trong trÕng thái này có c½ hµi nh§n ğßşc hi®u quä súc lñc tß½ng Ñng
+1327	126	1000	FightSkillMurong_9							0	0	0	1	0		Tâm Kiªm Giao Dung: trÕng thái t¤n công, t¤n công trong trÕng thái này có khä nång làm  giäm nµi ngoÕi thü cüa møc tiêu; khi ch¸u sát thß½ng có c½ hµi nh§n ğßşc hi®u quä Tá Lñc
+1328	1328	8500	FightSkillMurong1_1				m01_gs_ÆßÏ¼Ó³ÈÕ_buff		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Th¤t Hà Ánh Nh§t: Kiªm tr§n, giäm sát thß½ng mà bän thân và ğ°ng ğµi nh§n ğßşc.
+1329	1329	8500	FightSkillMurong1_1							0	0	0	1	0		Th¤t Hà Ánh Nh§t: mi­n thß½ng, giäm 5% sát thß½ng bän thân phäi ch¸u.
+1330	1330	1000	FightSkillMurong2_7				m01_gs_ÆÆÌìÊ½_buff		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Lñc Chí Ti«m Thích: khi b¸ t¤n công có khä nång nh§n ğßşc hi®u quä Gia T¯c
+1331	23	1000	FightSkillMurong2_7				g01_buff100		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Gia T¯c: Tång 50% t¯c ğµ di chuy¬n
+1332	21	1000	FightSkillMurong1_7				buff_sangong_01		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Kiªm Toä Giang S½n: Tán Công, không th¬ sØ døng kÛ nång môn phái
+1333	99	1400	RideHeader4_5							0	0	0	1	0		Thú cßŞi : Höa Di¬m Ğiêu : 
+1334	1334	1000	Buff12_16							1	0	0	0	0		Truy ºc Khu¤t Nguyên : Ğáp Ğ« Thác Ngµ, ĞÆng Ğãi Phiªn Kh¡c H§u Phß½ng Kh¡c Kª SØ Døng Ğoan Ng÷ Chï Nam
+1335	1335	1000	Buff13_1				buff_·ÛÏãÍ¿Ö¬		½ÅÏÂ¹âÈ¦µã	1	0	0	1	0		Ph¤n Hß½ng Ğ° Chï : Th¤t T¸ch Ph¤n Trang Yªn Ğ£c Bi®t , Quan Quân Nam Tính NgoÕn Gia Khä Kh¡c Dî T¯ng Ng÷c Trâm 
+1336	1336	1000	Buff13_2							1	0	0	0	0		Song Nhân Ğ¯i Thi : Nhî Chánh T¸a Dæ Nh¤t Danh Nam Tính NgoÕn Gia Tiªn Hàng Song Nhân Ğ¯I Thü
+1337	14	1000	FightSkillMurong2_7	m01_gs_ÆÆÌìÊ½_±»»÷		ÉíÌåÊÜ»÷µã				0	1	1	0	0		Phá Thiên ThÑc : Lâm Ma Tê , Di Ğµng B¤t Nång , Thao Tác B¤t Nång , Kh¡c B¸ Công Kích, Vô Pháp B¸ Ğä Tïnh
+1338	1338	1000	FightSkillXinShou_11							0	0	0	0	0		Thú H°n Phø Th¬ : Trân Thú Ğích Linh H°n Phø Vu Nhî Thân, Ğ« Thång Chiªn Ğ¤u, Thuyên Toàn Thuµc Tính + 10 Ği¬m
+1339	99	1400	RideHeader4_14							0	0	0	1	0		Thú cßŞi : CØu Châu Th¥n Long 
+1340	1226	1000	Buff4_16				g01_buff7		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Thi V® Bäo Hµ : Mi­n Thß½ng 50 %
+1341	106	1000	Buff8_6							0	0	0	0	0		Mi­n D¸ch Kh¯ng Chª KÛ Nång 
+1342	334	1000	TaskTools3_3							0	0	0	0	0		NhÕn Môn Quan Ti«n Tiªu Bäo Hµ : Vô Ğ¸ch, B¤t Nång SØ Døng KÛ Nång , Vô Pháp Truy«n Vân T¯ng Khä Dî Di Ğµng
+1343	334	1000	TaskTools3_3							0	0	0	1	0		Ğ¸ch Thân : B¤t Nång Di Ğµng
+1344	1228	1000	TaskTools3_3							0	0	0	0	0		Ğ¸ch Thân : B¤t Nång Di Ğµng
+1345	1231	1000	Buff13_3				buff_ÕäççÖ®¹â		ÉíÌåÊÜ»÷µã	1	0	0	0	0		Ğán Nguy®n Nhân Trß¶ng CØu: sØ døng bánh Trung Thu v¾i NPC này. Bánh Trung Thu có th¬ nh§n thông qua nhi®m vø cüa Tô Châu Tô ThÑc, ho£c lînh mi­n phí ch² Tô Châu Trí Hóa.
+1346	1231	1000	Buff13_4				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	1	0	0	0	0		Thiên Lı Cµng Thuy«n Quyên: v×a nh§n ğßşc bánh Trung Thu cüa ngß¶i ch½i t£ng. Bánh Trung Thu có th¬ nh§n thông qua nhi®m vø cüa Tô Châu Tô ThÑc, ho£c lînh mi­n phí ch² Tô Châu Trí Hóa.
+1347	1231	1000	Buff13_4				g01_buff_Ê¥µ®ÀñºĞ01		½ÅÏÂ¹âÈ¦µã	1	0	0	0	0		Thiên Lı Cµng Thuy«n Quyên: Toàn thuµc tính+10. Nh§n ğßşc bánh Trung Thu th½m ng÷t t× ngß¶i ch½i khác! TLBB 2 chúc các hÕ Trung Thu vui vë!
+1348	743	100	Huodong_4_16	g01_em_buff1111	interface\sound_shengji.wav	½ÅÏÂ¹âÈ¦µã	ĞÂºì¹â»·		ÉíÌåÖĞĞÄµã	1	0	0	1	0		Qu¯c Khánh Khoái LÕc : TÕi Ğä Quái Th¶i Nång Cú Hµ Ğ¡c NgÕch NgoÕi 10 % Kinh Nghi®m. Buff Liên Tøc 30 Phân Chung Giän.
+1349	1349	1000	Huodong_4_16							1	0	0	0	0		Vô Pháp SØ Døng
+1350	737	1000	Buff11_3				buff_ÀÏÓÑµÄ×£¸£³ÖĞø		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Lão Hæu Ğích Chúc Phúc, Nhân V§t C½ S· Nµi NgoÕi Công Công Kích Tång 20 %
+1351	1229	1000	Buff11_4				ĞÂÀ¶¹â»·_±äºì		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Anh Hùng Quy Lai : T± Thành LÕng Nhân Ğµi Ngû Ğáo ĞÕi Lı ( 173, 146 ) Tôn Bát QuÛ Gia SÑ, Kh¡c Lãnh Tuy®t Bän Trân Thú Trß·ng l®
+1352	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 10 Ği¬m
+1353	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 16 Ği¬m
+1354	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 22 Ği¬m
+1355	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 28 Ği¬m
+1356	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 34 Ği¬m
+1357	1538	1000	Buff11_3							1	0	0	0	0		Toàn Lñc Dî Phó , Tái Chiªn Giang H° ! Nhân V§t S· Hæu Thuµc Tính Tång 40 Ği¬m
+1358	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Ti®m Nh§p Giai Cänh : Toàn Chúc Thuµc Tính + 20, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1359	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Thân Thü Kiªn Ki®n : Toàn Chúc Thuµc Tính + 50, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1360	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Phong Mang T¤t Lµ : Toàn Chúc Thuµc Tính + 70, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1361	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Vån Danh Hà Nhî : Toàn Chúc Thuµc Tính + 90, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1362	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		S½ Nh§p Giang H° : Toàn Chúc Thuµc Tính + 10, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1363	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Tam Lµ Phong Mang : Toàn Chúc Thuµc Tính + 25, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1364	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Danh V÷ng Thiên HÕ : Toàn Chúc Thuµc Tính + 35, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1365	1358	1000	Buff6_12	g01_em_buff1111		½ÅÏÂ¹âÈ¦µã				1	0	0	1	0		Häi Nµi Giai Tri KÖ : Toàn Chúc Thuµc Tính + 45, Thông Qua Tích Toàn Nhân Khí Tr¸ TÕi ĞÕi Lı Tôn Bát Cøu QuÛ Gia XÑ Ğoài Hoán HoÕch Ğ¡c
+1366	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎĞ¡±ø		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Ti¬u Binh
+1367	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎ¶¼Í·		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Ğô Ğ¥u
+1368	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎÓªÖ¸»ÓÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Doanh Chï Huy SÑ
+1369	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎ¶¼Óİºî		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Ğô Ngu H¥u
+1370	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎ¶¼Ö¸»ÓÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Ğô Chï Huy SÑ
+1371	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎÊàÃÜ¸±Ê¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Xu M§t Phó SÑ
+1372	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ËÎÊàÃÜÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Xu M§t SÑ
+1373	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉĞ¡×ä		ÉíÌåÖĞĞÄµã	1	0	0	0	0		T¯ng . Ti¬u T¯t
+1374	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉÊô¹ú¾üÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . Thuµc Qu¯c Quân SÑ
+1375	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉ¾©Öİ¾üÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . Kinh Châu Quân SÑ
+1376	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉ²¿×å¾üÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . Bµ Tµc Quân SÑ
+1377	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉ¹¬ÕÊ¾üÊ¹		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . Cung Trß¾ng Quân SÑ
+1378	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉÄÏÔº´óÍÕ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . Nam Vi®n ĞÕi Vß½ng
+1379	1232	1000	Huodong_5_3				ËÎÁÉ´óÕ½_³ÆºÅ_ÁÉ±±Ôº´óÍÕ		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Liêu . B¡c Vi®n ĞÕi Vß½ng
+1380	1233	1000	Huodong_5_3				ËÎÁÉ´óÕ½_Õ½³¡Ê¤Àû		ÉíÌåÖĞĞÄµã	0	0	0	1	0		T¯ng Liêu Chiªn Trß¶ng Th¡ng Lşi
+1381	1233	1000	Huodong_5_3				ËÎÁÉ´óÕ½_Õ½³¡Ê§°Ü		ÉíÌåÖĞĞÄµã	0	0	0	1	0		T¯ng Liêu Chiªn Trß¶ng Th¤t BÕi
+1382	1382	1000	Buff13_7				buff_RazerÀ×Éß·çÔÆ¾ö		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Razer Lôi Xà Phong Vân Quyªt HoÕt Ğµng Chuyên Thuµc Tính Buff . Toàn Thuµc Tính + 10
+1383	1383	1000	Huodong_5_4				buff_°®ÓëÉúÃü		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Ái Dæ Sinh M®nh : Huyªt Thuongj HÕn + 5 %
+1384	1384	1000	Buff13_8				buff_³¬¼¶GM		ÉíÌåÖĞĞÄµã	1	0	0	0	0		Tham Gia  Huyªt Chiªn NhÕn Môn Quan  Công Tr¡c Sßu Tß·ng ĞÕi Tác Chiªn HoÕt Ğµng, Tñu Hæu Hµi Doanh Ğ¡c  Siêu C¤p GM  Xuyên Thuµc Hi®u Quä, Ti«n Vãng Tô Châu An Dî Hiên XÑ Tham Gia HoÕt Ğµng Doanh Thü Canh Ğa Tôn Quı ĞÕi L­
+1385	1385	1000	Huodong_5_15				buff_ÃÀÎ¶»ğ¼¦±»¿¾		½ÅÏÂ¹âÈ¦µã	0	1	1	1	0		Khäo Höa Kê
+1386	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è2		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Lãng Tøu Nhàn Trà : C½ S· Nµi NgoÕi Công + 15 %
+1387	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è2		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Ğång H°ng Tøu Løc : C½ S· Nµi NgoÕi Công + 15 %, Hµi Tâm + 2, Chính Xác + 55
+1388	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è2		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Thi Tøu Phong Lßu: C½ S· Nµi NgoÕi Công + 15 %, Hµi Tâm + 3, Chính Xác + 65
+1389	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è2		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Thanh Phong Vi Huân : C½ S· Nµi NgoÕi Công + 15 %, Hµi Tâm + 3, Chính Xác + 74
+1390	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è3		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Ğ¯I Tøu Ğß½ng Ca : C½ S· Nµi NgoÕi Công + 20 %, Hµi Tâm + 3, Chính Xác + 83
+1391	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è3		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Tøu Hàm Nhî Nhi®t : C½ S· Nµi NgoÕi Công + 20 %, Hµi Tâm + 3, Chính Xác + 93
+1392	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è4		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Hôn Hôn Døc Túy : C½ S· Nµi NgoÕi Công + 20 %, Hµi Tâm + 8, Chính Xác + 206
+1393	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è4		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Diêu Dao Døc Túy : C½ S· Nµi NgoÕi Công + 20 %, Hµi Tâm + 13, Chính Xác + 373
+1394	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è5		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Tøu Th¥n Phø Th¬ : C½ S· Nµi NgoÕi Công + 20 %, Hµi Tâm + 25, Chính Xác + 611
+1395	1386	1000	Huodong_5_13				buff_¶Ô¾Æµ±¸è5		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Thôn †m Nh§t Nguyêt : C½ S· Nµi NgoÕi Công + 33 %, Hµi Tâm + 33, Chính Xác + 3333
+1396	1386	1000	Huodong_5_14				buff_Õ¤ôú´ó×í		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Minh Ğính ĞÕi Túy : né tránh +300 
+1397	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 5% kÛ nång mi­n d¸ch không chª
+1398	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 10% kÛ nång mi­n d¸ch không chª
+1399	826	1500	Buff13_9							1	0	0	0	0		Trùng Lâu: Có 15% kÛ nång mi­n d¸ch không chª
+1650	1650	1000	CircularTaskTool3_11				boss_Ä½Èİ¸´_ÏÈÀñºó±ø_02		ÉíÌåÊÜ»÷µã	0	0	1	0	1	×óÎäÆ÷°ó¶¨µã	Tiên L­ H§u Binh : Mµ Dung Phøc thø Ğáo Ğích S· Hæu Thß½ng HÕi Chuyªn Di Ğáo Muc Tiêu Thân Thßşng 
+1651	1651	1000	Buff13_13				buff_¾µ»¨Ë®ÔÂ		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Kính Hoa Thüy Nguy®t  : Hu«  Thüy Nguy®t TrÕng Thái NgoÕn Gia Ğích Huyªt Lßşng Thø Ğáo Tång Ích H§u , Mµ Dung Phøc Hµi Thø Ğáo Tång Ích Ğích Tr¸ Li®u Hi¬u Quä
+1652	1652	9100	Buff13_14				buff_ÆÆ¼×		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Dï Bï Chi ĞÕo Hài Thì Bï Thân  Cß¾ng lñc Ğích Phän XÕ Công Kích
+1653	1653	9100	Buff2_11		Character\Npc\chess_boss_1.wav					0	0	0	0	0		Ğ¸nh Thân
+1654	1654	1000	Buff14_4				buff_Ïô·å		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tång Gia Nµi NgoÕi Công 
+1655	1655	1000	Buff14_5				buff_ĞéÖñ		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tång Gia Ğµc Kháng
+1656	1656	1000	Buff14_6				buff_¶ÎÓş		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Tång Gia Bång Höa Huy«n Ğµc Thuµc Tính Công Kích
+1657	1657	1000	Buff13_16				buff_×Ô±¬		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Tñ Bào : Chu Vi Muc Tiêu TÕo Thành ĞÕi Lßşng Thß½ng HÕi
+1658	1658	1000	Buff13_15				buff_½âÌå		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Giäi Th¬ : Dæ Chu Vi Møc Tiêu Cµng Ğ°ng Th×a Ğäm Thß½ng HÕi
+1659	1659	1000	Buff13_12				buff_º®¶¾¸½Ìå		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Hàn Dµc Hµ Th¬ : Tång Gia Bång Dµc Kháng Tính 
+1660	1660	1000	FightSkillTianShan1_8		Skills\Common\ice_explode_1.wav		g01_ts_ÌìµØÃ÷Ãğ_zdo		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Bång Tàm Ti : Trì Tøc Tính Bång Thß½ng HÕi 
+1661	1661	1000	FightSkillMingJiao_4	boss_»ğ²Ï_ÊÜ»÷		ÉíÌåÊÜ»÷µã	g01_buff10		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Bång Tàm Ti : Tång Gia Ğ“ng T¯c Ğµ
+1662	1662	1000	Buff0_4				g01_buff106		ÉíÌåÊÜ»÷µã	0	1	1	0	0		Chß¾c Thiêu : Trì Tøc Ği®u Huyªt 
+1663	1663	8500	FightSkillShaoLin2_5				ÃØ¼®_sl_zdo		ÉíÌåÖĞĞÄµã	0	0	0	0	0		D¸ch Cân Kinh ; Tång Gia Di  Ğ“ng T¯c Ğµ 
+1664	1664	1000	Buff1_1	boss_±ù²Ï_ÊÜ»÷		ÉíÌåÊÜ»÷µã	g01_buff100		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Bång Tàm Ti : Di Ğµng T¯c Ğµ  Giäm NÕn 
+1665	1665	1000	Buff5_1							0	0	0	1	0		Tham Thính †n Bí 
+1666	1666	1000	Buff13_11				buff_¶¾±¬_01		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Ğµc Bào : TØ Vong H§u C¯i  Chu Vi NgoÕi Gia . Hòa Tr¥n Thú Sän Sinh ĞÕi Lßşng Thß½ng HÕi 
+1667	1667	1450	Buff5_9	boss_²Ï¼ë_01		½ÅÏÂ¹âÈ¦µã	boss_²Ï¼ë_02		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Bång Tàm Biªn Thân 
+1668	1668	1450	Buff5_9	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		H÷a Long Ği¬m Tinh : ThØ TrÕng Thái HÕ C§n Khä SØ Døng Ğ« Bút H÷a Long Dß V§n Bút S¡t KÖ Nång . Di Ğµng T¯c Ğµ Tång Gia 40 % 
+1669	1669	9100	Buff13_14				buff_»¹Ê©±ËÉí		ÉíÌåÖĞĞÄµã	0	0	1	0	0		Hài Thi Bï Thân : Tß¾ng Mµ Dung Phøc Ğích Phø Miªn TrÕng Thái Phän ĞÕn Ğáo Møc Tiêu Thân Thßşng 
+1670	1670	8600	Buff13_10				buff_·è¿ñ		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Phong Cu°ng : Cñc ĞÕi Ğích Ğ« Cao Thß½ng HÕi 
+1671	1671	1000	Buff14_3				buff_ÈºÁúĞ¥Ìì		½ÅÏÂ¹âÈ¦µã	0	0	0	1	0		Qu¥n Long Khiªu Thiên : Thø Ğáo Li­u Chúc Phúc , Thñc Lñc Ğ¡c Ğáo Li­u Ğ« Thång .
+1672	336	1000	ChessIcon_15							1	0	0	0	0		Hoàng Kim Mã An : Tång Gia KÜ Th×a Th¶i Ğích Di . Ğµng T¯c Ğµ 
+1673	1673	1000	FightSkillMurong2_7				boss_Ä½Èİ¸´_ÆÆÌìÊ½_buff		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Phá Thiên ThÑc : Thi®u Hoán Phi Kiªm Thß½ng HÕi Ğ¸ch Nhân 
+1674	1674	1000	Buff13_11				Î×¶¾¶¦_ÉËº¦buff		½ÅÏÂ¹âÈ¦µã	0	0	1	0	0		Huyªt Chú Vu C± 
+1675	1675	8600	Buff13_10				buff_·è¿ñ		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Phong Cu°ng : KÛ Nång Thích Phóng T¥n Su¤t Tång Gia 
+1676	1676	1000	Buff1_1	all_bj04		ÉíÌåÊÜ»÷µã	g01_buff»¬µ¹		½ÅÏÂ¹âÈ¦µã	0	1	1	0	0		Hàn Ğµc Hµ Th¬ : Trang Tø Hi«n Chu Vi NgoÕn Gia Di Ğµng T¯c Ğµ Giäm MÕn
+1677	1677	1500	Buff2_16							0	0	0	1	0		Bång Túy Änh Nguy®t  : Tång Gia Bång Công Kích 110 Ği¬m
+1678	1677	1500	Buff3_1							0	0	0	1	0		Höa Ánh Li®t Dß½ng  : Tång Gia Hoa  Công Kích 110 Ği¬m
+1679	1677	1500	Buff3_3							0	0	0	1	0		Huy«n Minh Di®u Th¥n  : Tång Gia Huy«n Công Kích 110 Di¬m 
+1680	1677	1500	Buff3_2							0	0	0	1	0		Ğµc Ám Di®t : Tång Gia Ğµc Công Kích 110 Ği¬m 
+1681	1677	1500	Buff2_16							0	0	0	1	0		Bång Túy Änh Nguy®t  : Tång Gia Bång Công Kích 130 Ği¬m
+1682	1677	1500	Buff3_1							0	0	0	1	0		Höa Ánh Li®t Dß½ng  : Tång Gia Hoa  Công Kích 130 Ği¬m
+1683	1677	1500	Buff3_3							0	0	0	1	0		Huy«n minh Di®u Th¥n  : Tång Gia Huy«n Công Kích 130 Di¬m 
+1684	1677	1500	Buff3_2							0	0	0	1	0		Ğµc Ám Di®t : Tång Gia Ğµc Công Kích 130 Ği¬m 
+1685	1685	1000	CircularTaskTool20_16							1	0	0	0	0		 Hai Ti¬u Huy«n Linh Ğan : Mµt Ti¬u Th¶I Nµi Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng Ğích 2 Bµi, Th¶I SØ Døng Thiên Linh Ğan, Kh¡c SÑ Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng 4 Bµi, Th¶I SØ Døng Thiên Linh Ğan, Kh¡c SÑ Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng 3 Bµi, Ti¬u Huy«n Linh Ğan B¤t Hµi Änh Hß·ng Trân Thú HoÕch Ğ¡c SØ Døng Kinh Nghi®m Hi®u Su¤t
+1686	1686	1000	Buff7_6				Ö÷½Ç±äÉí°ïÅÉÉú²úÈÎÎñ_buff_¼ÓËÙ		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Tång T¯c Ğµ Di Chuy¬n : T¯c Ğµ ĞÕt Ğßşc 50 %
+1687	269	1450	Buff5_9	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	1	0		Biªn Thân : SØ Døng ThØ Tiêu Hæu Ği¬m Kích Cai Ğ° Tiêu Kh¡c Dî Giäi Tr× Biªn Thân TrÕng Thái
+1688	1688	1000	ChessIcon_16				buff_ÖÁ×ğ×¨Êô		ÉíÌåÖĞĞÄµã	0	0	0	1	0		Chí Tôn Xuyên Thuµc Tính : Khai Thông Ğoän Tín Phøc Vø Nång C¤u Hæu Hi®u Bäo Chß¾ng Nhî Trß¶ng Hào Ğích Thuyên Trß¶ng Hòa, S· Hæu Thuµc Tính Tång 50 Ği¬m
+1689	1689	1000	Buff0_9							0	0	1	0	0		Phòng Quäi C½ Ki¬m Tr¡c TrÕng Thái : Di Ğµng B¤t Nång Thao Tác B¤t Nång, Kh¡c B¸ Công Kích, Vô Pháp B¸ Ğä Tïnh
+1690	1690	1000	Huodong_6_8				buff_Ê¢×°²Êµ°		½ÅÏÂ¹âÈ¦µã	0	0	0	0	0		Th¤t Thái Quang Hoa
+1691	1691	1000	CircularTaskTool22_2				m01_½â¶ÁÀúÊ·_01_lx		ÉíÌåÊÜ»÷µã	0	0	0	0	1	ÉíÌåÊÜ»÷µã	Giäi Ğµc L¸ch SØ Tin TÑc
+1692	1692	1000					npcĞíÔ¸Ê÷_ÆíÓê		ÉíÌåÖĞĞÄµã	0	0	0	0	0		Giäi Ğµc L¸ch SØ Tin TÑc
+1693	269	1450	Buff5_9	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		Biªn Thân : B¤t Khä Thü Ğµng Thü Tiêu
+1694	1694	1450	FightSkillDaLi_5	g01_buff108	FailMRZ.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		Chính TÕi Tu B± B¸ Mµc Ğ¥u HoÕch Phá Ğích Ngß Lâu
+1695	1695	1450	FightSkillDaLi_5	g01_buff108	FailMRZ.wav	½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		Chính TÕi Tu B± B¸ ThÕch Ğ¥u HoÕch Phá Ğích Ngß Lâu
+1696	1685	1000	CircularTaskTool24_7							1	0	0	0	0		Ti¬u Huy«n Linh Ğan : Mµt Ti¬u Th¶I Nµi Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng Ğích 1.5 Bµi, Th¶I SØ Døng Thiên Linh Ğan, Kh¡c SÑ Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng 3 Bµi, Th¶I SØ Døng Thiên Linh Ğan, Kh¡c SÑ Nhân V§t HoÕch Ğ¡c Kinh Nghi®m Biªn V¸ Bình Thß¶ng 2.5 Bµi, Ti¬u Huy«n Linh Ğan B¤t Hµi Änh Hß·ng Trân Thú HoÕch Ğ¡c SØ Døng Kinh Nghi®m Hi®u Su¤t, B¤t Khä Dî Hòa Huy«n Linh Ğan SØ Døng
+1700	1502	500	CircularTaskTool24_8							1	0	0	0	0		Chí Tôn Sinh Nh§t : Ğä Quái NgÕch NgoÕi HoÕch Ğ¡c 20 % Kinh Nghi®m
+1707	1707	1450	Huodong_6_14	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		HoÕt Ğµng CØ Bi®n Giä Chuy¬n Thuµc Trang Thái
+1708	1708	1450	Huodong_6_14	g01_buff108		½ÅÏÂ¹âÈ¦µã				0	0	0	0	0		Quan Chúng Chuyên Thuµc TrÕng Thái
+1715	1715	1000	Huodong_6_14							0	0	0	1	0		Quan Chú Thiêm Long Toàn Qu¯c Tranh Bá , S· Hæu Thuµc Tính Gia Tång 20 Ği¬m
+1729	1729	1400	RideHeader6_6							0	0	0	1	0		Thú cßŞi : Phách Thª Vû Long 
+1730	1730	1400	RideHeader6_7							0	0	0	1	0		Thú cßŞi : Thanh Dñc Chiªn Long 
+1731	1731	1400	RideHeader6_8							0	0	0	1	0		Thú cßŞi : Tuy®t Vân Di®m Long 
+1734	1734	0	Shenqi_3_5							0	1	1	0	0		Tång NgoÕi Công 2890 Ği¬m
+1735	1735	0	Shenqi_3_1							0	1	1	0	0		Giäm Hoän Møc Tiêu Di Chuy¬n 50 %
+1736	1736	0	Shenqi_3_3							0	1	1	0	0		H¤p Thü Møc Tiêu 500 Ği¬m Huyªt
+1737	1737	0	Shenqi_3_9							0	1	1	0	0		H¤p Thü Møc Tiêu 500 Ği¬m Huyªt
+1738	1738	0	Shenqi_3_6							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1739	1739	0	Shenqi_3_2							0	1	1	0	0		Giäm Thi¬u 30 Ği¬m Nµ Khí
+1740	1740	0	Shenqi_3_4							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1741	1741	0	Shenqi_3_7							0	1	1	0	0		Gia Tång Hµi Tâm 26 Ği¬m
+1742	1742	0	Shenqi_3_8							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1743	1743	0	Shenqi_3_5							0	1	1	0	0		NgoÕi Công Phòng Ngñ Giäm 2890 Ği¬m
+1744	1744	0	Shenqi_3_1							0	1	1	0	0		T¯c Ğµ Di Chuy¬n Giäm 50 %
+1745	1745	0	Shenqi_3_3							0	1	1	0	0		B¸ H¤p Huyªt 500 Ği¬m
+1746	1746	0	Shenqi_3_9							0	1	1	0	0		B¸ H¤p Huyªt 500 Ği¬m
+1747	1747	0	Shenqi_3_6							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1748	1748	0	Shenqi_3_2							0	1	1	0	0		Giäm Thi¬u 30 Ği¬m Nµ Khí
+1749	1749	0	Shenqi_3_4							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1750	1750	0	Shenqi_3_7							0	1	1	0	0		Hµi Tâm Phòng Ngñ Giäm 26 Ği¬m
+1751	1751	0	Shenqi_3_8							0	1	1	0	0		Nµi Công Phòng Ngñ Giäm 1380 Ği¬m
+1752	1752	0	Shenqi_3_5							1	0	0	0	0		Xích Di®m Cøu Vån Ğao : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tång NgoÕi Công Kích, Giäm Thi¬u Phòng Ngñ NgoÕi Công Ğ¯I Phß½ng
+1753	1753	0	Shenqi_3_1							1	0	0	0	0		Träm ¿u ĞoÕn S¥u Thß½ng : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Hàng Ğê Møc Tiêu T¯c Ğµ Di Chuy¬n ĞÕt Ğßşc
+1754	1754	0	Shenqi_3_3							1	0	0	0	0		D¸ch Thiên Phá Tà Trßşng : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính H¤p Thü Møc Tiêu Ğích Huyªt
+1755	1755	0	Shenqi_3_9							1	0	0	0	0		Hàm Quang Lµng Änh Kiªm : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính H¤p Thü Møc Tiêu Ğích Huyªt
+1756	1756	0	Shenqi_3_6							1	0	0	0	0		VÕn Nhçn Long Uyên Kiªm : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tång Nµi Công Công Kích, Giäm Thi¬u Phòng Ngñ Nµi Công Ğ¯I Phß½ng
+1757	1757	0	Shenqi_3_2							1	0	0	0	0		Chuy¬n H°n Di®t Phách Câu : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Giäm Thi¬u Møc Tiêu Nµ Khí
+1758	1758	0	Shenqi_3_4							1	0	0	0	0		Toái Tình Vø Änh Hoàn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tång Hµi Tâm Công Kích, Giäm Thi¬u Phòng Ngñ Hµi Tâm Ğ¯I Phß½ng
+1759	1759	0	Shenqi_3_7							1	0	0	0	0		Lôi Minh Ly Nhñu Höa Phiªn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tång Nµi Công Công Kích, Giäm Thi¬u Phòng Ngñ Nµi Công Ğ¯I Phß½ng
+1760	1760	0	Shenqi_3_8							1	0	0	0	0		Thiên Tinh Di®u Dß½ng Hoàn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tñ Thân Nµi Công Công Kích, Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1761	1761	0	WuhunSkill1_4							0	0	0	1	0		Ngñ Th¬ Chi H°n : Tång Gia Nµi Công, Ng÷a Công Phòng Ngñ
+1762	1762	0	WuhunSkill2_14							0	0	0	1	0		Tuy®t L® Chi H°n : Hæu Nh¤t Ğ¸nh C½ KÖ Su¤t SØ Døng Møc Tiêu Trúng Chí M®nh , Chính Xác Hàng Ğê
+1763	1763	0	Buff10_1							0	0	0	0	0		Nhß Mµc Xuân Phong : Qu¥n Th¬ Trì Dø, Hi®u Quä PhÕm Vi Nµi Khôi Phøc Thân Huyªt 20 % Vô Ğ¸ch 5 Mi¬u
+1764	1764	0	Buff12_12							0	0	0	0	0		Thiên PhÕt Nµ H¯ng : Qu¥n Th¬ Công Kích, Hæu Hi®u PhÕm Vi Nµi Thß½ng HÕi Møc Tiêu 12 Huyªt Lßşng Thä Ğ¸ch Thân 3 Miªu sao
+1765	1765	0	Shenqi_3_5							1	0	0	0	0		Danh . Xích Di®m Cøu Vån Ğao : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång NgoÕi Công Công Kích, Giäm Thi¬u Phòng Ngñ NgoÕi Công Ğ¯I Phß½ng
+1766	1766	0	Shenqi_3_1							1	0	0	0	0		Danh . Träm ¿u ĞoÕn S¥u Thß½ng : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång H¤p Thø Møc Tiêu
+1767	1767	0	Shenqi_3_3							1	0	0	0	0		Danh . D¸ch Thiên Phá Tà Trßşng : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång H¤p Thø Møc Tiêu
+1768	1768	0	Shenqi_3_9							1	0	0	0	0		Danh . Hàm Quang Lµng Änh Kiªm : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång H¤p Thø Møc Tiêu
+1769	1769	0	Shenqi_3_6							1	0	0	0	0		Danh . VÕn Nhçn Long Uyên Kiªm : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Nµi Công Kích, Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1770	1770	0	Shenqi_3_2							1	0	0	0	0		Danh . Chuy¬n H°n Di®t Phách Câu : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1771	1771	0	Shenqi_3_4							1	0	0	0	0		Danh . Lôi Minh Ly Nhñu Höa Phiªn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgoÕi NgÕch TÕo Thành Thß½ng HÕi Tính Nång Gia Tñ Thân Nµi Công Kích, Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1772	1772	0	Shenqi_3_7							1	0	0	0	0		Danh . Toái Tình Vø Änh Hoàn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Nh¤t Kích, NgÕch NgoÕi TÕo Thành Thß½ng HÕi Tính Nång Tñ Thân Hµi Tâm Công Kích, Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1773	1773	0	Shenqi_3_8							1	0	0	0	0		Danh . Thiên Tinh Di®u Dß½ng Hoàn : Chí M®nh Trúng Ğ¸ch Xác Su¤t Ph¤n Lñc Kích, NgÕch NgoÕi TÕo Thành Thß½ng HÕi Tính Nång Tñ Thân Nµi Công Kích, Giäm Thi¬u Phòng Ngñ Ğ¯I Phß½ng
+1774	1774	0	Buff1_5							0	1	1	0	0		Cß½ng NgÕnh : Thi¬m TÜ : Chí MÕng Trúng Giáng Hàng 
+1775	1775	0	PetEquipBuff1_6	cw_lingdong		ÉíÌåÊÜ»÷µã				0	0	0	0	0		Siêu C¤p Linh Ğµng : Giác Hi®u ĞÕi C½ Xác Su¤t Giäm Thß½ng
