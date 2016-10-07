@@ -26,10 +26,10 @@ function Wuhun_PreLoad()
 	--update equip
 	this:RegisterEvent("REFRESH_EQUIP");
 
-	-- ÓÎÏ·´°¿Ú³ß´ç·¢ÉúÁË±ä»¯
+	-- ÓÎÝ·´°¿Ú³ß´ç·¢ÉúÝË±ä»¯
 	this:RegisterEvent("ADJEST_UI_POS")
 
-	-- ÓÎÏ··Ö±æÂÊ·¢ÉúÁË±ä»¯
+	-- ÓÎÝ··Ö±æÂÊ·¢ÉúÝË±ä»¯
 	this:RegisterEvent("VIEW_RESOLUTION_CHANGED")
 end
 
@@ -114,10 +114,10 @@ function Wuhun_OnLoad()
 	Kfs_Magic_Image[2] = "set:Wuhun4 image:Wuhun4_1"
 	Kfs_Magic_Image[3] = "set:Wuhun4 image:Wuhun4_4"
 	Kfs_Magic_Image[4] = "set:Wuhun4 image:Wuhun4_3"
-	
-	-- ±£´æ½çÃæµÄÄ¬ÈÏÏà¶ÔÎ»ÖÃ
+
+	-- ±£´æ½çÃæµÄÄ¬ÈÝÝà¶ÔÎ»ÖÃ
 	g_Wuhun_Frame_UnifiedXPosition = Wuhun_Frame:GetProperty("UnifiedXPosition");
-	g_Wuhun_Frame_UnifiedYPosition = Wuhun_Frame:GetProperty("UnifiedYPosition");	
+	g_Wuhun_Frame_UnifiedYPosition = Wuhun_Frame:GetProperty("UnifiedYPosition");
 
 end
 
@@ -160,10 +160,10 @@ function Wuhun_Update()
 	--ICON
 	Wuhun_Equip_Mask:Hide()
 	Wuhun_Equip:SetActionItem(-1)
-	
+
 	local ActionKFS = EnumAction(18,"equip")
 	Wuhun_Equip:SetActionItem(ActionKFS:GetID());
-	--Model	
+	--Model
 	--DataPool:KFS_UpdateKFSModel()
 	Wuhun_FakeObject:SetFakeObject( "" );
 	Wuhun_FakeObject:SetFakeObject("My_Wuhun");
@@ -212,7 +212,7 @@ function Wuhun_Update()
 		Wuhun_Level_Text:SetText("#G"..tostring(level))
 	else
 		Wuhun_Level_Text:SetText(tostring(level))
-	end	
+	end
 
 	--data = DataPool:GetKfsData("EXTRALEVEL")
 	local extralevel = 0
@@ -226,9 +226,9 @@ function Wuhun_Update()
 	--data = DataPool:GetKfsData("ATTACT")
 	local attact = ""
 	if (isFabao_4 ~= nil) then
-		attact = "Lo�i c߶ng l�c"
+		attact = "#{WH_xml_XX(100)}" --lo�i c߶ng l�c
 	elseif (isFabao_5 ~= nil) then
-		attact = "Lo�i n�i l�c"
+		attact = "#{WH_xml_XX(101)}"	--lo�i n�i l�c
 	end
 	Wuhun_Type:SetText(attact)
 
@@ -273,7 +273,7 @@ end
 function Wuhun_Equip_Clicked( buttonIn )
 	local button = tonumber( buttonIn );
 	if( button == 1 ) then
-		Wuhun_Equip:DoAction();	
+		Wuhun_Equip:DoAction();
 	else
 		Wuhun_Equip:DoSubAction();
 	end
@@ -304,7 +304,7 @@ end
 
 --kfs hidden event
 function Wuhun_OnHiden()
-	Wuhun_FakeObject:SetFakeObject("");	
+	Wuhun_FakeObject:SetFakeObject("");
 end
 
 --player's other info
@@ -368,7 +368,7 @@ function Wuhun_Xiulian_Page_Switch()
 end
 
 --================================================
--- »Ö¸´½çÃæµÄÄ¬ÈÏÏà¶ÔÎ»ÖÃ
+-- »Ö¸´½çÃæµÄÄ¬ÈÝÝà¶ÔÎ»ÖÃ
 --================================================
 function Wuhun_Frame_On_ResetPos()
 	Wuhun_Frame : SetProperty("UnifiedXPosition", g_Wuhun_Frame_UnifiedXPosition);
