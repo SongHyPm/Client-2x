@@ -8,5 +8,11 @@ charset = Windows 1252
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+[*.ini]
+end_of_line = crlf
+
+[*.txt]
+end_of_line = crlf
+
 [*.md]
 trim_trailing_whitespace = false
