@@ -1,4 +1,1 @@
 *.log
-/Accounts/*
-
-!/Accounts/System.cfg
